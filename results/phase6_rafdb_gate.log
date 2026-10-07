@@ -1,0 +1,15 @@
+START 2026-10-06T21:18:06.4365959+08:00
+local copy ships a provenance note                         OK   
+provenance is not a quarantine notice                      GATE-FAIL PROVENANCE.md status: QUARANTINED
+an official RAF-DB split/label file exists on disk         GATE-FAIL searched D:/ResearchVault for list_patition_label.txt and variants
+per-class counts: {'angry': 5920, 'disgust': 5920, 'fear': 5920, 'happy': 11398, 'neutral': 8166, 'sad': 6535, 'surprise': 5920} total 49779
+class counts are not an artificial balancing signature     GATE-FAIL classes sharing the identical count {5920, 6535, 11398, 8166}: ['angry', 'disgust', 'fear', 'surprise']
+decoded 49779 images in 18.7s; modes {'RGB': 49779}; dims {'96x96': 49779}
+no duplicated images inside the candidate set              OK   0 of 49779 images are duplicates of another image after 48x48 normalisation
+overlap with FER2013 (48x48 normalised): 0 unique images (0.00% of the candidate set)
+candidate set does not overlap the FER2013 source images   OK   0 candidate images are pixel-identical (48x48 normalised) to a FER2013 image
+all pre-registered ratios 0/1/2/5/10 are realisable        GATE-FAIL base=5920 majority=happy(11398); realisable ratios [0, 1]; blocked [2, 5, 10]
+project label mapping is a clean folder->index bijection   OK   {"angry": [0], "disgust": [1], "fear": [2], "happy": [3], "neutral": [6], "sad": [4], "surprise": [5]}
+
+GATE FAILED - experiment not run  failed: ['provenance is not a quarantine notice', 'an official RAF-DB split/label file exists on disk', 'class counts are not an artificial balancing signature', 'all pre-registered ratios 0/1/2/5/10 are realisable']
+EXIT=1 2026-10-06T21:18:44.4125988+08:00

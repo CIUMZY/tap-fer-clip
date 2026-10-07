@@ -1,0 +1,68 @@
+START 2026-10-06T21:04:56.6908054+08:00
+=== MLP extension B16 (ViT-B/16) ===
+reusing existing fer2013_train_tokens_fp16.npy (28709, 196, 768)
+mean-pooled in 32.7s
+R3 pooling for train+val in 11.6s (checkpoint lr0.001)
+  R1_global        mlp lr0.001  seed0 uar 0.6115 prior 0.6286 (1.7s)
+  R1_global        mlp lr0.001  seed1 uar 0.6439 prior 0.6443 (1.4s)
+  R1_global        mlp lr0.001  seed2 uar 0.6009 prior 0.6141 (1.4s)
+  R1_global        mlp lr0.003  seed0 uar 0.6080 prior 0.6294 (1.4s)
+  R1_global        mlp lr0.003  seed1 uar 0.6363 prior 0.6482 (1.4s)
+  R1_global        mlp lr0.003  seed2 uar 0.6159 prior 0.6212 (1.4s)
+  -> R1_global selected {"lr": 0.001, "seed": 1, "uar": 0.6439285177424352, "uar_prior": 0.6442926486413617}
+  R2_mean_raw      mlp lr0.001  seed0 uar 0.6126 prior 0.6227 (1.5s)
+  R2_mean_raw      mlp lr0.001  seed1 uar 0.6318 prior 0.6364 (1.4s)
+  R2_mean_raw      mlp lr0.001  seed2 uar 0.6104 prior 0.6217 (1.5s)
+  R2_mean_raw      mlp lr0.003  seed0 uar 0.6249 prior 0.6329 (1.8s)
+  R2_mean_raw      mlp lr0.003  seed1 uar 0.6424 prior 0.6531 (1.7s)
+  R2_mean_raw      mlp lr0.003  seed2 uar 0.6169 prior 0.6242 (1.5s)
+  -> R2_mean_raw selected {"lr": 0.003, "seed": 1, "uar": 0.642391046164933, "uar_prior": 0.6531119826421482}
+  R4a_concat_raw   mlp lr0.001  seed0 uar 0.6247 prior 0.6326 (1.5s)
+  R4a_concat_raw   mlp lr0.001  seed1 uar 0.6414 prior 0.6494 (1.4s)
+  R4a_concat_raw   mlp lr0.001  seed2 uar 0.6174 prior 0.6303 (1.4s)
+  R4a_concat_raw   mlp lr0.003  seed0 uar 0.6258 prior 0.6302 (1.5s)
+  R4a_concat_raw   mlp lr0.003  seed1 uar 0.6160 prior 0.6246 (1.4s)
+  R4a_concat_raw   mlp lr0.003  seed2 uar 0.6384 prior 0.6469 (1.5s)
+  -> R4a_concat_raw selected {"lr": 0.001, "seed": 1, "uar": 0.6414066622658802, "uar_prior": 0.6493600051606696}
+  R3_attn_pool     mlp lr0.001  seed0 uar 0.6314 prior 0.6342 (1.4s)
+  R3_attn_pool     mlp lr0.001  seed1 uar 0.6306 prior 0.6310 (1.4s)
+  R3_attn_pool     mlp lr0.001  seed2 uar 0.6326 prior 0.6379 (1.4s)
+  R3_attn_pool     mlp lr0.003  seed0 uar 0.6219 prior 0.6278 (1.4s)
+  R3_attn_pool     mlp lr0.003  seed1 uar 0.6329 prior 0.6352 (1.4s)
+  R3_attn_pool     mlp lr0.003  seed2 uar 0.6344 prior 0.6447 (1.4s)
+  -> R3_attn_pool selected {"lr": 0.003, "seed": 2, "uar": 0.6344335282364132, "uar_prior": 0.6446555910270881}
+=== MLP extension B16 done in 88.4s ===
+EXIT_B16=0 2026-10-06T21:06:28.8139614+08:00
+=== MLP extension L14 (ViT-L/14) ===
+mean-pooled in 58.0s
+R3 pooling for train+val in 49.7s (checkpoint lr0.001)
+  R1_global        mlp lr0.001  seed0 uar 0.6747 prior 0.6782 (1.8s)
+  R1_global        mlp lr0.001  seed1 uar 0.6903 prior 0.6892 (1.4s)
+  R1_global        mlp lr0.001  seed2 uar 0.6492 prior 0.6579 (1.4s)
+  R1_global        mlp lr0.003  seed0 uar 0.6533 prior 0.6632 (1.4s)
+  R1_global        mlp lr0.003  seed1 uar 0.6626 prior 0.6663 (1.4s)
+  R1_global        mlp lr0.003  seed2 uar 0.6672 prior 0.6740 (1.4s)
+  -> R1_global selected {"lr": 0.001, "seed": 1, "uar": 0.6902610990253857, "uar_prior": 0.6891836118044116}
+  R2_mean_raw      mlp lr0.001  seed0 uar 0.6751 prior 0.6791 (1.6s)
+  R2_mean_raw      mlp lr0.001  seed1 uar 0.6687 prior 0.6780 (1.4s)
+  R2_mean_raw      mlp lr0.001  seed2 uar 0.6530 prior 0.6653 (1.5s)
+  R2_mean_raw      mlp lr0.003  seed0 uar 0.6261 prior 0.6417 (1.6s)
+  R2_mean_raw      mlp lr0.003  seed1 uar 0.6713 prior 0.6827 (1.6s)
+  R2_mean_raw      mlp lr0.003  seed2 uar 0.6322 prior 0.6431 (1.4s)
+  -> R2_mean_raw selected {"lr": 0.001, "seed": 0, "uar": 0.6751444877460767, "uar_prior": 0.6791265418355522}
+  R4a_concat_raw   mlp lr0.001  seed0 uar 0.6799 prior 0.6872 (1.5s)
+  R4a_concat_raw   mlp lr0.001  seed1 uar 0.6657 prior 0.6804 (1.6s)
+  R4a_concat_raw   mlp lr0.001  seed2 uar 0.6547 prior 0.6634 (1.5s)
+  R4a_concat_raw   mlp lr0.003  seed0 uar 0.6401 prior 0.6529 (1.5s)
+  R4a_concat_raw   mlp lr0.003  seed1 uar 0.6872 prior 0.6912 (1.7s)
+  R4a_concat_raw   mlp lr0.003  seed2 uar 0.6578 prior 0.6646 (1.5s)
+  -> R4a_concat_raw selected {"lr": 0.003, "seed": 1, "uar": 0.6871973359518965, "uar_prior": 0.691215729232633}
+  R3_attn_pool     mlp lr0.001  seed0 uar 0.6635 prior 0.6673 (1.7s)
+  R3_attn_pool     mlp lr0.001  seed1 uar 0.6595 prior 0.6649 (1.6s)
+  R3_attn_pool     mlp lr0.001  seed2 uar 0.6686 prior 0.6725 (1.4s)
+  R3_attn_pool     mlp lr0.003  seed0 uar 0.6603 prior 0.6670 (1.4s)
+  R3_attn_pool     mlp lr0.003  seed1 uar 0.6519 prior 0.6563 (1.4s)
+  R3_attn_pool     mlp lr0.003  seed2 uar 0.6587 prior 0.6653 (1.5s)
+  -> R3_attn_pool selected {"lr": 0.001, "seed": 2, "uar": 0.6685911490263372, "uar_prior": 0.6725317891248562}
+=== MLP extension L14 done in 149.1s ===
+EXIT_L14=0 2026-10-06T21:09:01.3806501+08:00

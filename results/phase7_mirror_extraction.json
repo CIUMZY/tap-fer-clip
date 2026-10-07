@@ -1,0 +1,108 @@
+{
+ "scope": "POST-HOC SENSITIVITY (not confirmatory)",
+ "what": "mirror-view patch tokens for the two-view-mean sensitivity check",
+ "weights": "D:\\ResearchVault\\99system\\models\\open_clip\\ViT-B-16.pt",
+ "weights_sha256": "5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f",
+ "rows_per_batch": 128,
+ "datasets": {
+  "fer2013_train": {
+   "n": 28709,
+   "shape": [
+    28709,
+    196,
+    768
+   ],
+   "dtype": "float16",
+   "npy_GB": 8.643,
+   "sha256_npy": "86ffad57a7123e046806f81b05df53f98288d3bfb7252c6f5f4c8eb8897a65d7",
+   "seconds": 125.0,
+   "peak_vram_GB": 1.62,
+   "ids_equal_source": true,
+   "labels_equal_source": true,
+   "ids_unique": true,
+   "tokens_finite": true,
+   "mirror_global_vs_original_view0_cosine": {
+    "mean": 0.9918386936187744,
+    "min": 0.8246078491210938,
+    "max": 1.0,
+    "frac_below_0p999": 0.9991640252185726
+   },
+   "token_norm_mean": 21.28292465209961
+  },
+  "fer2013_test": {
+   "n": 7178,
+   "shape": [
+    7178,
+    196,
+    768
+   ],
+   "dtype": "float16",
+   "npy_GB": 2.161,
+   "sha256_npy": "55f3ff7cd0effa26917bb657ff5fe04212be38341b56de0f621d035b0c6d537d",
+   "seconds": 30.1,
+   "peak_vram_GB": 1.62,
+   "ids_equal_source": true,
+   "labels_equal_source": true,
+   "ids_unique": true,
+   "tokens_finite": true,
+   "mirror_global_vs_original_view0_cosine": {
+    "mean": 0.991641104221344,
+    "min": 0.8573892116546631,
+    "max": 1.0,
+    "frac_below_0p999": 0.999442741710783
+   },
+   "token_norm_mean": 21.34096908569336
+  },
+  "ckplus_test": {
+   "n": 902,
+   "shape": [
+    902,
+    196,
+    768
+   ],
+   "dtype": "float16",
+   "npy_GB": 0.272,
+   "sha256_npy": "76f8a55162c46a4b1774acce97fd308554ec3dc1f407c0ba265309f46ad4594f",
+   "seconds": 3.9,
+   "peak_vram_GB": 1.62,
+   "ids_equal_source": true,
+   "labels_equal_source": true,
+   "ids_unique": true,
+   "tokens_finite": true,
+   "mirror_global_vs_original_view0_cosine": {
+    "mean": 0.9942213892936707,
+    "min": 0.9702802896499634,
+    "max": 0.9987219572067261,
+    "frac_below_0p999": 1.0
+   },
+   "token_norm_mean": 21.171213150024414
+  },
+  "kdef_test": {
+   "n": 2938,
+   "shape": [
+    2938,
+    196,
+    768
+   ],
+   "dtype": "float16",
+   "npy_GB": 0.885,
+   "sha256_npy": "d447b0aecb6c35616bfbc1a3f60f7d9d00caabe883fda004a1a24b2c265e3a8e",
+   "seconds": 25.8,
+   "peak_vram_GB": 1.62,
+   "ids_equal_source": true,
+   "labels_equal_source": true,
+   "ids_unique": true,
+   "tokens_finite": true,
+   "mirror_global_vs_original_view0_cosine": {
+    "mean": 0.992206871509552,
+    "min": 0.9575628042221069,
+    "max": 0.9984885454177856,
+    "frac_below_0p999": 1.0
+   },
+   "token_norm_mean": 21.231021881103516
+  }
+ },
+ "started": "2026-10-07T06:19:49",
+ "free_GB_on_D": 123.8,
+ "finished": "2026-10-07T06:22:54"
+}

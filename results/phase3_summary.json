@@ -1,0 +1,36 @@
+{
+  "aggregate": {
+    "T1": {
+      "mean_minus_best": 0.11207434352325382,
+      "cells_ge_best": 50,
+      "n_cells": 50,
+      "frac_ge_best": 1.0
+    },
+    "T2": {
+      "mean_minus_best": 0.01788683160146058,
+      "cells_ge_best": 25,
+      "n_cells": 50,
+      "frac_ge_best": 0.5
+    },
+    "T3": {
+      "mean_minus_best": 0.055319188468742994,
+      "cells_ge_best": 50,
+      "n_cells": 50,
+      "frac_ge_best": 1.0
+    },
+    "T4": {
+      "mean_minus_best": 0.02922402048281179,
+      "cells_ge_best": 25,
+      "n_cells": 50,
+      "frac_ge_best": 0.5
+    }
+  },
+  "n_cells": 50,
+  "threshold": "2/3 of cells >= best of the two families",
+  "verdict": {
+    "T1": "pass",
+    "T2": "fail",
+    "T3": "pass",
+    "T4": "fail"
+  }
+}

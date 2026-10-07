@@ -1,0 +1,8 @@
+D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\serialization.py:1493: UserWarning: 'torch.load' received a zip file that looks like a TorchScript archive dispatching to 'torch.jit.load' (call 'torch.jit.load' directly to silence this warning)
+  warnings.warn(
+fer2013_train   n=28709 (28709, 196, 768) 125.0s peak=1.62GB cos(mean)=0.9918 below0.999=0.999
+fer2013_test    n=7178 (7178, 196, 768) 30.1s peak=1.62GB cos(mean)=0.9916 below0.999=0.999
+ckplus_test     n=902 (902, 196, 768) 3.9s peak=1.62GB cos(mean)=0.9942 below0.999=1.000
+kdef_test       n=2938 (2938, 196, 768) 25.8s peak=1.62GB cos(mean)=0.9922 below0.999=1.000
+wrote phase7_mirror_extraction.json
+EXIT=0

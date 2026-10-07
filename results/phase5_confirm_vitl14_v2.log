@@ -1,0 +1,20 @@
+START 2026-10-06T19:59:33.6801365+08:00
+setA ckplus_test done 5.3s
+setA kdef_test done 32.7s
+Traceback (most recent call last):
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase5_confirm_vitl14_v2.py", line 298, in <module>
+    main()
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase5_confirm_vitl14_v2.py", line 184, in main
+    probe_k(torch.from_numpy(vg.astype(np.float32)).to(DEV)).argmax(1).cpu().numpy())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\nn\modules\linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (441x512 and 768x7)
+EXIT=1 2026-10-06T20:00:11.6647850+08:00

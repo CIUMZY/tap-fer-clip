@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase7_mirror_eval2.py", line 277, in <module>
+    main()
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase7_mirror_eval2.py", line 101, in main
+    m, u, sec = train(lr)
+                ^^^^^^^^^
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase7_mirror_eval2.py", line 96, in train
+    ps.append(m(two_view(np.sort(va[i:i + 256]))).to(DEV).argmax(1).cpu().numpy())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase2_train_modules.py", line 39, in forward
+    w = torch.softmax(self.a2(torch.tanh(self.a1(tok))).squeeze(-1), dim=1)
+                                         ^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\nn\modules\linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected all tensors to be on the same device, but got mat1 is on cpu, different from other tensors on cuda:0 (when checking argument in method wrapper_CUDA_addmm)
+EXIT=1

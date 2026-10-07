@@ -1,0 +1,32 @@
+START 2026-10-06T22:14:43.6452409+08:00
+Traceback (most recent call last):
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase6b_extract.py", line 180, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase6b_extract.py", line 61, in main
+    featdir = D / ('features_confirm_shift' / tag.lower())
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+EXIT=1 2026-10-06T22:14:45.0541234+08:00
+RESTART 2026-10-06T22:14:53.1603802+08:00
+D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\serialization.py:1493: UserWarning: 'torch.load' received a zip file that looks like a TorchScript archive dispatching to 'torch.jit.load' (call 'torch.jit.load' directly to silence this warning)
+  warnings.warn(
+D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase6b_extract.py:77: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:836.)
+  float(model.logit_scale.exp())), flush=True)
+ViT-B-16 loaded; logit_scale_exp=100.0000
+blur_0p8      n=7178 51.1s peak=2.63GB npy=2.2s norm_ok=True
+blur_1p5      n=7178 53.6s peak=2.63GB npy=2.2s norm_ok=True
+blur_2p5      n=7178 58.3s peak=2.63GB npy=2.2s norm_ok=True
+jpeg_15       n=7178 54.8s peak=2.63GB npy=2.2s norm_ok=True
+jpeg_30       n=7178 54.7s peak=2.63GB npy=2.2s norm_ok=True
+jpeg_50       n=7178 54.7s peak=2.63GB npy=2.2s norm_ok=True
+lowlight_0p3  n=7178 54.8s peak=2.63GB npy=2.2s norm_ok=True
+lowlight_0p5  n=7178 55.5s peak=2.63GB npy=2.2s norm_ok=True
+lowlight_0p7  n=7178 55.6s peak=2.63GB npy=2.2s norm_ok=True
+noise_10      n=7178 55.7s peak=2.63GB npy=2.2s norm_ok=True
+noise_25      n=7178 55.8s peak=2.63GB npy=2.2s norm_ok=True
+noise_40      n=7178 55.7s peak=2.63GB npy=2.2s norm_ok=True
+
+GATE clean_cos_min=1.000000  blur_0p8_cos_min=1.000000  ->  PASS
+EXIT=0 2026-10-06T22:26:44.6376636+08:00

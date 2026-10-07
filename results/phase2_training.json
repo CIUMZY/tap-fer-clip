@@ -1,0 +1,74 @@
+{
+  "T1|lr0.001": {
+    "kind": "T1",
+    "lr": 0.001,
+    "params": 202504,
+    "steps": 1440,
+    "seconds": 32.6,
+    "peak_vram_GB": 0.41,
+    "probe_val_uar": 0.6119548416375381
+  },
+  "T1|lr0.003": {
+    "kind": "T1",
+    "lr": 0.003,
+    "params": 202504,
+    "steps": 1440,
+    "seconds": 12.7,
+    "peak_vram_GB": 0.41,
+    "probe_val_uar": 0.6350518869602058
+  },
+  "T2|lr0.001": {
+    "kind": "T2",
+    "lr": 0.001,
+    "params": 246919,
+    "steps": 1440,
+    "seconds": 12.8,
+    "peak_vram_GB": 0.41,
+    "probe_val_uar": 0.650300307387227
+  },
+  "T2|lr0.003": {
+    "kind": "T2",
+    "lr": 0.003,
+    "params": 246919,
+    "steps": 1440,
+    "seconds": 12.3,
+    "peak_vram_GB": 0.41,
+    "probe_val_uar": 0.6434719221659931
+  },
+  "T3|lr0.001": {
+    "kind": "T3",
+    "lr": 0.001,
+    "params": 196866,
+    "steps": 1440,
+    "seconds": 21.6,
+    "peak_vram_GB": 0.79,
+    "probe_val_uar": 0.5659619934269836
+  },
+  "T3|lr0.003": {
+    "kind": "T3",
+    "lr": 0.003,
+    "params": 196866,
+    "steps": 1440,
+    "seconds": 18.7,
+    "peak_vram_GB": 0.79,
+    "probe_val_uar": 0.5856064529393917
+  },
+  "T4|lr0.001": {
+    "kind": "T4",
+    "lr": 0.001,
+    "params": 51207,
+    "steps": 1440,
+    "seconds": 12.8,
+    "peak_vram_GB": 0.41,
+    "probe_val_uar": 0.6112502319284593
+  },
+  "T4|lr0.003": {
+    "kind": "T4",
+    "lr": 0.003,
+    "params": 51207,
+    "steps": 1440,
+    "seconds": 13.8,
+    "peak_vram_GB": 0.41,
+    "probe_val_uar": 0.6236251036144429
+  }
+}

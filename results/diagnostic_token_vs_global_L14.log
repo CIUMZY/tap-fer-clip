@@ -1,0 +1,81 @@
+START 2026-10-06T20:29:13.2667807+08:00
+=== L14 (ViT-L/14) ===
+split train=22968 val=5741 | identical_across_encoders=True
+mean-pooled tokens in 59.6s: raw (28709, 1024) normed (28709, 1024) normtok (28709, 1024)
+  R1_global            lr0.001  seed0  uar 0.5518  prior 0.5688  (1.6s)
+  R1_global            lr0.001  seed1  uar 0.5474  prior 0.5659  (1.0s)
+  R1_global            lr0.001  seed2  uar 0.5525  prior 0.5697  (1.0s)
+  R1_global            lr0.003  seed0  uar 0.6203  prior 0.6311  (1.0s)
+  R1_global            lr0.003  seed1  uar 0.6085  prior 0.6269  (1.0s)
+  R1_global            lr0.003  seed2  uar 0.6227  prior 0.6309  (1.1s)
+  -> R1_global selected {"lr": 0.003, "seed": 2, "uar": 0.6226642272108978, "uar_prior": 0.6309401611055907}
+  R2_mean_raw          lr0.001  seed0  uar 0.6372  prior 0.6517  (1.2s)
+  R2_mean_raw          lr0.001  seed1  uar 0.6493  prior 0.6636  (1.2s)
+  R2_mean_raw          lr0.001  seed2  uar 0.6210  prior 0.6369  (1.2s)
+  R2_mean_raw          lr0.003  seed0  uar 0.6431  prior 0.6558  (1.2s)
+  R2_mean_raw          lr0.003  seed1  uar 0.6633  prior 0.6687  (1.2s)
+  R2_mean_raw          lr0.003  seed2  uar 0.6474  prior 0.6562  (1.2s)
+  -> R2_mean_raw selected {"lr": 0.003, "seed": 1, "uar": 0.6633363644145899, "uar_prior": 0.6686768233959615}
+  R2_mean_normed       lr0.001  seed0  uar 0.5492  prior 0.5526  (1.5s)
+  R2_mean_normed       lr0.001  seed1  uar 0.5460  prior 0.5504  (1.2s)
+  R2_mean_normed       lr0.001  seed2  uar 0.5488  prior 0.5528  (1.1s)
+  R2_mean_normed       lr0.003  seed0  uar 0.5884  prior 0.6177  (1.2s)
+  R2_mean_normed       lr0.003  seed1  uar 0.5826  prior 0.6048  (1.2s)
+  R2_mean_normed       lr0.003  seed2  uar 0.5852  prior 0.6114  (1.2s)
+  -> R2_mean_normed selected {"lr": 0.003, "seed": 0, "uar": 0.5883991279624715, "uar_prior": 0.6176670133982142}
+  R2_mean_of_normed    lr0.001  seed0  uar 0.5334  prior 0.5432  (1.2s)
+  R2_mean_of_normed    lr0.001  seed1  uar 0.5314  prior 0.5384  (1.2s)
+  R2_mean_of_normed    lr0.001  seed2  uar 0.5350  prior 0.5413  (1.2s)
+  R2_mean_of_normed    lr0.003  seed0  uar 0.5714  prior 0.5904  (1.2s)
+  R2_mean_of_normed    lr0.003  seed1  uar 0.5695  prior 0.5874  (1.2s)
+  R2_mean_of_normed    lr0.003  seed2  uar 0.5732  prior 0.5895  (1.2s)
+  -> R2_mean_of_normed selected {"lr": 0.003, "seed": 2, "uar": 0.5732372602572516, "uar_prior": 0.5894738101446156}
+  R4a_concat_raw       lr0.001  seed0  uar 0.6456  prior 0.6579  (1.2s)
+  R4a_concat_raw       lr0.001  seed1  uar 0.6550  prior 0.6701  (1.3s)
+  R4a_concat_raw       lr0.001  seed2  uar 0.6268  prior 0.6439  (1.2s)
+  R4a_concat_raw       lr0.003  seed0  uar 0.6522  prior 0.6610  (1.2s)
+  R4a_concat_raw       lr0.003  seed1  uar 0.6656  prior 0.6736  (1.2s)
+  R4a_concat_raw       lr0.003  seed2  uar 0.6507  prior 0.6603  (1.2s)
+  -> R4a_concat_raw selected {"lr": 0.003, "seed": 1, "uar": 0.6656484556422743, "uar_prior": 0.6735988026504351}
+  R4a_concat_normed    lr0.001  seed0  uar 0.5896  prior 0.6167  (1.3s)
+  R4a_concat_normed    lr0.001  seed1  uar 0.5869  prior 0.6088  (1.2s)
+  R4a_concat_normed    lr0.001  seed2  uar 0.5928  prior 0.6152  (1.2s)
+  R4a_concat_normed    lr0.003  seed0  uar 0.6417  prior 0.6623  (1.2s)
+  R4a_concat_normed    lr0.003  seed1  uar 0.6379  prior 0.6492  (1.2s)
+  R4a_concat_normed    lr0.003  seed2  uar 0.6344  prior 0.6570  (1.2s)
+  -> R4a_concat_normed selected {"lr": 0.003, "seed": 0, "uar": 0.6417382057268488, "uar_prior": 0.6623289381442811}
+  R4a_concat_normtok   lr0.001  seed0  uar 0.5818  prior 0.6092  (1.2s)
+  R4a_concat_normtok   lr0.001  seed1  uar 0.5808  prior 0.6014  (1.2s)
+  R4a_concat_normtok   lr0.001  seed2  uar 0.5854  prior 0.6093  (1.2s)
+  R4a_concat_normtok   lr0.003  seed0  uar 0.6391  prior 0.6561  (1.3s)
+  R4a_concat_normtok   lr0.003  seed1  uar 0.6380  prior 0.6476  (1.2s)
+  R4a_concat_normtok   lr0.003  seed2  uar 0.6356  prior 0.6541  (1.3s)
+  -> R4a_concat_normtok selected {"lr": 0.003, "seed": 0, "uar": 0.6390939398967188, "uar_prior": 0.656117061659926}
+  R3_attn_pool         lr0.001  seed0  uar 0.6720  prior 0.6793  (240.8s)
+  R3_attn_pool         lr0.003  seed0  uar 0.6542  prior 0.6662  (201.7s)
+  R3_attn_pool         lr0.001  seed1  uar 0.6861  prior 0.6899  (198.9s)
+  R3_attn_pool         lr0.001  seed2  uar 0.6592  prior 0.6663  (199.9s)
+  -> R3_attn_pool selected {"lr": 0.001, "seed": 1, "uar": 0.6860799636926718, "uar_prior": 0.6899332475014262}
+  R3refit_frozen_attn  lr0.001  seed0  uar 0.6719  prior 0.6800  (1.3s)
+  R3refit_frozen_attn  lr0.001  seed1  uar 0.6653  prior 0.6715  (1.1s)
+  R3refit_frozen_attn  lr0.001  seed2  uar 0.6623  prior 0.6675  (1.1s)
+  R3refit_frozen_attn  lr0.003  seed0  uar 0.6576  prior 0.6606  (1.2s)
+  R3refit_frozen_attn  lr0.003  seed1  uar 0.6654  prior 0.6679  (1.2s)
+  R3refit_frozen_attn  lr0.003  seed2  uar 0.6595  prior 0.6668  (1.1s)
+  R4b_attn_plus_global lr0.001  seed0  uar 0.6556  prior 0.6691  (226.6s)
+  R4b_attn_plus_global lr0.003  seed0  uar 0.6523  prior 0.6699  (224.1s)
+  R4b_attn_plus_global lr0.001  seed1  uar 0.6895  prior 0.6910  (215.8s)
+  R4b_attn_plus_global lr0.001  seed2  uar 0.6583  prior 0.6654  (198.5s)
+  -> R4b_attn_plus_global selected {"lr": 0.001, "seed": 1, "uar": 0.689463596063311, "uar_prior": 0.6909868419040625}
+=== L14 done in 1885.1s ===
+  R1_global              uar 0.6227 (prior 0.6309)  lr 0.003 seed 2
+  R2_mean_raw            uar 0.6633 (prior 0.6687)  lr 0.003 seed 1
+  R2_mean_normed         uar 0.5884 (prior 0.6177)  lr 0.003 seed 0
+  R2_mean_of_normed      uar 0.5732 (prior 0.5895)  lr 0.003 seed 2
+  R4a_concat_raw         uar 0.6656 (prior 0.6736)  lr 0.003 seed 1
+  R4a_concat_normed      uar 0.6417 (prior 0.6623)  lr 0.003 seed 0
+  R4a_concat_normtok     uar 0.6391 (prior 0.6561)  lr 0.003 seed 0
+  R3_attn_pool           uar 0.6861 (prior 0.6899)  lr 0.001 seed 1
+  R3refit_frozen_attn    uar 0.6719 (prior 0.6800)  lr 0.001 seed 0
+  R4b_attn_plus_global   uar 0.6895 (prior 0.6910)  lr 0.001 seed 1
+EXIT=0 2026-10-06T21:00:42.9267891+08:00

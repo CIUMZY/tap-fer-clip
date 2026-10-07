@@ -1,0 +1,7 @@
+{
+ "status": "not_run",
+ "reason": "phase 6 gate failed: the only local RAF-DB copy is a quarantined Kaggle re-upload that mixes FER2013 and RAF-DB content, ships no official split/label file, shows a class re-balancing signature, and supports only ratios 0 and 1 of the pre-registered 0/1/2/5/10 grid",
+ "plan": "paired shared-unit bootstrap, 2000 draws, hierarchical over seeds 0-4, shared query indices, identical to phases 3-5",
+ "n_boot": 2000,
+ "pairs": {}
+}

@@ -1,0 +1,9 @@
+ckplus_test   grid=14x14  mean per-position cosine: raw 0.7758 | unflipped 0.9099
+                frac(cos>0.9): raw 0.279 | unflipped 0.858 ; frac(cos<0.5): raw 0.077 | unflipped 0.025
+                cross-check mean cosine (original unflipped vs mirror raw) 0.9099
+kdef_test     grid=14x14  mean per-position cosine: raw 0.6461 | unflipped 0.9236
+                frac(cos>0.9): raw 0.120 | unflipped 0.912 ; frac(cos<0.5): raw 0.189 | unflipped 0.026
+                cross-check mean cosine (original unflipped vs mirror raw) 0.9236
+fer2013_test  grid=14x14  mean per-position cosine: raw 0.6467 | unflipped 0.8910
+                frac(cos>0.9): raw 0.076 | unflipped 0.724 ; frac(cos<0.5): raw 0.184 | unflipped 0.027
+                cross-check mean cosine (original unflipped vs mirror raw) 0.8910

@@ -1,0 +1,192 @@
+{
+ "raf_root": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\downloads\\rafdb_processed\\processed_data",
+ "fer_root": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013",
+ "checks": [
+  {
+   "check": "local copy ships a provenance note",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "provenance is not a quarantine notice",
+   "ok": false,
+   "detail": "PROVENANCE.md status: QUARANTINED"
+  },
+  {
+   "check": "an official RAF-DB split/label file exists on disk",
+   "ok": false,
+   "detail": "searched D:/ResearchVault for list_patition_label.txt and variants"
+  },
+  {
+   "check": "class counts are not an artificial balancing signature",
+   "ok": false,
+   "detail": "classes sharing the identical count {5920, 6535, 11398, 8166}: ['angry', 'disgust', 'fear', 'surprise']"
+  },
+  {
+   "check": "no duplicated images inside the candidate set",
+   "ok": true,
+   "detail": "0 of 49779 images are duplicates of another image after 48x48 normalisation"
+  },
+  {
+   "check": "candidate set does not overlap the FER2013 source images",
+   "ok": true,
+   "detail": "0 candidate images are pixel-identical (48x48 normalised) to a FER2013 image"
+  },
+  {
+   "check": "all pre-registered ratios 0/1/2/5/10 are realisable",
+   "ok": false,
+   "detail": "base=5920 majority=happy(11398); realisable ratios [0, 1]; blocked [2, 5, 10]"
+  },
+  {
+   "check": "project label mapping is a clean folder->index bijection",
+   "ok": true,
+   "detail": "{\"angry\": [0], \"disgust\": [1], \"fear\": [2], \"happy\": [3], \"neutral\": [6], \"sad\": [4], \"surprise\": [5]}"
+  }
+ ],
+ "fail": [
+  "provenance is not a quarantine notice",
+  "an official RAF-DB split/label file exists on disk",
+  "class counts are not an artificial balancing signature",
+  "all pre-registered ratios 0/1/2/5/10 are realisable"
+ ],
+ "provenance": "# Provenance Review Required\n\n- Source: Kaggle dataset `fahadullaha/facial-emotion-recognition-dataset`\n- Downloaded: 2026-09-14\n- Archive path: `D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\downloads\\rafdb_processed`\n- Declared license on Kaggle: CC BY 4.0\n- Content: preprocessed FER2013 + RAF-DB JPEG files, 49,779 images\n- Status: QUARANTINED\n\nDo not use these images for manuscript results until the redistribution rights and original RAF-DB license are verified. Prefer the official RAF-DB request process for the paper.\n",
+ "official_split_files_found": [],
+ "per_class_counts": {
+  "angry": 5920,
+  "disgust": 5920,
+  "fear": 5920,
+  "happy": 11398,
+  "neutral": 8166,
+  "sad": 6535,
+  "surprise": 5920
+ },
+ "per_class_file_bytes": {
+  "angry": {
+   "n": 5920,
+   "min": 2071,
+   "median": 3678,
+   "max": 8020,
+   "mean": 4153.073986486486
+  },
+  "disgust": {
+   "n": 5920,
+   "min": 2401,
+   "median": 6082,
+   "max": 7525,
+   "mean": 5777.567736486487
+  },
+  "fear": {
+   "n": 5920,
+   "min": 2037,
+   "median": 3826,
+   "max": 7327,
+   "mean": 4381.002702702703
+  },
+  "happy": {
+   "n": 11398,
+   "min": 2056,
+   "median": 3659,
+   "max": 7142,
+   "mean": 3782.920775574662
+  },
+  "neutral": {
+   "n": 8166,
+   "min": 2064,
+   "median": 3507,
+   "max": 8091,
+   "mean": 3636.985304922851
+  },
+  "sad": {
+   "n": 6535,
+   "min": 2145,
+   "median": 3555,
+   "max": 7450,
+   "mean": 3706.1453710788064
+  },
+  "surprise": {
+   "n": 5920,
+   "min": 2152,
+   "median": 4045,
+   "max": 7551,
+   "mean": 4536.629054054054
+  }
+ },
+ "total_images": 49779,
+ "modes": {
+  "RGB": 49779
+ },
+ "dimensions_top": {
+  "96x96": 49779
+ },
+ "unique_normalized_images": 49779,
+ "duplicate_images_in_tree": 0,
+ "decode_seconds": 18.7,
+ "fer2013_images_hashed": 35887,
+ "overlap_with_fer2013": {
+  "n_unique_normalized_images_overlapping": 0,
+  "examples": [],
+  "overlap_fraction_of_candidate": 0.0
+ },
+ "ratio_feasibility": {
+  "base_minority_count": 5920,
+  "majority_class": "happy",
+  "ratios": {
+   "0": {
+    "needed_majority": 0,
+    "available_majority": 11398,
+    "feasible": true
+   },
+   "1": {
+    "needed_majority": 5920,
+    "available_majority": 11398,
+    "feasible": true
+   },
+   "2": {
+    "needed_majority": 11840,
+    "available_majority": 11398,
+    "feasible": false
+   },
+   "5": {
+    "needed_majority": 29600,
+    "available_majority": 11398,
+    "feasible": false
+   },
+   "10": {
+    "needed_majority": 59200,
+    "available_majority": 11398,
+    "feasible": false
+   }
+  }
+ },
+ "project_class_index_mapping": {
+  "angry": [
+   0
+  ],
+  "disgust": [
+   1
+  ],
+  "fear": [
+   2
+  ],
+  "happy": [
+   3
+  ],
+  "neutral": [
+   6
+  ],
+  "sad": [
+   4
+  ],
+  "surprise": [
+   5
+  ]
+ },
+ "verdict": "GATE FAILED - experiment not run",
+ "failed_checks": [
+  "provenance is not a quarantine notice",
+  "an official RAF-DB split/label file exists on disk",
+  "class counts are not an artificial balancing signature",
+  "all pre-registered ratios 0/1/2/5/10 are realisable"
+ ],
+ "elapsed_seconds": 37.8
+}

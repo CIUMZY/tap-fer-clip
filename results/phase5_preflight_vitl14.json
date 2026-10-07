@@ -1,0 +1,343 @@
+{
+  "checks": [
+    {
+      "check": "fer2013_train: tokens npy + meta npz present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "fer2013_train: token shape (n,256,1024) fp16",
+      "ok": true,
+      "detail": "(28709, 256, 1024) float16"
+    },
+    {
+      "check": "fer2013_train: len(ids)==len(labels)==n",
+      "ok": true,
+      "detail": "28709 28709 28709"
+    },
+    {
+      "check": "fer2013_train: unique ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "fer2013_train: labels within 0..6, all 7 present",
+      "ok": true,
+      "detail": "[3995, 436, 4097, 7215, 4830, 3171, 4965]"
+    },
+    {
+      "check": "fer2013_train: global views (n,R,768)",
+      "ok": true,
+      "detail": "(28709, 2, 768)"
+    },
+    {
+      "check": "fer2013_train: features ids == token ids",
+      "ok": true,
+      "detail": "first=D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013\\train\\angry\\fer2013_000000.png"
+    },
+    {
+      "check": "fer2013_train: features labels == token labels",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "fer2013_test: tokens npy + meta npz present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "fer2013_test: token shape (n,256,1024) fp16",
+      "ok": true,
+      "detail": "(7178, 256, 1024) float16"
+    },
+    {
+      "check": "fer2013_test: len(ids)==len(labels)==n",
+      "ok": true,
+      "detail": "7178 7178 7178"
+    },
+    {
+      "check": "fer2013_test: unique ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "fer2013_test: labels within 0..6, all 7 present",
+      "ok": true,
+      "detail": "[958, 111, 1024, 1774, 1247, 831, 1233]"
+    },
+    {
+      "check": "fer2013_test: global views (n,R,768)",
+      "ok": true,
+      "detail": "(7178, 2, 768)"
+    },
+    {
+      "check": "fer2013_test: features ids == token ids",
+      "ok": true,
+      "detail": "first=D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013\\test\\angry\\fer2013_028709.png"
+    },
+    {
+      "check": "fer2013_test: features labels == token labels",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "ckplus_test: tokens npy + meta npz present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "ckplus_test: token shape (n,256,1024) fp16",
+      "ok": true,
+      "detail": "(902, 256, 1024) float16"
+    },
+    {
+      "check": "ckplus_test: len(ids)==len(labels)==n",
+      "ok": true,
+      "detail": "902 902 902"
+    },
+    {
+      "check": "ckplus_test: unique ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "ckplus_test: labels within 0..6, all 7 present",
+      "ok": true,
+      "detail": "[45, 59, 25, 69, 28, 83, 593]"
+    },
+    {
+      "check": "ckplus_test: global views (n,R,768)",
+      "ok": true,
+      "detail": "(902, 2, 768)"
+    },
+    {
+      "check": "ckplus_test: features ids == token ids",
+      "ok": true,
+      "detail": "first=D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\ckplus\\test\\angry\\ckplus_000680.png"
+    },
+    {
+      "check": "ckplus_test: features labels == token labels",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "kdef_test: tokens npy + meta npz present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "kdef_test: token shape (n,256,1024) fp16",
+      "ok": true,
+      "detail": "(2938, 256, 1024) float16"
+    },
+    {
+      "check": "kdef_test: len(ids)==len(labels)==n",
+      "ok": true,
+      "detail": "2938 2938 2938"
+    },
+    {
+      "check": "kdef_test: unique ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "kdef_test: labels within 0..6, all 7 present",
+      "ok": true,
+      "detail": "[420, 420, 420, 420, 419, 419, 420]"
+    },
+    {
+      "check": "kdef_test: global views (n,R,768)",
+      "ok": true,
+      "detail": "(2938, 2, 768)"
+    },
+    {
+      "check": "kdef_test: features ids == token ids",
+      "ok": true,
+      "detail": "first=D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\downloads\\kdef\\kdef_extracted\\angry\\0_0.jpg"
+    },
+    {
+      "check": "kdef_test: features labels == token labels",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "kdef_source_train: tokens npy + meta npz present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "kdef_source_train: token shape (n,256,1024) fp16",
+      "ok": true,
+      "detail": "(2056, 256, 1024) float16"
+    },
+    {
+      "check": "kdef_source_train: len(ids)==len(labels)==n",
+      "ok": true,
+      "detail": "2056 2056 2056"
+    },
+    {
+      "check": "kdef_source_train: unique ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "kdef_source_train: labels within 0..6, all 7 present",
+      "ok": true,
+      "detail": "[294, 294, 294, 294, 293, 293, 294]"
+    },
+    {
+      "check": "linear_probe_split_seed0: disjoint train/val inside fer2013_train",
+      "ok": true,
+      "detail": "train=22968 val=5741"
+    },
+    {
+      "check": "linear_probe_train80: weights (7,768) bias (7,)",
+      "ok": true,
+      "detail": "(7, 768) (7,)"
+    },
+    {
+      "check": "text_prototypes: (7,768)",
+      "ok": true,
+      "detail": "(7, 768)"
+    },
+    {
+      "check": "text_prototypes: no zero rows",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "KS/kdef_source_train: 2056 ids all present in kdef_test cache",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "KS/kdef_source_train: labels match kdef_test labels at mapped rows",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "KS/kdef_source_train: global views are 512-d (ViT-L globals come from kdef_test rows)",
+      "ok": true,
+      "detail": "(2056, 2, 512)"
+    },
+    {
+      "check": "KS/kdef_source_train: labels within 0..6",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "KS/kdef_source_val: 441 ids all present in kdef_test cache",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "KS/kdef_source_val: labels match kdef_test labels at mapped rows",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "KS/kdef_source_val: global views are 512-d (ViT-L globals come from kdef_test rows)",
+      "ok": true,
+      "detail": "(441, 2, 512)"
+    },
+    {
+      "check": "KS/kdef_source_val: labels within 0..6",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "KS/kdef_source_test: 441 ids all present in kdef_test cache",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "KS/kdef_source_test: labels match kdef_test labels at mapped rows",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "KS/kdef_source_test: global views are 512-d (ViT-L globals come from kdef_test rows)",
+      "ok": true,
+      "detail": "(441, 2, 512)"
+    },
+    {
+      "check": "KS/kdef_source_test: labels within 0..6",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "token_cache kdef_source_train rows == KS ids order",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "token_cache kdef_source_train labels == KS labels",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "KS global features are 512-d (not used by the ViT-L scripts)",
+      "ok": true,
+      "detail": "(2056, 2, 512)"
+    },
+    {
+      "check": "cuda available",
+      "ok": true,
+      "detail": "2.8.0+cu128 | NVIDIA GeForce RTX 3080 | free 9.51 GB / 10.74 GB"
+    }
+  ],
+  "fail": [],
+  "target_label_counts": {
+    "fer2013_train": [
+      3995,
+      436,
+      4097,
+      7215,
+      4830,
+      3171,
+      4965
+    ],
+    "fer2013_test": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+    ],
+    "ckplus_test": [
+      45,
+      59,
+      25,
+      69,
+      28,
+      83,
+      593
+    ],
+    "kdef_test": [
+      420,
+      420,
+      420,
+      420,
+      419,
+      419,
+      420
+    ],
+    "kdef_source_train": [
+      294,
+      294,
+      294,
+      294,
+      293,
+      293,
+      294
+    ]
+  },
+  "probe_split": {
+    "train": 22968,
+    "val": 5741
+  },
+  "elapsed_seconds": 7.6,
+  "pass": true
+}

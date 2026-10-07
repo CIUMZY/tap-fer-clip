@@ -1,0 +1,67 @@
+START 2026-10-06T22:26:53.6081961+08:00
+B16 arms loaded: {"tap": 202504, "ghead": 198919, "clipadapter": 131712}
+Traceback (most recent call last):
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase6b_confirm.py", line 314, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase6b_confirm.py", line 227, in main
+    clean = score_cell(arms, arms['tok_dir'] / 'fer2013_test_tokens_fp16.npy',
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase6b_confirm.py", line 138, in score_cell
+    mm = np.load(tok_path, mmap_mode='r')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\numpy\lib\_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\token_cache_vitb16\\fer2013_test_tokens_fp16.npy'
+EXIT=1 2026-10-06T22:26:57.2373665+08:00
+RESTART 2026-10-06T22:27:05.7340847+08:00
+B16 arms loaded: {"tap": 202504, "ghead": 198919, "clipadapter": 131712}
+Traceback (most recent call last):
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase6b_confirm.py", line 316, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase6b_confirm.py", line 229, in main
+    clean = score_cell(arms, arms['tok_dir'] / 'fer2013_test_tokens_fp16.npy',
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase6b_confirm.py", line 139, in score_cell
+    mm = (np.load(tok_path, mmap_mode='r') if str(tok_path).endswith('.npy')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\numpy\lib\_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\token_cache_vitb16\\fer2013_test_tokens_fp16.npy'
+EXIT=1 2026-10-06T22:27:08.1899520+08:00
+RESTART2 2026-10-06T22:27:16.5748590+08:00
+B16 arms loaded: {"tap": 202504, "ghead": 198919, "clipadapter": 131712}
+clean token cache: fer2013_test_tokens_fp16.npz
+clean cross-check computed: {"TAP": 0.6323, "GHead": 0.6083, "CLIPAdapter": 0.6163, "pfb": 0.5926, "memory": 0.6498}
+clean cross-check stored  : {"TAP": 0.6323, "CLIPAdapter": 0.6163, "GHead": 0.6083, "pfb": 0.4387, "memory": 0.4098}
+max |diff| = 0.2399
+CROSS-CHECK FAILED - stopping
+EXIT=2 2026-10-06T22:27:23.2583048+08:00
+RESTART3 2026-10-06T22:27:35.8861150+08:00
+B16 arms loaded: {"tap": 202504, "ghead": 198919, "clipadapter": 131712}
+clean token cache: fer2013_test_tokens_fp16.npz
+clean cross-check computed: {"TAP": 0.6323, "GHead": 0.6083, "CLIPAdapter": 0.6163, "pfb": 0.5926, "memory": 0.6498}
+clean cross-check stored  : {"TAP": 0.6323, "CLIPAdapter": 0.6163, "GHead": 0.6083, "pfb": 0.4387, "memory": 0.4098}
+max |diff| = 0.0000
+D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase6b_confirm.py:144: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:209.)
+  xb = torch.from_numpy(np.asarray(mm[i:i + chunk])).to(DEV).float()
+blur_0p8      {"TAP": 0.5886, "GHead": 0.5511, "CLIPAdapter": 0.551, "memory": 0.5005, "best_family_mean5": 0.5492, "pfb_mean5": 0.5542}
+blur_1p5      {"TAP": 0.3837, "GHead": 0.3379, "CLIPAdapter": 0.3275, "memory": 0.1648, "best_family_mean5": 0.3253, "pfb_mean5": 0.3742}
+blur_2p5      {"TAP": 0.1981, "GHead": 0.2063, "CLIPAdapter": 0.1926, "memory": 0.1443, "best_family_mean5": 0.1887, "pfb_mean5": 0.2033}
+jpeg_15       {"TAP": 0.4057, "GHead": 0.4195, "CLIPAdapter": 0.4129, "memory": 0.3028, "best_family_mean5": 0.3651, "pfb_mean5": 0.4035}
+jpeg_30       {"TAP": 0.4982, "GHead": 0.4971, "CLIPAdapter": 0.4996, "memory": 0.4255, "best_family_mean5": 0.4645, "pfb_mean5": 0.4821}
+jpeg_50       {"TAP": 0.5482, "GHead": 0.5442, "CLIPAdapter": 0.5452, "memory": 0.5014, "best_family_mean5": 0.5189, "pfb_mean5": 0.5241}
+lowlight_0p3  {"TAP": 0.619, "GHead": 0.5739, "CLIPAdapter": 0.5832, "memory": 0.6094, "best_family_mean5": 0.6158, "pfb_mean5": 0.5838}
+lowlight_0p5  {"TAP": 0.6279, "GHead": 0.5903, "CLIPAdapter": 0.5942, "memory": 0.6328, "best_family_mean5": 0.624, "pfb_mean5": 0.5895}
+lowlight_0p7  {"TAP": 0.6323, "GHead": 0.598, "CLIPAdapter": 0.6084, "memory": 0.6437, "best_family_mean5": 0.6288, "pfb_mean5": 0.5938}
+noise_10      {"TAP": 0.5289, "GHead": 0.4816, "CLIPAdapter": 0.5033, "memory": 0.422, "best_family_mean5": 0.4668, "pfb_mean5": 0.4863}
+noise_25      {"TAP": 0.3793, "GHead": 0.3605, "CLIPAdapter": 0.3783, "memory": 0.2892, "best_family_mean5": 0.3401, "pfb_mean5": 0.3902}
+noise_40      {"TAP": 0.2784, "GHead": 0.2668, "CLIPAdapter": 0.2745, "memory": 0.2174, "best_family_mean5": 0.2469, "pfb_mean5": 0.2914}
+
+aggregate: {"TAP": 0.474, "GHead": 0.4523, "CLIPAdapter": 0.4559, "memory": 0.4045, "pfb_mean5": 0.4564, "best_family_mean5": 0.4445}
+DECISION B16: point=+0.0181 ci=[+0.0075,+0.0292] crit1=True crit2=True -> H2_holds=True
+elapsed 100.7s
+EXIT=0 2026-10-06T22:29:18.3669633+08:00

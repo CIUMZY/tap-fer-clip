@@ -1,0 +1,93 @@
+{
+  "model": "ViT-L-14",
+  "grid": {
+    "lr": [
+      0.001,
+      0.003
+    ],
+    "epochs": 8,
+    "batch": 128,
+    "logit_scale": 100.0
+  },
+  "runs": {
+    "TAP|lr0.001": {
+      "lr": 0.001,
+      "params": 269832,
+      "steps": 1440,
+      "seconds": 224.4,
+      "peak_vram_GB": 0.62,
+      "probe_val_uar": 0.6754398614199143
+    },
+    "TAP|lr0.003": {
+      "lr": 0.003,
+      "params": 269832,
+      "steps": 1440,
+      "seconds": 261.9,
+      "peak_vram_GB": 0.62,
+      "probe_val_uar": 0.6509802181588789
+    },
+    "GHead|lr0.001": {
+      "lr": 0.001,
+      "params": 269627,
+      "steps": 1440,
+      "seconds": 1.9,
+      "peak_vram_GB": 0.03,
+      "probe_val_uar": 0.6720116028706133
+    },
+    "GHead|lr0.003": {
+      "lr": 0.003,
+      "params": 269627,
+      "steps": 1440,
+      "seconds": 1.7,
+      "peak_vram_GB": 0.03,
+      "probe_val_uar": 0.6543460441009773
+    },
+    "CLIPAdapter|lr0.001": {
+      "lr": 0.001,
+      "params": 295872,
+      "steps": 1440,
+      "seconds": 2.5,
+      "peak_vram_GB": 0.03,
+      "probe_val_uar": 0.679862246940411
+    },
+    "CLIPAdapter|lr0.003": {
+      "lr": 0.003,
+      "params": 295872,
+      "steps": 1440,
+      "seconds": 1.9,
+      "peak_vram_GB": 0.03,
+      "probe_val_uar": 0.6577994559739315
+    }
+  },
+  "selected": {
+    "TAP": {
+      "key": "TAP|lr0.001",
+      "lr": 0.001,
+      "params": 269832,
+      "probe_val_uar": 0.6754398614199143
+    },
+    "GHead": {
+      "key": "GHead|lr0.001",
+      "lr": 0.001,
+      "params": 269627,
+      "probe_val_uar": 0.6720116028706133
+    },
+    "CLIPAdapter": {
+      "key": "CLIPAdapter|lr0.001",
+      "lr": 0.001,
+      "params": 295872,
+      "probe_val_uar": 0.679862246940411
+    }
+  },
+  "global_head_width": {
+    "h": 260,
+    "params": 269627,
+    "tap_params": 269832,
+    "abs_diff": 205
+  },
+  "reference_probeval": {
+    "TAP_vitb16": 0.6350518869602058,
+    "CLIPAdapter_vitb16": 0.617177432363264
+  },
+  "elapsed_seconds": 496.7
+}

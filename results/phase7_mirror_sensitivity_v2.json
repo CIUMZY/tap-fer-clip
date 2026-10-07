@@ -1,0 +1,95 @@
+{
+ "scope": "POST-HOC SENSITIVITY (not confirmatory)",
+ "runs": {
+  "lr0.001": {
+   "probe_val_uar": 0.6032025882415496,
+   "seconds": 504.7,
+   "params": 202504
+  },
+  "lr0.003": {
+   "probe_val_uar": 0.5943531777133301,
+   "seconds": 476.7,
+   "params": 202504
+  }
+ },
+ "selected_lr": 0.001,
+ "params": 202504,
+ "aggregate": {
+  "SetA": {
+   "stored_single_view_TAP": 0.6783660123213383,
+   "mirror_two_view_TAP": 0.6182089533515053,
+   "CLIPAdapter": 0.6396085319691278,
+   "GHead": 0.6158337028278136,
+   "n_cells": 50,
+   "mirror_minus_stored": -0.06015705896983303,
+   "mirror_minus_CLIPAdapter": -0.02139957861762254,
+   "mirror_minus_GHead": 0.0023752505236916965
+  },
+  "SetB": {
+   "stored_single_view_TAP": 0.6722292372685897,
+   "mirror_two_view_TAP": 0.6343994202290566,
+   "CLIPAdapter": 0.6375425638542218,
+   "GHead": 0.6201853482058267,
+   "n_cells": 15,
+   "mirror_minus_stored": -0.03782981703953314,
+   "mirror_minus_CLIPAdapter": -0.0031431436251652123,
+   "mirror_minus_GHead": 0.014214072023229885
+  }
+ },
+ "harness_check": {
+  "note": "stored T1 column is single-view TAP; this sensitivity run multiplies the token convention by two views, so the stored value is the comparison baseline",
+  "cells_with_stored": 65,
+  "max_abs_diff_recomputed_single_view_vs_stored_T1": 0.01828571428571435,
+  "n_compared": 65
+ },
+ "bootstrap": {
+  "SetA": {
+   "mirror_minus_orig_same_tokens_c": {
+    "mean": -0.06449924653104404,
+    "ci": [
+     -0.07253252202651495,
+     -0.05627483103802684
+    ]
+   },
+   "mirror_minus_CLIPAdapter": {
+    "mean": -0.021296215303461066,
+    "ci": [
+     -0.032586038393171556,
+     -0.010325732520229128
+    ]
+   },
+   "mirror_minus_GHead": {
+    "mean": 0.00241141404977174,
+    "ci": [
+     -0.007707357254379436,
+     0.012637192886211028
+    ]
+   }
+  },
+  "SetB": {
+   "mirror_minus_orig_same_tokens_c": {
+    "mean": -0.04233190186401887,
+    "ci": [
+     -0.05697494556171327,
+     -0.028747886349055344
+    ]
+   },
+   "mirror_minus_CLIPAdapter": {
+    "mean": -0.0029671537740636263,
+    "ci": [
+     -0.017534955548849224,
+     0.011052717605434246
+    ]
+   },
+   "mirror_minus_GHead": {
+    "mean": 0.01423660159378187,
+    "ci": [
+     0.0017679699055242687,
+     0.027021405387177424
+    ]
+   }
+  },
+  "n_boot": 2000
+ },
+ "elapsed_seconds": 1435.7
+}

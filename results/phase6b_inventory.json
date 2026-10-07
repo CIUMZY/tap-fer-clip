@@ -1,0 +1,1158 @@
+{
+ "files": {
+  "blur.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\corruptions\\blur.npz",
+   "bytes": 27366486,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U105",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_corruptions\\blur\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.1834443211555481,
+     "max": 0.8307148218154907
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U236",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 44
+    }
+   }
+  },
+  "jpeg.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\corruptions\\jpeg.npz",
+   "bytes": 27371319,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U105",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_corruptions\\jpeg\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.26838037371635437,
+     "max": 0.8431538343429565
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U236",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 44
+    }
+   }
+  },
+  "lowlight.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\corruptions\\lowlight.npz",
+   "bytes": 27379928,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U109",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_corruptions\\lowlight\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.3328739106655121,
+     "max": 0.8278383612632751
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U240",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 45
+    }
+   }
+  },
+  "noise.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\corruptions\\noise.npz",
+   "bytes": 27379687,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U106",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_corruptions\\noise\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.24400000274181366,
+     "max": 0.822311282157898
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U237",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 44
+    }
+   }
+  },
+  "blur_0p8.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\shift_sweep\\blur_0p8.npz",
+   "bytes": 27373535,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U109",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_shift_sweep\\blur_0p8\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.29073578119277954,
+     "max": 0.8313586711883545
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U240",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 44
+    }
+   }
+  },
+  "blur_1p5.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\shift_sweep\\blur_1p5.npz",
+   "bytes": 27365941,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U109",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_shift_sweep\\blur_1p5\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.1834443211555481,
+     "max": 0.8307148218154907
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U240",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 45
+    }
+   }
+  },
+  "blur_2p5.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\shift_sweep\\blur_2p5.npz",
+   "bytes": 27377289,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U109",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_shift_sweep\\blur_2p5\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.13205914199352264,
+     "max": 0.820176362991333
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U240",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 45
+    }
+   }
+  },
+  "jpeg_15.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\shift_sweep\\jpeg_15.npz",
+   "bytes": 27371314,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U108",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_shift_sweep\\jpeg_15\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.24269820749759674,
+     "max": 0.8453459143638611
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U239",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 45
+    }
+   }
+  },
+  "jpeg_30.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\shift_sweep\\jpeg_30.npz",
+   "bytes": 27371150,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U108",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_shift_sweep\\jpeg_30\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.31608352065086365,
+     "max": 0.8250415325164795
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U239",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 44
+    }
+   }
+  },
+  "jpeg_50.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\shift_sweep\\jpeg_50.npz",
+   "bytes": 27371968,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U108",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_shift_sweep\\jpeg_50\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.3541427254676819,
+     "max": 0.8294971585273743
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U239",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 45
+    }
+   }
+  },
+  "lowlight_0p3.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\shift_sweep\\lowlight_0p3.npz",
+   "bytes": 27378505,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U113",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_shift_sweep\\lowlight_0p3\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.32241424918174744,
+     "max": 0.8241602182388306
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U244",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 45
+    }
+   }
+  },
+  "lowlight_0p5.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\shift_sweep\\lowlight_0p5.npz",
+   "bytes": 27380507,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U113",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_shift_sweep\\lowlight_0p5\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.33742398023605347,
+     "max": 0.8180887699127197
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U244",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 46
+    }
+   }
+  },
+  "lowlight_0p7.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\shift_sweep\\lowlight_0p7.npz",
+   "bytes": 27381985,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U113",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_shift_sweep\\lowlight_0p7\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.3421855866909027,
+     "max": 0.8216670155525208
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U244",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 45
+    }
+   }
+  },
+  "noise_10.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\shift_sweep\\noise_10.npz",
+   "bytes": 27389186,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U109",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_shift_sweep\\noise_10\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.2537515461444855,
+     "max": 0.8291593790054321
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U240",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 44
+    }
+   }
+  },
+  "noise_25.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\shift_sweep\\noise_25.npz",
+   "bytes": 27378841,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U109",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_shift_sweep\\noise_25\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.24400000274181366,
+     "max": 0.822311282157898
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U240",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 45
+    }
+   }
+  },
+  "noise_40.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\shift_sweep\\noise_40.npz",
+   "bytes": 27359450,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U109",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013_shift_sweep\\noise_40\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.23183375597000122,
+     "max": 0.8278451561927795
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U240",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 45
+    }
+   }
+  },
+  "ferplus_test.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\ferplus_test.npz",
+   "bytes": 25645744,
+   "keys": {
+    "ids": {
+     "shape": [
+      6722
+     ],
+     "dtype": "<U93",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013\\test\\angry\\fer2013_028716.png",
+     "n_unique": 6722
+    },
+    "views": {
+     "shape": [
+      6722,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.35497674345970154,
+     "max": 0.8184756636619568
+    },
+    "labels": {
+     "shape": [
+      6722
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      626,
+      53,
+      165,
+      1789,
+      819,
+      862,
+      2408
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U118",
+     "first": "{\"source\": \"FER+ majority labels\", \"kept\": 6722, \"excluded_contempt\": 50, \"excluded_tie\": 327, \"excluded_inval",
+     "n_unique": 38
+    }
+   }
+  },
+  "fer2013_test.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\fer2013_test.npz",
+   "bytes": 27380510,
+   "keys": {
+    "ids": {
+     "shape": [
+      7178
+     ],
+     "dtype": "<U93",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013\\test\\angry\\fer2013_028709.png",
+     "n_unique": 7178
+    },
+    "views": {
+     "shape": [
+      7178,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.3747151792049408,
+     "max": 0.8184756636619568
+    },
+    "labels": {
+     "shape": [
+      7178
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      958,
+      111,
+      1024,
+      1774,
+      1247,
+      831,
+      1233
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U216",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"manifest\":",
+     "n_unique": 43
+    }
+   }
+  },
+  "fer2013_probe_val_seed0.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\fer2013_probe_val_seed0.npz",
+   "bytes": 21949777,
+   "keys": {
+    "ids": {
+     "shape": [
+      5741
+     ],
+     "dtype": "<U94",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\fer2013\\train\\happy\\fer2013_018945.png",
+     "n_unique": 5741
+    },
+    "views": {
+     "shape": [
+      5741,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.3477054834365845,
+     "max": 0.8316723108291626
+    },
+    "labels": {
+     "shape": [
+      5741
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      799,
+      87,
+      819,
+      1443,
+      966,
+      634,
+      993
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U37984",
+     "first": "{\"split_indices\": [13248, 2795, 9222, 11310, 6805, 18414, 12567, 19093, 17843, 4293, 18727, 5046, 13693, 6309,",
+     "n_unique": 28
+    }
+   }
+  },
+  "ckplus48_all.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\ckplus48_all.npz",
+   "bytes": 3743767,
+   "keys": {
+    "ids": {
+     "shape": [
+      981
+     ],
+     "dtype": "<U99",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\downloads\\ckplus48\\extracted\\S005_001_00000009.png",
+     "n_unique": 981
+    },
+    "views": {
+     "shape": [
+      981,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.22236256301403046,
+     "max": 0.7986232042312622
+    },
+    "labels": {
+     "shape": [
+      981
+     ],
+     "dtype": "int64",
+     "min": -1.0,
+     "max": -1.0,
+     "bincount": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "n_negative": 981
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U235",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 45
+    }
+   }
+  },
+  "kdef_test.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\kdef_test.npz",
+   "bytes": 11210782,
+   "keys": {
+    "ids": {
+     "shape": [
+      2938
+     ],
+     "dtype": "<U98",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\downloads\\kdef\\kdef_extracted\\angry\\0_0.jpg",
+     "n_unique": 2938
+    },
+    "views": {
+     "shape": [
+      2938,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.3342219591140747,
+     "max": 0.8282090425491333
+    },
+    "labels": {
+     "shape": [
+      2938
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      420,
+      420,
+      420,
+      420,
+      419,
+      419,
+      420
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U233",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"projection",
+     "n_unique": 45
+    }
+   }
+  },
+  "ckplus_test.npz": {
+   "path": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\features\\ckplus_test.npz",
+   "bytes": 3441157,
+   "keys": {
+    "ids": {
+     "shape": [
+      902
+     ],
+     "dtype": "<U91",
+     "first": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\ckplus\\test\\angry\\ckplus_000680.png",
+     "n_unique": 902
+    },
+    "views": {
+     "shape": [
+      902,
+      2,
+      512
+     ],
+     "dtype": "float32",
+     "min": -0.29142090678215027,
+     "max": 0.796825647354126
+    },
+    "labels": {
+     "shape": [
+      902
+     ],
+     "dtype": "int64",
+     "min": 0.0,
+     "max": 6.0,
+     "bincount": [
+      45,
+      59,
+      25,
+      69,
+      28,
+      83,
+      593
+     ],
+     "n_negative": 0
+    },
+    "meta_json": {
+     "shape": [],
+     "dtype": "<U214",
+     "first": "{\"model\": \"ViT-B-16\", \"pretrained\": \"D:\\\\ResearchVault\\\\99system\\\\models\\\\open_clip\\\\ViT-B-16.pt\", \"manifest\":",
+     "n_unique": 42
+    }
+   }
+  }
+ },
+ "alignment_with_fer2013_test": {
+  "blur.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  },
+  "jpeg.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  },
+  "lowlight.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  },
+  "noise.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  },
+  "blur_0p8.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  },
+  "blur_1p5.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  },
+  "blur_2p5.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  },
+  "jpeg_15.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  },
+  "jpeg_30.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  },
+  "jpeg_50.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  },
+  "lowlight_0p3.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  },
+  "lowlight_0p5.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  },
+  "lowlight_0p7.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  },
+  "noise_10.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  },
+  "noise_25.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  },
+  "noise_40.npz": {
+   "ids_equal": false,
+   "labels_equal": true,
+   "n": 7178
+  }
+ },
+ "ferplus_stats": {
+  "total": 7178,
+  "kept": 6722,
+  "excluded_contempt": 50,
+  "excluded_tie": 327,
+  "excluded_invalid": 79,
+  "class_counts": [
+   626,
+   53,
+   165,
+   1789,
+   819,
+   862,
+   2408
+  ]
+ }
+}

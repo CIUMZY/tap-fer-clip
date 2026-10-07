@@ -1,0 +1,105 @@
+{
+  "encoder": "L14",
+  "model": "ViT-L-14",
+  "weights": "D:\\ResearchVault\\99system\\models\\open_clip\\ViT-L-14.pt",
+  "weights_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+  "conditions": {
+    "blur_0p8": {
+      "reused": true,
+      "npy_sha256": "0b7f04b92903163419f1b0d436c2dc2498470c9baf2fd319aebf5be21b12a603",
+      "npy_GB": 3.763,
+      "peak_vram_GB": null,
+      "n": 7178
+    },
+    "blur_1p5": {
+      "reused": true,
+      "npy_sha256": "4f2eec73240e0368ab1b92d248abaaa2d32c0c64dc0a2f1f35b5f1e85391c1e9",
+      "npy_GB": 3.763,
+      "peak_vram_GB": null,
+      "n": 7178
+    },
+    "blur_2p5": {
+      "reused": true,
+      "npy_sha256": "523d835fb9d4d5b4ff6a5c8ec83f1737588a69aa9c3a2623ac5350392bd09ce0",
+      "npy_GB": 3.763,
+      "peak_vram_GB": null,
+      "n": 7178
+    },
+    "jpeg_15": {
+      "reused": true,
+      "npy_sha256": "b32e7a344b42116b4aad739baafdaed1211f0e5d1973ee8214e2746b99668b31",
+      "npy_GB": 3.763,
+      "peak_vram_GB": null,
+      "n": 7178
+    },
+    "jpeg_30": {
+      "reused": true,
+      "npy_sha256": "987f4459ceaadc220cf69088e34c94707a52214f9e98b5a2abb42d76dc391c16",
+      "npy_GB": 3.763,
+      "peak_vram_GB": null,
+      "n": 7178
+    },
+    "jpeg_50": {
+      "reused": true,
+      "npy_sha256": "131993b680bd1381e56f6650986cc177ec4ca4774c3e62e94f37654306265f3a",
+      "npy_GB": 3.763,
+      "peak_vram_GB": null,
+      "n": 7178
+    },
+    "lowlight_0p3": {
+      "reused": true,
+      "npy_sha256": "a42b79bb7d9516cfebc8c4f5cd8e25cbc5a9937b2904e49047a404b96fe278ee",
+      "npy_GB": 3.763,
+      "peak_vram_GB": null,
+      "n": 7178
+    },
+    "lowlight_0p5": {
+      "reused": true,
+      "npy_sha256": "9abe5aa29f61e577f7511e5b3ff27a65432aafdd9fd48275f7426a5c7b4e8fdf",
+      "npy_GB": 3.763,
+      "peak_vram_GB": null,
+      "n": 7178
+    },
+    "lowlight_0p7": {
+      "reused": true,
+      "npy_sha256": "c5bde14552464976b4031f6c532c8c3be97fdb33cb9a3fdd63a81e6b02114168",
+      "npy_GB": 3.763,
+      "peak_vram_GB": null,
+      "n": 7178
+    },
+    "noise_10": {
+      "reused": true,
+      "npy_sha256": "a7891dbc6d9346646e4b78b67e1349eef65254b25e29b61af2345a72c9da95b1",
+      "npy_GB": 3.763,
+      "peak_vram_GB": null,
+      "n": 7178
+    },
+    "noise_25": {
+      "reused": true,
+      "npy_sha256": "16e0963d793d007983c9c7ba54563c30a3bd84eabdfce685080dd94e64684539",
+      "npy_GB": 3.763,
+      "peak_vram_GB": null,
+      "n": 7178
+    },
+    "noise_40": {
+      "reused": true,
+      "npy_sha256": "d2d025f896f3aa04ee8e074427916cb76697273194c99d478b9e8d4964dcff04",
+      "npy_GB": 3.763,
+      "peak_vram_GB": null,
+      "n": 7178
+    }
+  },
+  "started": "2026-10-06T23:12:54",
+  "free_GB_on_D": 123.8,
+  "validation_gate": {
+    "clean_globals_cosine_min": 0.9999998807907104,
+    "clean_rows_checked": 512,
+    "clean_token_cosine_min": null,
+    "condition_compared": null,
+    "condition_check": "not applicable: features/shift_sweep/*.npz are ViT-B/16 (512-d) caches and no stored ViT-L/14 corrupted cache exists; the clean token-cache comparison above is used instead",
+    "pass": true,
+    "criterion": "elementwise cosine >= 0.9999 against the stored clean cache"
+  },
+  "elapsed_seconds": 43.3,
+  "finished": "2026-10-06T23:13:42"
+}

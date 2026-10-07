@@ -1,0 +1,77 @@
+mirror TAP lr0.001 probe-val 0.6160 (480s)
+mirror TAP lr0.003 probe-val 0.6122 (451s)
+setA ckplus_prior 952s
+setA kdef_prior 1091s
+setB 1276s
+{
+ "SetA": {
+  "stored_single_view_TAP": 0.6783660123213383,
+  "mirror_two_view_TAP": 0.6546628295877557,
+  "CLIPAdapter": 0.6396085319691278,
+  "GHead": 0.6158337028278136,
+  "n_cells": 50,
+  "mirror_minus_stored": -0.02370318273358263,
+  "mirror_minus_CLIPAdapter": 0.015054297618627865,
+  "mirror_minus_GHead": 0.0388291267599421
+ },
+ "SetB": {
+  "stored_single_view_TAP": 0.6722292372685897,
+  "mirror_two_view_TAP": 0.6518311309675194,
+  "CLIPAdapter": 0.6375425638542218,
+  "GHead": 0.6201853482058267,
+  "n_cells": 15,
+  "mirror_minus_stored": -0.020398106301070307,
+  "mirror_minus_CLIPAdapter": 0.014288567113297623,
+  "mirror_minus_GHead": 0.03164578276169272
+ }
+}
+{
+ "SetA": {
+  "mirror_minus_orig_same_tokens_c": {
+   "mean": 0.033545139512153654,
+   "ci": [
+    0.028018404118928152,
+    0.039210564468534506
+   ]
+  },
+  "mirror_minus_CLIPAdapter": {
+   "mean": 0.015199755283811057,
+   "ci": [
+    -0.0036929457295576847,
+    0.032352013291750394
+   ]
+  },
+  "mirror_minus_GHead": {
+   "mean": 0.03890738463704386,
+   "ci": [
+    0.021465138318612024,
+    0.05514963096368342
+   ]
+  }
+ },
+ "SetB": {
+  "mirror_minus_orig_same_tokens_c": {
+   "mean": 0.02060172097705572,
+   "ci": [
+    0.011700398127260188,
+    0.030228900119948766
+   ]
+  },
+  "mirror_minus_CLIPAdapter": {
+   "mean": 0.014420522928975726,
+   "ci": [
+    -0.011522603254007833,
+    0.04103627418670224
+   ]
+  },
+  "mirror_minus_GHead": {
+   "mean": 0.031624278296821226,
+   "ci": [
+    0.0076499619579409065,
+    0.057192503376487694
+   ]
+  }
+ },
+ "n_boot": 2000
+}
+elapsed 1294s

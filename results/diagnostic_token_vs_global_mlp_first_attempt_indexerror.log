@@ -1,0 +1,66 @@
+START 2026-10-06T21:00:57.5106657+08:00
+=== MLP extension B16 (ViT-B/16) ===
+reusing existing fer2013_train_tokens_fp16.npy (28709, 196, 768)
+mean-pooled in 31.7s
+R3 pooling for train+val in 7.6s (checkpoint lr0.001)
+  R1_global        mlp lr0.001  seed0 uar 0.6115 prior 0.6286 (1.7s)
+  R1_global        mlp lr0.001  seed1 uar 0.6439 prior 0.6443 (1.4s)
+  R1_global        mlp lr0.001  seed2 uar 0.6009 prior 0.6141 (1.4s)
+  R1_global        mlp lr0.003  seed0 uar 0.6080 prior 0.6294 (1.4s)
+  R1_global        mlp lr0.003  seed1 uar 0.6363 prior 0.6482 (1.4s)
+  R1_global        mlp lr0.003  seed2 uar 0.6159 prior 0.6212 (1.4s)
+  -> R1_global selected {"lr": 0.001, "seed": 1, "uar": 0.6439285177424352, "uar_prior": 0.6442926486413617}
+  R2_mean_raw      mlp lr0.001  seed0 uar 0.6126 prior 0.6227 (1.5s)
+  R2_mean_raw      mlp lr0.001  seed1 uar 0.6318 prior 0.6364 (1.5s)
+  R2_mean_raw      mlp lr0.001  seed2 uar 0.6104 prior 0.6217 (1.4s)
+  R2_mean_raw      mlp lr0.003  seed0 uar 0.6249 prior 0.6329 (1.4s)
+  R2_mean_raw      mlp lr0.003  seed1 uar 0.6424 prior 0.6531 (1.5s)
+  R2_mean_raw      mlp lr0.003  seed2 uar 0.6169 prior 0.6242 (1.8s)
+  -> R2_mean_raw selected {"lr": 0.003, "seed": 1, "uar": 0.642391046164933, "uar_prior": 0.6531119826421482}
+  R4a_concat_raw   mlp lr0.001  seed0 uar 0.6247 prior 0.6326 (1.6s)
+  R4a_concat_raw   mlp lr0.001  seed1 uar 0.6414 prior 0.6494 (1.5s)
+  R4a_concat_raw   mlp lr0.001  seed2 uar 0.6174 prior 0.6303 (1.4s)
+  R4a_concat_raw   mlp lr0.003  seed0 uar 0.6258 prior 0.6302 (1.4s)
+  R4a_concat_raw   mlp lr0.003  seed1 uar 0.6160 prior 0.6246 (1.5s)
+  R4a_concat_raw   mlp lr0.003  seed2 uar 0.6384 prior 0.6469 (1.5s)
+  -> R4a_concat_raw selected {"lr": 0.001, "seed": 1, "uar": 0.6414066622658802, "uar_prior": 0.6493600051606696}
+Traceback (most recent call last):
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\diagnostic_token_vs_global_mlp.py", line 149, in <module>
+    main()
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\diagnostic_token_vs_global_mlp.py", line 118, in main
+    Xtr, Xva = Ptr[tr], Pva[va]
+               ~~~^^^^
+IndexError: index 26480 is out of bounds for axis 0 with size 22968
+EXIT_B16=1 2026-10-06T21:02:17.6498242+08:00
+=== MLP extension L14 (ViT-L/14) ===
+mean-pooled in 58.0s
+R3 pooling for train+val in 48.0s (checkpoint lr0.001)
+  R1_global        mlp lr0.001  seed0 uar 0.6747 prior 0.6782 (1.8s)
+  R1_global        mlp lr0.001  seed1 uar 0.6903 prior 0.6892 (1.4s)
+  R1_global        mlp lr0.001  seed2 uar 0.6492 prior 0.6579 (1.4s)
+  R1_global        mlp lr0.003  seed0 uar 0.6533 prior 0.6632 (1.5s)
+  R1_global        mlp lr0.003  seed1 uar 0.6626 prior 0.6663 (1.4s)
+  R1_global        mlp lr0.003  seed2 uar 0.6672 prior 0.6740 (1.6s)
+  -> R1_global selected {"lr": 0.001, "seed": 1, "uar": 0.6902610990253857, "uar_prior": 0.6891836118044116}
+  R2_mean_raw      mlp lr0.001  seed0 uar 0.6751 prior 0.6791 (1.6s)
+  R2_mean_raw      mlp lr0.001  seed1 uar 0.6687 prior 0.6780 (1.5s)
+  R2_mean_raw      mlp lr0.001  seed2 uar 0.6530 prior 0.6653 (1.4s)
+  R2_mean_raw      mlp lr0.003  seed0 uar 0.6261 prior 0.6417 (1.5s)
+  R2_mean_raw      mlp lr0.003  seed1 uar 0.6713 prior 0.6827 (1.4s)
+  R2_mean_raw      mlp lr0.003  seed2 uar 0.6322 prior 0.6431 (1.4s)
+  -> R2_mean_raw selected {"lr": 0.001, "seed": 0, "uar": 0.6751444877460767, "uar_prior": 0.6791265418355522}
+  R4a_concat_raw   mlp lr0.001  seed0 uar 0.6799 prior 0.6872 (1.6s)
+  R4a_concat_raw   mlp lr0.001  seed1 uar 0.6657 prior 0.6804 (1.6s)
+  R4a_concat_raw   mlp lr0.001  seed2 uar 0.6547 prior 0.6634 (1.5s)
+  R4a_concat_raw   mlp lr0.003  seed0 uar 0.6401 prior 0.6529 (1.6s)
+  R4a_concat_raw   mlp lr0.003  seed1 uar 0.6872 prior 0.6912 (1.6s)
+  R4a_concat_raw   mlp lr0.003  seed2 uar 0.6578 prior 0.6646 (1.6s)
+  -> R4a_concat_raw selected {"lr": 0.003, "seed": 1, "uar": 0.6871973359518965, "uar_prior": 0.691215729232633}
+Traceback (most recent call last):
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\diagnostic_token_vs_global_mlp.py", line 149, in <module>
+    main()
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\diagnostic_token_vs_global_mlp.py", line 118, in main
+    Xtr, Xva = Ptr[tr], Pva[va]
+               ~~~^^^^
+IndexError: index 26480 is out of bounds for axis 0 with size 22968
+EXIT_L14=1 2026-10-06T21:04:40.1432796+08:00

@@ -1,0 +1,25 @@
+{
+  "url": "https://openaipublic.azureedge.net/clip/models/b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836/ViT-L-14.pt",
+  "expected_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+  "bytes": 932768134,
+  "content_length": 932768134,
+  "rounds": 2,
+  "history": [
+    {
+      "round": 1,
+      "offset": 63307776,
+      "size": 140165120,
+      "total": 932768134
+    },
+    {
+      "round": 2,
+      "offset": 140165120,
+      "size": 932768134,
+      "total": 932768134
+    }
+  ],
+  "seconds": 217.3,
+  "actual_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+  "sha256_matches": true,
+  "action": "downloaded, length-complete and sha256-verified; renamed to ViT-L-14.pt"
+}

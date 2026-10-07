@@ -1,0 +1,28 @@
+D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\serialization.py:1493: UserWarning: 'torch.load' received a zip file that looks like a TorchScript archive dispatching to 'torch.jit.load' (call 'torch.jit.load' directly to silence this warning)
+  warnings.warn(
+B16  blur_0p8      bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.5 tok_cos=1.000000 glob_cos=1.000000 -> OK
+B16  blur_1p5      bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.25 tok_cos=1.000000 glob_cos=1.000000 -> OK
+B16  blur_2p5      bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.25 tok_cos=1.000000 glob_cos=1.000000 -> OK
+B16  jpeg_15       bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.5 tok_cos=1.000000 glob_cos=1.000000 -> OK
+B16  jpeg_30       bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.25 tok_cos=1.000000 glob_cos=1.000000 -> OK
+B16  jpeg_50       bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.5 tok_cos=1.000000 glob_cos=1.000000 -> OK
+B16  lowlight_0p3  bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.25 tok_cos=1.000000 glob_cos=1.000000 -> OK
+B16  lowlight_0p5  bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.12 tok_cos=1.000000 glob_cos=1.000000 -> OK
+B16  lowlight_0p7  bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.25 tok_cos=1.000000 glob_cos=1.000000 -> OK
+B16  noise_10      bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.5 tok_cos=1.000000 glob_cos=1.000000 -> OK
+B16  noise_25      bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.25 tok_cos=1.000000 glob_cos=1.000000 -> OK
+B16  noise_40      bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.25 tok_cos=1.000000 glob_cos=1.000000 -> OK
+L14  blur_0p8      bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.5 tok_cos=1.000000 glob_cos=1.000000 -> OK
+L14  blur_1p5      bytes_ok=True labels_ok=True ids_ok=True tok_ulp=1.0 tok_cos=1.000000 glob_cos=1.000000 -> OK
+L14  blur_2p5      bytes_ok=True labels_ok=True ids_ok=True tok_ulp=1.5 tok_cos=1.000000 glob_cos=1.000000 -> OK
+L14  jpeg_15       bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.5 tok_cos=1.000000 glob_cos=1.000000 -> OK
+L14  jpeg_30       bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.5 tok_cos=1.000000 glob_cos=1.000000 -> OK
+L14  jpeg_50       bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.5 tok_cos=1.000000 glob_cos=1.000000 -> OK
+L14  lowlight_0p3  bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.5 tok_cos=1.000000 glob_cos=1.000000 -> OK
+L14  lowlight_0p5  bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.5 tok_cos=1.000000 glob_cos=1.000000 -> OK
+L14  lowlight_0p7  bytes_ok=True labels_ok=True ids_ok=True tok_ulp=1.0 tok_cos=1.000000 glob_cos=1.000000 -> OK
+L14  noise_10      bytes_ok=True labels_ok=True ids_ok=True tok_ulp=1.0 tok_cos=1.000000 glob_cos=1.000000 -> OK
+L14  noise_25      bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.5 tok_cos=1.000000 glob_cos=1.000000 -> OK
+L14  noise_40      bytes_ok=True labels_ok=True ids_ok=True tok_ulp=0.5 tok_cos=1.000000 glob_cos=1.000000 -> OK
+
+verified 24/24 -> ALL OK

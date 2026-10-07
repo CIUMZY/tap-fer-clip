@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase8_trainvar.py", line 182, in <module>
+    main()
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase8_trainvar.py", line 167, in main
+    rows, secs = run_encoder(tag)
+                 ^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase8_trainvar.py", line 151, in run_encoder
+    m = train_arm(CLIPAdapter(text, c['dim'], c['ca_hid']), glob_train, len(tr), c['lr_ca'], seed)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase8_trainvar.py", line 87, in train_arm
+    loss = F.cross_entropy(model(xb), yb)
+                           ^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase8_trainvar.py", line 73, in forward
+    f = self.alpha * self.fc2(F.relu(self.fc1(x))) + (1.0 - self.alpha) * x
+                                     ^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\nn\modules\linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (128x512 and 768x128)

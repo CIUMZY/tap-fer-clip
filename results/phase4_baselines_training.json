@@ -1,0 +1,111 @@
+{
+  "grid": {
+    "lr": [
+      0.001,
+      0.003
+    ],
+    "epochs": 8,
+    "batch": 128,
+    "logit_scale": 100.0
+  },
+  "runs": {
+    "CLIPAdapter|lr0.001": {
+      "lr": 0.001,
+      "params": 131712,
+      "steps": 1440,
+      "seconds": 1.8,
+      "peak_vram_GB": 0.02,
+      "probe_val_uar": 0.617177432363264
+    },
+    "CLIPAdapter|lr0.003": {
+      "lr": 0.003,
+      "params": 131712,
+      "steps": 1440,
+      "seconds": 1.5,
+      "peak_vram_GB": 0.02,
+      "probe_val_uar": 0.6127015438526481
+    },
+    "LinearProbe|lr0.001": {
+      "lr": 0.001,
+      "params": 3591,
+      "steps": 1440,
+      "seconds": 0.9,
+      "peak_vram_GB": 0.02,
+      "probe_val_uar": 0.5218192069567308
+    },
+    "LinearProbe|lr0.003": {
+      "lr": 0.003,
+      "params": 3591,
+      "steps": 1440,
+      "seconds": 0.8,
+      "peak_vram_GB": 0.02,
+      "probe_val_uar": 0.5691463423675486
+    },
+    "APEtext|lr0.001": {
+      "lr": 0.001,
+      "params": 3584,
+      "steps": 1440,
+      "seconds": 1.2,
+      "peak_vram_GB": 0.02,
+      "probe_val_uar": 0.605971707224806
+    },
+    "APEtext|lr0.003": {
+      "lr": 0.003,
+      "params": 3584,
+      "steps": 1440,
+      "seconds": 1.1,
+      "peak_vram_GB": 0.02,
+      "probe_val_uar": 0.6075623496177094
+    },
+    "TipAdapterF|lr0.001": {
+      "lr": 0.001,
+      "params": 11759616,
+      "steps": 1440,
+      "seconds": 6.5,
+      "peak_vram_GB": 0.39,
+      "probe_val_uar": 0.5740400127358593,
+      "cache_keys": 11759616
+    },
+    "TipAdapterF|lr0.003": {
+      "lr": 0.003,
+      "params": 11759616,
+      "steps": 1440,
+      "seconds": 6.3,
+      "peak_vram_GB": 0.44,
+      "probe_val_uar": 0.5829161516444381,
+      "cache_keys": 11759616
+    }
+  },
+  "selected": {
+    "CLIPAdapter": {
+      "key": "CLIPAdapter|lr0.001",
+      "lr": 0.001,
+      "params": 131712,
+      "probe_val_uar": 0.617177432363264
+    },
+    "LinearProbe": {
+      "key": "LinearProbe|lr0.003",
+      "lr": 0.003,
+      "params": 3591,
+      "probe_val_uar": 0.5691463423675486
+    },
+    "APEtext": {
+      "key": "APEtext|lr0.003",
+      "lr": 0.003,
+      "params": 3584,
+      "probe_val_uar": 0.6075623496177094
+    },
+    "TipAdapterF": {
+      "key": "TipAdapterF|lr0.003",
+      "lr": 0.003,
+      "params": 11759616,
+      "probe_val_uar": 0.5829161516444381
+    }
+  },
+  "reference_probe_val": {
+    "T1_token_attention": 0.6350518869602058,
+    "PFB_source_probeval": 0.6155,
+    "memory_source_probeval_beta256": 0.636
+  },
+  "elapsed_seconds": 21.5
+}

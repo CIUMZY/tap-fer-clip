@@ -1,0 +1,81 @@
+START 2026-10-06T20:00:32.6235649+08:00
+setA ckplus_test done 4.8s
+setA kdef_test done 29.1s
+setB kdef_source_test done 30.2s
+setB fer2013_test done 36.0s
+setB ckplus_test done 36.4s
+{
+ "setA_mean_uar": {
+  "TAP": 0.757028010709498,
+  "GHead": 0.768072736401146,
+  "CLIPAdapter": 0.7766534568246896,
+  "pfb": 0.6638822126293162,
+  "memory": 0.6350710775234567,
+  "best_family": 0.6638936412007448
+ },
+ "setB_mean_uar": {
+  "TAP": 0.7404813434886822,
+  "GHead": 0.7412033876417375,
+  "CLIPAdapter": 0.7543254172550975,
+  "pfb": 0.6677024520440175,
+  "memory": 0.6390529984276007,
+  "best_family": 0.6776797763070559
+ },
+ "setA_cells_TAP_beats": {
+  "GHead": 25,
+  "CLIPAdapter": 25
+ },
+ "setB_cells_TAP_beats": {
+  "GHead": 10,
+  "CLIPAdapter": 5
+ },
+ "kdef_probe_val_uar": 0.72562358276644
+}
+bootstrap A {
+ "TAP_minus_best_family": {
+  "mean": 0.09030210967987412,
+  "ci": [
+   0.08379151836534075,
+   0.09656644411027585
+  ]
+ },
+ "TAP_minus_GHead": {
+  "mean": -0.011017469352152084,
+  "ci": [
+   -0.018224388413484283,
+   -0.0037613290031709387
+  ]
+ },
+ "TAP_minus_CLIPAdapter": {
+  "mean": -0.019610401115181624,
+  "ci": [
+   -0.02586712050587964,
+   -0.0131350463724246
+  ]
+ }
+}
+bootstrap B {
+ "TAP_minus_best_family": {
+  "mean": 0.06184451967715092,
+  "ci": [
+   0.050944455135143035,
+   0.07259314668878115
+  ]
+ },
+ "TAP_minus_GHead": {
+  "mean": -0.0006695547542271484,
+  "ci": [
+   -0.01082182143541259,
+   0.009152730284542053
+  ]
+ },
+ "TAP_minus_CLIPAdapter": {
+  "mean": -0.01374053116762547,
+  "ci": [
+   -0.02378572593948742,
+   -0.0039280771881707146
+  ]
+ }
+}
+elapsed 84.3s
+EXIT=0 2026-10-06T20:01:59.1973434+08:00

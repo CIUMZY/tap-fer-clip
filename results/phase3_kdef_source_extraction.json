@@ -1,0 +1,30 @@
+{
+  "dataset": "kdef_source_train",
+  "n": 2056,
+  "shards": 5,
+  "shard_size": 512,
+  "dtype": "float16",
+  "device": "NVIDIA GeForce RTX 3080",
+  "started": "2026-10-06T18:44:51",
+  "free_GB_on_D": 250.8,
+  "tokens_shape": [
+    2056,
+    196,
+    768
+  ],
+  "sha256_shards": [
+    "ed2b5fe4b0f240cb2d8cf9cd4578e9ba388a2a0ffd30f5a6f57b4f64cbd48ef5",
+    "ea33012ce38b594e63a7b000dfb0a1f99d7ad7091765ba977dd5dab1673a909c",
+    "273934a0de1fefadc193f10e7ee171f708c05dc8715c52611c358f45e6a2d8c8",
+    "6d3be473fa217d4aa9375e0135672b2a27d036737c1f4e495754d2eb898814ef",
+    "70e1cde1c15848ec4def6bfd908d7754fced3673ff0a36aa8b2acea649ed0ff3"
+  ],
+  "sha256_merged": "1f1da19ec1f56795c5c9d542a59262d80be14e1b50a2e9f60c7f27a56724d627",
+  "merged_GB": 0.62,
+  "seconds": 18.9,
+  "peak_vram_GB": 1.7,
+  "ids_equal_source": true,
+  "labels_equal_source": true,
+  "token_norm_mean": 21.157344818115234,
+  "finished": "2026-10-06T18:45:12"
+}

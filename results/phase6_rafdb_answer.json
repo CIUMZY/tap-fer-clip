@@ -1,0 +1,17 @@
+{
+ "H1": "no verdict - gate failed before the experiment could run",
+ "H1_statement": "on frozen CLIP ViT-B/16, TAP beats CLIP-Adapter on the RAF-DB target",
+ "gate": "GATE FAILED - experiment not run",
+ "failed_checks": [
+  "provenance is not a quarantine notice",
+  "an official RAF-DB split/label file exists on disk",
+  "class counts are not an artificial balancing signature",
+  "all pre-registered ratios 0/1/2/5/10 are realisable"
+ ],
+ "rafdb_consumed": false,
+ "arms_trained": [],
+ "cells": 0,
+ "bootstrap_intervals": 0,
+ "viL14_secondary": "not attempted (gate failed before extraction)",
+ "next_step": "obtain the official RAF-DB (official request process) and re-run the unchanged pre-registration"
+}

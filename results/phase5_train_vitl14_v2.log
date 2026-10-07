@@ -1,0 +1,29 @@
+START 2026-10-06T19:51:04.4014479+08:00
+TAP {'lr': 0.001, 'params': 269832, 'steps': 1440, 'seconds': 224.4, 'peak_vram_GB': 0.62, 'probe_val_uar': 0.6754398614199143}
+TAP {'lr': 0.003, 'params': 269832, 'steps': 1440, 'seconds': 261.9, 'peak_vram_GB': 0.62, 'probe_val_uar': 0.6509802181588789}
+GHead_L14 {'lr': 0.001, 'params': 269627, 'steps': 1440, 'seconds': 1.9, 'peak_vram_GB': 0.03, 'probe_val_uar': 0.6720116028706133}
+GHead_L14 {'lr': 0.003, 'params': 269627, 'steps': 1440, 'seconds': 1.7, 'peak_vram_GB': 0.03, 'probe_val_uar': 0.6543460441009773}
+CLIPAdapter_L14 {'lr': 0.001, 'params': 295872, 'steps': 1440, 'seconds': 2.5, 'peak_vram_GB': 0.03, 'probe_val_uar': 0.679862246940411}
+CLIPAdapter_L14 {'lr': 0.003, 'params': 295872, 'steps': 1440, 'seconds': 1.9, 'peak_vram_GB': 0.03, 'probe_val_uar': 0.6577994559739315}
+{
+ "TAP": {
+  "key": "TAP|lr0.001",
+  "lr": 0.001,
+  "params": 269832,
+  "probe_val_uar": 0.6754398614199143
+ },
+ "GHead": {
+  "key": "GHead|lr0.001",
+  "lr": 0.001,
+  "params": 269627,
+  "probe_val_uar": 0.6720116028706133
+ },
+ "CLIPAdapter": {
+  "key": "CLIPAdapter|lr0.001",
+  "lr": 0.001,
+  "params": 295872,
+  "probe_val_uar": 0.679862246940411
+ }
+}
+total 496.7s
+EXIT=0 2026-10-06T19:59:25.7276217+08:00

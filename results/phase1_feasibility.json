@@ -1,0 +1,59 @@
+{
+  "device": "NVIDIA GeForce RTX 3080",
+  "n_per_dataset": 200,
+  "datasets": {
+    "ckplus": {
+      "n": 200,
+      "token_shape": [
+        200,
+        196,
+        768
+      ],
+      "dtype": "float16",
+      "grid": [
+        14,
+        14
+      ],
+      "token_norm_mean": 21.15846061706543,
+      "proj_vs_cached_view0_cosine": {
+        "min": 0.9999998807907104,
+        "mean": 1.0,
+        "max": 1.000000238418579
+      },
+      "seconds_for_200": 0.9,
+      "images_per_second": 221.7,
+      "fp16_MB_per_image": 0.301056
+    },
+    "kdef": {
+      "n": 200,
+      "token_shape": [
+        200,
+        196,
+        768
+      ],
+      "dtype": "float16",
+      "grid": [
+        14,
+        14
+      ],
+      "token_norm_mean": 21.194862365722656,
+      "proj_vs_cached_view0_cosine": {
+        "min": 0.9999998211860657,
+        "mean": 1.0,
+        "max": 1.000000238418579
+      },
+      "seconds_for_200": 1.53,
+      "images_per_second": 130.4,
+      "fp16_MB_per_image": 0.301056
+    }
+  },
+  "cost_estimate": {
+    "total_images": 39727,
+    "fp16_MB_per_image": 0.301056,
+    "disk_GB_single_view": 11.68,
+    "disk_GB_with_mirror": 23.36,
+    "throughput_img_per_s_observed": 130.4,
+    "extract_minutes_observed_rate": 5.1,
+    "ferplus_note": "FER+ has no image manifest; its images are fer2013_test images (features built by build_ferplus_features.py)"
+  }
+}

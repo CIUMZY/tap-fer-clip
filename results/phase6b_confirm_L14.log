@@ -1,0 +1,25 @@
+START 2026-10-06T23:15:39.3025069+08:00
+L14 arms loaded: {"tap": 269832, "ghead": 269627, "clipadapter": 295872}
+clean token cache: fer2013_test_tokens_fp16.npy
+D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase6b_confirm.py:144: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:209.)
+  xb = torch.from_numpy(np.asarray(mm[i:i + chunk])).to(DEV).float()
+clean cross-check computed: {"TAP": 0.6836, "GHead": 0.6828, "CLIPAdapter": 0.6916, "pfb": 0.6663, "memory": 0.6764}
+clean cross-check stored  : {"TAP": 0.6836, "CLIPAdapter": 0.6916, "GHead": 0.6828, "pfb": 0.5191, "memory": 0.4408}
+max |diff| = 0.0000
+blur_0p8      {"TAP": 0.6307, "GHead": 0.5297, "CLIPAdapter": 0.4989, "memory": 0.4286, "best_family_mean5": 0.5779, "pfb_mean5": 0.6254}
+blur_1p5      {"TAP": 0.4203, "GHead": 0.3636, "CLIPAdapter": 0.3514, "memory": 0.2542, "best_family_mean5": 0.4047, "pfb_mean5": 0.4281}
+blur_2p5      {"TAP": 0.2396, "GHead": 0.2131, "CLIPAdapter": 0.2357, "memory": 0.1969, "best_family_mean5": 0.2369, "pfb_mean5": 0.2399}
+jpeg_15       {"TAP": 0.4783, "GHead": 0.4875, "CLIPAdapter": 0.458, "memory": 0.3773, "best_family_mean5": 0.4358, "pfb_mean5": 0.4748}
+jpeg_30       {"TAP": 0.5611, "GHead": 0.5748, "CLIPAdapter": 0.5343, "memory": 0.4889, "best_family_mean5": 0.5257, "pfb_mean5": 0.5487}
+jpeg_50       {"TAP": 0.5942, "GHead": 0.617, "CLIPAdapter": 0.578, "memory": 0.5518, "best_family_mean5": 0.5774, "pfb_mean5": 0.5927}
+lowlight_0p3  {"TAP": 0.6438, "GHead": 0.6494, "CLIPAdapter": 0.667, "memory": 0.6473, "best_family_mean5": 0.6578, "pfb_mean5": 0.6591}
+lowlight_0p5  {"TAP": 0.674, "GHead": 0.6663, "CLIPAdapter": 0.6879, "memory": 0.6633, "best_family_mean5": 0.6691, "pfb_mean5": 0.662}
+lowlight_0p7  {"TAP": 0.6791, "GHead": 0.6752, "CLIPAdapter": 0.6887, "memory": 0.6733, "best_family_mean5": 0.6757, "pfb_mean5": 0.661}
+noise_10      {"TAP": 0.6261, "GHead": 0.6225, "CLIPAdapter": 0.5868, "memory": 0.5699, "best_family_mean5": 0.5811, "pfb_mean5": 0.6003}
+noise_25      {"TAP": 0.4981, "GHead": 0.477, "CLIPAdapter": 0.4238, "memory": 0.3483, "best_family_mean5": 0.4102, "pfb_mean5": 0.4577}
+noise_40      {"TAP": 0.387, "GHead": 0.3519, "CLIPAdapter": 0.3381, "memory": 0.2452, "best_family_mean5": 0.3057, "pfb_mean5": 0.3475}
+
+aggregate: {"TAP": 0.536, "GHead": 0.519, "CLIPAdapter": 0.504, "memory": 0.4538, "pfb_mean5": 0.5248, "best_family_mean5": 0.5048}
+DECISION L14: point=+0.0320 ci=[+0.0088,+0.0569] crit1=True crit2=True -> H2_holds=True
+elapsed 121.0s
+EXIT=0 2026-10-06T23:17:42.0345165+08:00

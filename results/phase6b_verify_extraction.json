@@ -1,0 +1,945 @@
+{
+ "conditions": {
+  "B16/blur_0p8": {
+   "file_bytes": 2160980096,
+   "expected_bytes": 2160980096,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    196,
+    768
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    196,
+    768
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    512
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.7496964931488037,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.0078125,
+   "tokens_cosine_min_recompute": 0.9999998211860657,
+   "tokens_ulps_max": 0.5,
+   "globals_cosine_min_recompute": 0.9999999403953552,
+   "verified": true
+  },
+  "B16/blur_1p5": {
+   "file_bytes": 2160980096,
+   "expected_bytes": 2160980096,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    196,
+    768
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    196,
+    768
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    512
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.7463922500610352,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.00390625,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 0.25,
+   "globals_cosine_min_recompute": 0.9999999403953552,
+   "verified": true
+  },
+  "B16/blur_2p5": {
+   "file_bytes": 2160980096,
+   "expected_bytes": 2160980096,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    196,
+    768
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    196,
+    768
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    512
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.7455040812492371,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.00390625,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 0.25,
+   "globals_cosine_min_recompute": 0.9999998807907104,
+   "verified": true
+  },
+  "B16/jpeg_15": {
+   "file_bytes": 2160980096,
+   "expected_bytes": 2160980096,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    196,
+    768
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    196,
+    768
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    512
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.7704272270202637,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.0078125,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 0.5,
+   "globals_cosine_min_recompute": 0.9999999403953552,
+   "verified": true
+  },
+  "B16/jpeg_30": {
+   "file_bytes": 2160980096,
+   "expected_bytes": 2160980096,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    196,
+    768
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    196,
+    768
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    512
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.760937511920929,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.00390625,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 0.25,
+   "globals_cosine_min_recompute": 0.9999999403953552,
+   "verified": true
+  },
+  "B16/jpeg_50": {
+   "file_bytes": 2160980096,
+   "expected_bytes": 2160980096,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    196,
+    768
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    196,
+    768
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    512
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.7547339200973511,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.0078125,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 0.5,
+   "globals_cosine_min_recompute": 0.9999998807907104,
+   "verified": true
+  },
+  "B16/lowlight_0p3": {
+   "file_bytes": 2160980096,
+   "expected_bytes": 2160980096,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    196,
+    768
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    196,
+    768
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    512
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.7453170418739319,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.00390625,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 0.25,
+   "globals_cosine_min_recompute": 0.9999998807907104,
+   "verified": true
+  },
+  "B16/lowlight_0p5": {
+   "file_bytes": 2160980096,
+   "expected_bytes": 2160980096,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    196,
+    768
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    196,
+    768
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    512
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.7476421594619751,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.001953125,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 0.12,
+   "globals_cosine_min_recompute": 0.9999999403953552,
+   "verified": true
+  },
+  "B16/lowlight_0p7": {
+   "file_bytes": 2160980096,
+   "expected_bytes": 2160980096,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    196,
+    768
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    196,
+    768
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    512
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.7472968101501465,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.00390625,
+   "tokens_cosine_min_recompute": 0.9999998211860657,
+   "tokens_ulps_max": 0.25,
+   "globals_cosine_min_recompute": 0.9999999403953552,
+   "verified": true
+  },
+  "B16/noise_10": {
+   "file_bytes": 2160980096,
+   "expected_bytes": 2160980096,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    196,
+    768
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    196,
+    768
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    512
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.7574558854103088,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.0078125,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 0.5,
+   "globals_cosine_min_recompute": 0.9999998807907104,
+   "verified": true
+  },
+  "B16/noise_25": {
+   "file_bytes": 2160980096,
+   "expected_bytes": 2160980096,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    196,
+    768
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    196,
+    768
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    512
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.7668346762657166,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.00390625,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 0.25,
+   "globals_cosine_min_recompute": 0.9999998807907104,
+   "verified": true
+  },
+  "B16/noise_40": {
+   "file_bytes": 2160980096,
+   "expected_bytes": 2160980096,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    196,
+    768
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    196,
+    768
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    512
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.772046685218811,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.00390625,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 0.25,
+   "globals_cosine_min_recompute": 1.0,
+   "verified": true
+  },
+  "L14/blur_0p8": {
+   "file_bytes": 3763339392,
+   "expected_bytes": 3763339392,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    768
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.9476815462112427,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.0078125,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 0.5,
+   "globals_cosine_min_recompute": 0.9999999403953552,
+   "verified": true
+  },
+  "L14/blur_1p5": {
+   "file_bytes": 3763339392,
+   "expected_bytes": 3763339392,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    768
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.9430904388427734,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.015625,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 1.0,
+   "globals_cosine_min_recompute": 0.9999999403953552,
+   "verified": true
+  },
+  "L14/blur_2p5": {
+   "file_bytes": 3763339392,
+   "expected_bytes": 3763339392,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    768
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.9465450644493103,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.0234375,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 1.5,
+   "globals_cosine_min_recompute": 0.9999998807907104,
+   "verified": true
+  },
+  "L14/jpeg_15": {
+   "file_bytes": 3763339392,
+   "expected_bytes": 3763339392,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    768
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.9490095973014832,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.0078125,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 0.5,
+   "globals_cosine_min_recompute": 0.9999999403953552,
+   "verified": true
+  },
+  "L14/jpeg_30": {
+   "file_bytes": 3763339392,
+   "expected_bytes": 3763339392,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    768
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.9485327005386353,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.0078125,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 0.5,
+   "globals_cosine_min_recompute": 0.9999999403953552,
+   "verified": true
+  },
+  "L14/jpeg_50": {
+   "file_bytes": 3763339392,
+   "expected_bytes": 3763339392,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    768
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.9499322175979614,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.0078125,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 0.5,
+   "globals_cosine_min_recompute": 0.9999998807907104,
+   "verified": true
+  },
+  "L14/lowlight_0p3": {
+   "file_bytes": 3763339392,
+   "expected_bytes": 3763339392,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    768
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.9507609009742737,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.0078125,
+   "tokens_cosine_min_recompute": 1.0,
+   "tokens_ulps_max": 0.5,
+   "globals_cosine_min_recompute": 0.9999998807907104,
+   "verified": true
+  },
+  "L14/lowlight_0p5": {
+   "file_bytes": 3763339392,
+   "expected_bytes": 3763339392,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    768
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.9508417248725891,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.0078125,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 0.5,
+   "globals_cosine_min_recompute": 0.9999999403953552,
+   "verified": true
+  },
+  "L14/lowlight_0p7": {
+   "file_bytes": 3763339392,
+   "expected_bytes": 3763339392,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    768
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.951516330242157,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.015625,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 1.0,
+   "globals_cosine_min_recompute": 0.9999999403953552,
+   "verified": true
+  },
+  "L14/noise_10": {
+   "file_bytes": 3763339392,
+   "expected_bytes": 3763339392,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    768
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.94680255651474,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.015625,
+   "tokens_cosine_min_recompute": 0.9999999403953552,
+   "tokens_ulps_max": 1.0,
+   "globals_cosine_min_recompute": 0.9999999403953552,
+   "verified": true
+  },
+  "L14/noise_25": {
+   "file_bytes": 3763339392,
+   "expected_bytes": 3763339392,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    768
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.9458454847335815,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.0078125,
+   "tokens_cosine_min_recompute": 0.9999998807907104,
+   "tokens_ulps_max": 0.5,
+   "globals_cosine_min_recompute": 0.9999999403953552,
+   "verified": true
+  },
+  "L14/noise_40": {
+   "file_bytes": 3763339392,
+   "expected_bytes": 3763339392,
+   "size_complete": true,
+   "header_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "header_dtype": "<f2",
+   "memmap_shape": [
+    7178,
+    256,
+    1024
+   ],
+   "memmap_dtype": "float16",
+   "meta_labels_len": 7178,
+   "meta_ids_len": 7178,
+   "meta_labels_equal_manifest": true,
+   "meta_labels_equal_clean_test": true,
+   "meta_ids_equal_manifest": true,
+   "meta_ids_unique": true,
+   "feat_views_shape": [
+    7178,
+    2,
+    768
+   ],
+   "feat_unit_norm": true,
+   "feat_labels_equal_manifest": true,
+   "feat_ids_equal_manifest": true,
+   "tokens_finite_sampled": true,
+   "tokens_std_sampled": 0.9452053308486938,
+   "tokens_bitwise_equal_recompute": false,
+   "tokens_max_abs_diff_recompute": 0.0078125,
+   "tokens_cosine_min_recompute": 0.9999998807907104,
+   "tokens_ulps_max": 0.5,
+   "globals_cosine_min_recompute": 1.0,
+   "verified": true
+  }
+ },
+ "started": "2026-10-06T23:15:17",
+ "n_verified": 24,
+ "n_total": 24,
+ "all_verified": true,
+ "finished": "2026-10-06T23:15:31"
+}
