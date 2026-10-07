@@ -1,0 +1,2302 @@
+{
+  "alignment_check": {
+    "all_mean_match_4dp": true,
+    "all_sd_match_4dp": true,
+    "entries": [
+      {
+        "aggregate": "TAP_minus_CA",
+        "axis_key": "setA",
+        "axis_label": "Set A (50 crossed class-prior cells)",
+        "encoder": "B16",
+        "mean_matches_4dp": true,
+        "n": 10,
+        "recomputed_mean": -0.032823547198384054,
+        "recomputed_mean_4dp": -0.0328,
+        "recomputed_sd_4dp": 0.0381,
+        "recomputed_sd_ddof0": 0.03616136881826077,
+        "recomputed_sd_ddof1": 0.03811742959169849,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "B16.TAP_minus_CA.{mean,sd}",
+        "source_file": "phase8_setA_trainvar.json",
+        "stored_mean": -0.032823547198384054,
+        "stored_mean_4dp": -0.0328,
+        "stored_sd": 0.03811742959169849,
+        "stored_sd_4dp": 0.0381
+      },
+      {
+        "aggregate": "TAP_minus_GH",
+        "axis_key": "setA",
+        "axis_label": "Set A (50 crossed class-prior cells)",
+        "encoder": "B16",
+        "mean_matches_4dp": true,
+        "n": 10,
+        "recomputed_mean": -0.03234890914890538,
+        "recomputed_mean_4dp": -0.0323,
+        "recomputed_sd_4dp": 0.0439,
+        "recomputed_sd_ddof0": 0.041676534954281114,
+        "recomputed_sd_ddof1": 0.04393092514638325,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "B16.TAP_minus_GH.{mean,sd}",
+        "source_file": "phase8_setA_trainvar.json",
+        "stored_mean": -0.03234890914890538,
+        "stored_mean_4dp": -0.0323,
+        "stored_sd": 0.04393092514638325,
+        "stored_sd_4dp": 0.0439
+      },
+      {
+        "aggregate": "TAP_minus_CA",
+        "axis_key": "setA",
+        "axis_label": "Set A (50 crossed class-prior cells)",
+        "encoder": "L14",
+        "mean_matches_4dp": true,
+        "n": 5,
+        "recomputed_mean": -0.0013616675390636824,
+        "recomputed_mean_4dp": -0.0014,
+        "recomputed_sd_4dp": 0.0188,
+        "recomputed_sd_ddof0": 0.016792655373896723,
+        "recomputed_sd_ddof1": 0.01877475946938011,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "L14.TAP_minus_CA.{mean,sd}",
+        "source_file": "phase8_setA_trainvar.json",
+        "stored_mean": -0.0013616675390636824,
+        "stored_mean_4dp": -0.0014,
+        "stored_sd": 0.01877475946938011,
+        "stored_sd_4dp": 0.0188
+      },
+      {
+        "aggregate": "TAP_minus_GH",
+        "axis_key": "setA",
+        "axis_label": "Set A (50 crossed class-prior cells)",
+        "encoder": "L14",
+        "mean_matches_4dp": true,
+        "n": 5,
+        "recomputed_mean": 0.025219516312544023,
+        "recomputed_mean_4dp": 0.0252,
+        "recomputed_sd_4dp": 0.0223,
+        "recomputed_sd_ddof0": 0.01991725514486943,
+        "recomputed_sd_ddof1": 0.022268168214567733,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "L14.TAP_minus_GH.{mean,sd}",
+        "source_file": "phase8_setA_trainvar.json",
+        "stored_mean": 0.025219516312544023,
+        "stored_mean_4dp": 0.0252,
+        "stored_sd": 0.022268168214567733,
+        "stored_sd_4dp": 0.0223
+      },
+      {
+        "aggregate": "TAP_minus_CA",
+        "axis_key": "setB",
+        "axis_label": "Set B (second source, 3 targets)",
+        "encoder": "B16",
+        "mean_matches_4dp": true,
+        "n": 10,
+        "recomputed_mean": -0.007731777566097553,
+        "recomputed_mean_4dp": -0.0077,
+        "recomputed_sd_4dp": 0.0362,
+        "recomputed_sd_ddof0": 0.03438208494055987,
+        "recomputed_sd_ddof1": 0.03624189970584805,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "B16.TAP_minus_CA.{mean,sd}",
+        "source_file": "phase8_setB_trainvar.json",
+        "stored_mean": -0.007731777566097553,
+        "stored_mean_4dp": -0.0077,
+        "stored_sd": 0.03624189970584805,
+        "stored_sd_4dp": 0.0362
+      },
+      {
+        "aggregate": "TAP_minus_GH",
+        "axis_key": "setB",
+        "axis_label": "Set B (second source, 3 targets)",
+        "encoder": "B16",
+        "mean_matches_4dp": true,
+        "n": 10,
+        "recomputed_mean": -0.007425455512457246,
+        "recomputed_mean_4dp": -0.0074,
+        "recomputed_sd_4dp": 0.0382,
+        "recomputed_sd_ddof0": 0.036248629559852974,
+        "recomputed_sd_ddof1": 0.03820941048961407,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "B16.TAP_minus_GH.{mean,sd}",
+        "source_file": "phase8_setB_trainvar.json",
+        "stored_mean": -0.007425455512457246,
+        "stored_mean_4dp": -0.0074,
+        "stored_sd": 0.03820941048961407,
+        "stored_sd_4dp": 0.0382
+      },
+      {
+        "aggregate": "TAP_minus_CA",
+        "axis_key": "setB",
+        "axis_label": "Set B (second source, 3 targets)",
+        "encoder": "L14",
+        "mean_matches_4dp": true,
+        "n": 5,
+        "recomputed_mean": 0.003392926493471937,
+        "recomputed_mean_4dp": 0.0034,
+        "recomputed_sd_4dp": 0.0085,
+        "recomputed_sd_ddof0": 0.0075811691413496035,
+        "recomputed_sd_ddof1": 0.008476004774490713,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "L14.TAP_minus_CA.{mean,sd}",
+        "source_file": "phase8_setB_trainvar.json",
+        "stored_mean": 0.003392926493471937,
+        "stored_mean_4dp": 0.0034,
+        "stored_sd": 0.008476004774490713,
+        "stored_sd_4dp": 0.0085
+      },
+      {
+        "aggregate": "TAP_minus_GH",
+        "axis_key": "setB",
+        "axis_label": "Set B (second source, 3 targets)",
+        "encoder": "L14",
+        "mean_matches_4dp": true,
+        "n": 5,
+        "recomputed_mean": 0.025804594519700696,
+        "recomputed_mean_4dp": 0.0258,
+        "recomputed_sd_4dp": 0.0076,
+        "recomputed_sd_ddof0": 0.006806733846224481,
+        "recomputed_sd_ddof1": 0.00761015979245327,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "L14.TAP_minus_GH.{mean,sd}",
+        "source_file": "phase8_setB_trainvar.json",
+        "stored_mean": 0.025804594519700696,
+        "stored_mean_4dp": 0.0258,
+        "stored_sd": 0.00761015979245327,
+        "stored_sd_4dp": 0.0076
+      },
+      {
+        "aggregate": "TAP_minus_CA",
+        "axis_key": "corruption",
+        "axis_label": "Corruption axis (12 pre-specified conditions)",
+        "encoder": "B16",
+        "mean_matches_4dp": true,
+        "n": 10,
+        "recomputed_mean": -0.0003548843457284734,
+        "recomputed_mean_4dp": -0.0004,
+        "recomputed_sd_4dp": 0.0145,
+        "recomputed_sd_ddof0": 0.013754359366802842,
+        "recomputed_sd_ddof1": 0.014498367785189443,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "B16.TAP_minus_CA.{mean,sd}",
+        "source_file": "phase8_corruption_trainvar.json",
+        "stored_mean": -0.0003548843457284734,
+        "stored_mean_4dp": -0.0004,
+        "stored_sd": 0.014498367785189443,
+        "stored_sd_4dp": 0.0145
+      },
+      {
+        "aggregate": "TAP_minus_GH",
+        "axis_key": "corruption",
+        "axis_label": "Corruption axis (12 pre-specified conditions)",
+        "encoder": "B16",
+        "mean_matches_4dp": true,
+        "n": 10,
+        "recomputed_mean": 0.0010584522536484565,
+        "recomputed_mean_4dp": 0.0011,
+        "recomputed_sd_4dp": 0.0174,
+        "recomputed_sd_ddof0": 0.016480648552410035,
+        "recomputed_sd_ddof1": 0.017372128914124197,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "B16.TAP_minus_GH.{mean,sd}",
+        "source_file": "phase8_corruption_trainvar.json",
+        "stored_mean": 0.0010584522536484565,
+        "stored_mean_4dp": 0.0011,
+        "stored_sd": 0.017372128914124197,
+        "stored_sd_4dp": 0.0174
+      },
+      {
+        "aggregate": "TAP_minus_CA",
+        "axis_key": "corruption",
+        "axis_label": "Corruption axis (12 pre-specified conditions)",
+        "encoder": "L14",
+        "mean_matches_4dp": true,
+        "n": 5,
+        "recomputed_mean": 0.036975345212811685,
+        "recomputed_mean_4dp": 0.037,
+        "recomputed_sd_4dp": 0.0098,
+        "recomputed_sd_ddof0": 0.008760129757725926,
+        "recomputed_sd_ddof1": 0.009794122814996965,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "L14.TAP_minus_CA.{mean,sd}",
+        "source_file": "phase8_corruption_trainvar.json",
+        "stored_mean": 0.036975345212811685,
+        "stored_mean_4dp": 0.037,
+        "stored_sd": 0.009794122814996965,
+        "stored_sd_4dp": 0.0098
+      },
+      {
+        "aggregate": "TAP_minus_GH",
+        "axis_key": "corruption",
+        "axis_label": "Corruption axis (12 pre-specified conditions)",
+        "encoder": "L14",
+        "mean_matches_4dp": true,
+        "n": 5,
+        "recomputed_mean": 0.034328128286038505,
+        "recomputed_mean_4dp": 0.0343,
+        "recomputed_sd_4dp": 0.0081,
+        "recomputed_sd_ddof0": 0.007274428719640769,
+        "recomputed_sd_ddof1": 0.00813305855729676,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "L14.TAP_minus_GH.{mean,sd}",
+        "source_file": "phase8_corruption_trainvar.json",
+        "stored_mean": 0.034328128286038505,
+        "stored_mean_4dp": 0.0343,
+        "stored_sd": 0.00813305855729676,
+        "stored_sd_4dp": 0.0081
+      },
+      {
+        "aggregate": "TAP_minus_CLIPAdapter",
+        "axis_key": "source_probeval",
+        "axis_label": "Source probe-validation (source-domain diagnostic)",
+        "encoder": "B16",
+        "mean_matches_4dp": true,
+        "n": 10,
+        "recomputed_mean": -0.009393929459128248,
+        "recomputed_mean_4dp": -0.0094,
+        "recomputed_sd_4dp": 0.0214,
+        "recomputed_sd_ddof0": 0.020316225362613672,
+        "recomputed_sd_ddof1": 0.02141518186771315,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "B16.TAP_minus_CLIPAdapter.{mean,sd}",
+        "source_file": "phase8_trainvar.json",
+        "stored_mean": -0.009393929459128248,
+        "stored_mean_4dp": -0.0094,
+        "stored_sd": 0.02141518186771315,
+        "stored_sd_4dp": 0.0214
+      },
+      {
+        "aggregate": "TAP_minus_GHead",
+        "axis_key": "source_probeval",
+        "axis_label": "Source probe-validation (source-domain diagnostic)",
+        "encoder": "B16",
+        "mean_matches_4dp": true,
+        "n": 10,
+        "recomputed_mean": -0.0017965061164435525,
+        "recomputed_mean_4dp": -0.0018,
+        "recomputed_sd_4dp": 0.0259,
+        "recomputed_sd_ddof0": 0.024549145998063602,
+        "recomputed_sd_ddof1": 0.0258770719886295,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "B16.TAP_minus_GHead.{mean,sd}",
+        "source_file": "phase8_trainvar.json",
+        "stored_mean": -0.0017965061164435525,
+        "stored_mean_4dp": -0.0018,
+        "stored_sd": 0.0258770719886295,
+        "stored_sd_4dp": 0.0259
+      },
+      {
+        "aggregate": "TAP_minus_CLIPAdapter",
+        "axis_key": "source_probeval",
+        "axis_label": "Source probe-validation (source-domain diagnostic)",
+        "encoder": "L14",
+        "mean_matches_4dp": true,
+        "n": 5,
+        "recomputed_mean": 0.0032286172171826165,
+        "recomputed_mean_4dp": 0.0032,
+        "recomputed_sd_4dp": 0.0049,
+        "recomputed_sd_ddof0": 0.004376926260875618,
+        "recomputed_sd_ddof1": 0.00489355232591093,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "L14.TAP_minus_CLIPAdapter.{mean,sd}",
+        "source_file": "phase8_trainvar.json",
+        "stored_mean": 0.0032286172171826165,
+        "stored_mean_4dp": 0.0032,
+        "stored_sd": 0.00489355232591093,
+        "stored_sd_4dp": 0.0049
+      },
+      {
+        "aggregate": "TAP_minus_GHead",
+        "axis_key": "source_probeval",
+        "axis_label": "Source probe-validation (source-domain diagnostic)",
+        "encoder": "L14",
+        "mean_matches_4dp": true,
+        "n": 5,
+        "recomputed_mean": 0.014754193262244674,
+        "recomputed_mean_4dp": 0.0148,
+        "recomputed_sd_4dp": 0.011,
+        "recomputed_sd_ddof0": 0.009873992459980179,
+        "recomputed_sd_ddof1": 0.011039459174918026,
+        "sd_convention": "stored sd is the sample SD (ddof=1)",
+        "sd_matches_4dp_ddof1": true,
+        "source_field": "L14.TAP_minus_GHead.{mean,sd}",
+        "source_file": "phase8_trainvar.json",
+        "stored_mean": 0.014754193262244674,
+        "stored_mean_4dp": 0.0148,
+        "stored_sd": 0.011039459174918026,
+        "stored_sd_4dp": 0.011
+      }
+    ],
+    "mismatches": [],
+    "n_entries": 16,
+    "requirement": "stored mean/sd must equal the recomputed per-seed mean/sd at 4 decimals"
+  },
+  "core_comparisons": [
+    {
+      "axis": "Set A (50 crossed class-prior cells)",
+      "axis_key": "setA",
+      "comparator": "CLIP-Adapter",
+      "comparison_id": "setA_B16",
+      "condition_bootstrap": {
+        "B": 2000,
+        "available": true,
+        "ci_high": -0.02782503223010324,
+        "ci_low": -0.03817270874934804,
+        "covers": "resampling of the cells within each training seed, paired across arms; the training seeds are held fixed",
+        "method": "within_seed_paired_unit_percentile_bootstrap",
+        "n_seeds": 10,
+        "n_units_per_seed": 50,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)",
+        "unit_file": "phase8_setA_percell.json",
+        "unit_kind": "cells",
+        "unit_layout": "<encoder>.<seed>.{TAP, CA, GH} = list of per-cell UAR"
+      },
+      "contrast": "TAP - CLIP-Adapter",
+      "encoder": "B16",
+      "mean": -0.032823547198384054,
+      "mean_points": -3.2823547198384055,
+      "n_negative": 8,
+      "n_positive": 2,
+      "n_seeds": 10,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        0.0028921279047005033,
+        -0.079625434165703,
+        -0.06586744783071641,
+        -0.014730761154303718,
+        0.04853738975742927,
+        -0.05938473357764407,
+        -0.060082717071103686,
+        -0.035620607409091565,
+        -0.02461522697748042,
+        -0.03973806145992742
+      ],
+      "per_seed_diffs_points": [
+        0.28921279047005033,
+        -7.9625434165703,
+        -6.586744783071641,
+        -1.4730761154303718,
+        4.853738975742927,
+        -5.938473357764407,
+        -6.008271707110369,
+        -3.5620607409091565,
+        -2.461522697748042,
+        -3.973806145992742
+      ],
+      "sd_ddof1": 0.03811742959169849,
+      "sd_points": 3.811742959169849,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": -0.00881644951897618,
+        "ci_low": -0.053316510413312194,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 10,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "seeds_positive": [
+        5,
+        9
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 8,
+        "n_positive": 2,
+        "n_used": 10,
+        "n_zero_dropped": 0,
+        "p": 0.109375,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_fields": {
+        "per_seed_arm_means": "B16.rows[*].TAP_mean, rows[*].CA_mean, rows[*].GH_mean",
+        "per_seed_difference": "B16.rows[*].TAP_minus_CA",
+        "seeds": "B16.rows[*].train_seed",
+        "stored_aggregate_cross_checked": "B16.TAP_minus_CA.{mean,sd}"
+      },
+      "source_file": "phase8_setA_trainvar.json",
+      "t_interval": {
+        "ci_high": -0.005555980702111964,
+        "ci_low": -0.06009111369465614,
+        "df": 9,
+        "mean": -0.032823547198384054,
+        "n": 10,
+        "sd_ddof1": 0.03811742959169849,
+        "se": 0.012053789606086924,
+        "t_crit": 2.262157162798205
+      },
+      "unit_source_file": "phase8_setA_percell.json"
+    },
+    {
+      "axis": "Set A (50 crossed class-prior cells)",
+      "axis_key": "setA",
+      "comparator": "CLIP-Adapter",
+      "comparison_id": "setA_L14",
+      "condition_bootstrap": {
+        "B": 2000,
+        "available": true,
+        "ci_high": 0.0016433962671148171,
+        "ci_low": -0.004446944016805568,
+        "covers": "resampling of the cells within each training seed, paired across arms; the training seeds are held fixed",
+        "method": "within_seed_paired_unit_percentile_bootstrap",
+        "n_seeds": 5,
+        "n_units_per_seed": 50,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)",
+        "unit_file": "phase8_setA_percell.json",
+        "unit_kind": "cells",
+        "unit_layout": "<encoder>.<seed>.{TAP, CA, GH} = list of per-cell UAR"
+      },
+      "contrast": "TAP - CLIP-Adapter",
+      "encoder": "L14",
+      "mean": -0.0013616675390636824,
+      "mean_points": -0.13616675390636823,
+      "n_negative": 4,
+      "n_positive": 1,
+      "n_seeds": 5,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        -0.0075104645495347455,
+        -0.015008944403180458,
+        -0.004907988402114261,
+        -0.010914282437870959,
+        0.03153334209738201
+      ],
+      "per_seed_diffs_points": [
+        -0.7510464549534746,
+        -1.5008944403180458,
+        -0.49079884021142606,
+        -1.091428243787096,
+        3.153334209738201
+      ],
+      "sd_ddof1": 0.01877475946938011,
+      "sd_points": 1.877475946938011,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": 0.015235055860948065,
+        "ci_low": -0.012009552461722172,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 5,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "seeds_positive": [
+        9
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 4,
+        "n_positive": 1,
+        "n_used": 5,
+        "n_zero_dropped": 0,
+        "p": 0.375,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_fields": {
+        "per_seed_arm_means": "L14.rows[*].TAP_mean, rows[*].CA_mean, rows[*].GH_mean",
+        "per_seed_difference": "L14.rows[*].TAP_minus_CA",
+        "seeds": "L14.rows[*].train_seed",
+        "stored_aggregate_cross_checked": "L14.TAP_minus_CA.{mean,sd}"
+      },
+      "source_file": "phase8_setA_trainvar.json",
+      "t_interval": {
+        "ci_high": 0.021950275369000804,
+        "ci_low": -0.02467361044712817,
+        "df": 4,
+        "mean": -0.0013616675390636824,
+        "n": 5,
+        "sd_ddof1": 0.01877475946938011,
+        "se": 0.008396327686948361,
+        "t_crit": 2.7764451051977934
+      },
+      "unit_source_file": "phase8_setA_percell.json"
+    },
+    {
+      "axis": "Set B (second source, 3 targets)",
+      "axis_key": "setB",
+      "comparator": "CLIP-Adapter",
+      "comparison_id": "setB_B16",
+      "condition_bootstrap": {
+        "available": false,
+        "reason": "the stored second-source file holds only three per-target aggregate UAR values per seed (phase8_setB_pertarget.json[<encoder>][*].seed<k>), not per-cell values; the 15 crossed cells are not stored, so the cell-level within-seed paired bootstrap cannot be computed",
+        "target_level_fallback_not_interpretable": {
+          "B": 2000,
+          "ci_high": 0.00663711037916538,
+          "ci_low": -0.022903303842965395,
+          "interpretable": false,
+          "method": "within_seed_paired_unit_percentile_bootstrap",
+          "n_seeds": 10,
+          "n_units_per_seed": 3,
+          "note": "only three per-target aggregate values per seed; a three-unit resample is degenerate and is recorded for completeness only, not as a usable interval",
+          "percentiles": [
+            2.5,
+            97.5
+          ],
+          "rng": "numpy.random.default_rng(0)"
+        },
+        "unit_file": "phase8_setB_pertarget.json",
+        "unit_kind": "targets"
+      },
+      "contrast": "TAP - CLIP-Adapter",
+      "encoder": "B16",
+      "mean": -0.007731777566097553,
+      "mean_points": -0.7731777566097553,
+      "n_negative": 7,
+      "n_positive": 3,
+      "n_seeds": 10,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        0.04581764497344443,
+        -0.05384042591858018,
+        -0.032078794453447634,
+        -0.0020976569699444614,
+        0.05775308622746289,
+        -0.03170036054356218,
+        -0.03688599882122601,
+        -0.025327928651916243,
+        0.005245096016713524,
+        -0.004202437519919666
+      ],
+      "per_seed_diffs_points": [
+        4.581764497344443,
+        -5.384042591858018,
+        -3.2078794453447634,
+        -0.20976569699444614,
+        5.775308622746289,
+        -3.170036054356218,
+        -3.6885998821226007,
+        -2.5327928651916243,
+        0.5245096016713524,
+        -0.4202437519919666
+      ],
+      "sd_ddof1": 0.03624189970584805,
+      "sd_points": 3.624189970584805,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": 0.014600025265510195,
+        "ci_low": -0.027465224487267854,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 10,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "seeds_positive": [
+        5,
+        9,
+        13
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 7,
+        "n_positive": 3,
+        "n_used": 10,
+        "n_zero_dropped": 0,
+        "p": 0.34375,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_fields": {
+        "per_seed_arm_means": "B16.rows[*].TAP_mean, rows[*].CA_mean, rows[*].GH_mean",
+        "per_seed_difference": "B16.rows[*].TAP_minus_CA",
+        "seeds": "B16.rows[*].train_seed",
+        "stored_aggregate_cross_checked": "B16.TAP_minus_CA.{mean,sd}"
+      },
+      "source_file": "phase8_setB_trainvar.json",
+      "t_interval": {
+        "ci_high": 0.018194115673977048,
+        "ci_low": -0.03365767080617216,
+        "df": 9,
+        "mean": -0.007731777566097553,
+        "n": 10,
+        "sd_ddof1": 0.03624189970584805,
+        "se": 0.011460694980186623,
+        "t_crit": 2.262157162798205
+      },
+      "unit_source_file": "phase8_setB_pertarget.json"
+    },
+    {
+      "axis": "Set B (second source, 3 targets)",
+      "axis_key": "setB",
+      "comparator": "CLIP-Adapter",
+      "comparison_id": "setB_L14",
+      "condition_bootstrap": {
+        "available": false,
+        "reason": "the stored second-source file holds only three per-target aggregate UAR values per seed (phase8_setB_pertarget.json[<encoder>][*].seed<k>), not per-cell values; the 15 crossed cells are not stored, so the cell-level within-seed paired bootstrap cannot be computed",
+        "target_level_fallback_not_interpretable": {
+          "B": 2000,
+          "ci_high": 0.0160524463229286,
+          "ci_low": -0.0077228043658431715,
+          "interpretable": false,
+          "method": "within_seed_paired_unit_percentile_bootstrap",
+          "n_seeds": 5,
+          "n_units_per_seed": 3,
+          "note": "only three per-target aggregate values per seed; a three-unit resample is degenerate and is recorded for completeness only, not as a usable interval",
+          "percentiles": [
+            2.5,
+            97.5
+          ],
+          "rng": "numpy.random.default_rng(0)"
+        },
+        "unit_file": "phase8_setB_pertarget.json",
+        "unit_kind": "targets"
+      },
+      "contrast": "TAP - CLIP-Adapter",
+      "encoder": "L14",
+      "mean": 0.003392926493471937,
+      "mean_points": 0.3392926493471937,
+      "n_negative": 1,
+      "n_positive": 4,
+      "n_seeds": 5,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        0.0072741366812150154,
+        -0.009743393243851872,
+        0.0036581982230003973,
+        0.0024442722258781746,
+        0.01333141858111797
+      ],
+      "per_seed_diffs_points": [
+        0.7274136681215015,
+        -0.9743393243851872,
+        0.36581982230003973,
+        0.24442722258781746,
+        1.333141858111797
+      ],
+      "sd_ddof1": 0.008476004774490713,
+      "sd_points": 0.8476004774490713,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": 0.009462130437870942,
+        "ci_low": -0.0036595689654680408,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 5,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "seeds_positive": [
+        5,
+        7,
+        8,
+        9
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 1,
+        "n_positive": 4,
+        "n_used": 5,
+        "n_zero_dropped": 0,
+        "p": 0.375,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_fields": {
+        "per_seed_arm_means": "L14.rows[*].TAP_mean, rows[*].CA_mean, rows[*].GH_mean",
+        "per_seed_difference": "L14.rows[*].TAP_minus_CA",
+        "seeds": "L14.rows[*].train_seed",
+        "stored_aggregate_cross_checked": "L14.TAP_minus_CA.{mean,sd}"
+      },
+      "source_file": "phase8_setB_trainvar.json",
+      "t_interval": {
+        "ci_high": 0.01391727647056027,
+        "ci_low": -0.007131423483616396,
+        "df": 4,
+        "mean": 0.003392926493471937,
+        "n": 5,
+        "sd_ddof1": 0.008476004774490713,
+        "se": 0.0037905845706748017,
+        "t_crit": 2.7764451051977934
+      },
+      "unit_source_file": "phase8_setB_pertarget.json"
+    },
+    {
+      "axis": "Corruption axis (12 pre-specified conditions)",
+      "axis_key": "corruption",
+      "comparator": "CLIP-Adapter",
+      "comparison_id": "corruption_B16",
+      "condition_bootstrap": {
+        "B": 2000,
+        "available": true,
+        "ci_high": 0.004524062652011148,
+        "ci_low": -0.005267209304569084,
+        "covers": "resampling of the conditions within each training seed, paired across arms; the training seeds are held fixed",
+        "method": "within_seed_paired_unit_percentile_bootstrap",
+        "n_seeds": 10,
+        "n_units_per_seed": 12,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)",
+        "unit_file": "phase8_corruption_percond.json",
+        "unit_kind": "conditions",
+        "unit_layout": "<encoder> = list of 12 condition records, each with condition, n, seed<k>.{TAP, CA, GH}"
+      },
+      "contrast": "TAP - CLIP-Adapter",
+      "encoder": "B16",
+      "mean": -0.0003548843457284734,
+      "mean_points": -0.03548843457284734,
+      "n_negative": 6,
+      "n_positive": 4,
+      "n_seeds": 10,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        0.02668404028460608,
+        -0.01132873313766708,
+        -0.009839746390071125,
+        -0.013923355312683017,
+        0.019821145503333693,
+        0.009395976202956624,
+        -0.012874548646569284,
+        -0.009729143594124301,
+        0.002197927424297752,
+        -0.0039524057913640775
+      ],
+      "per_seed_diffs_points": [
+        2.668404028460608,
+        -1.132873313766708,
+        -0.9839746390071125,
+        -1.3923355312683017,
+        1.9821145503333693,
+        0.9395976202956624,
+        -1.2874548646569284,
+        -0.9729143594124301,
+        0.2197927424297752,
+        -0.39524057913640775
+      ],
+      "sd_ddof1": 0.014498367785189443,
+      "sd_points": 1.4498367785189443,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": 0.008755346689583096,
+        "ci_low": -0.008308278753577307,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 10,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "seeds_positive": [
+        5,
+        9,
+        10,
+        13
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 6,
+        "n_positive": 4,
+        "n_used": 10,
+        "n_zero_dropped": 0,
+        "p": 0.75390625,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_fields": {
+        "per_seed_arm_means": "B16.rows[*].TAP_mean, rows[*].CA_mean, rows[*].GH_mean",
+        "per_seed_difference": "B16.rows[*].TAP_minus_CA",
+        "seeds": "B16.rows[*].train_seed",
+        "stored_aggregate_cross_checked": "B16.TAP_minus_CA.{mean,sd}"
+      },
+      "source_file": "phase8_corruption_trainvar.json",
+      "t_interval": {
+        "ci_high": 0.010016623174709405,
+        "ci_low": -0.010726391866166352,
+        "df": 9,
+        "mean": -0.0003548843457284734,
+        "n": 10,
+        "sd_ddof1": 0.014498367785189443,
+        "se": 0.004584786455600948,
+        "t_crit": 2.262157162798205
+      },
+      "unit_source_file": "phase8_corruption_percond.json"
+    },
+    {
+      "axis": "Corruption axis (12 pre-specified conditions)",
+      "axis_key": "corruption",
+      "comparator": "CLIP-Adapter",
+      "comparison_id": "corruption_L14",
+      "condition_bootstrap": {
+        "B": 2000,
+        "available": true,
+        "ci_high": 0.04599220139828786,
+        "ci_low": 0.02748174105631234,
+        "covers": "resampling of the conditions within each training seed, paired across arms; the training seeds are held fixed",
+        "method": "within_seed_paired_unit_percentile_bootstrap",
+        "n_seeds": 5,
+        "n_units_per_seed": 12,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)",
+        "unit_file": "phase8_corruption_percond.json",
+        "unit_kind": "conditions",
+        "unit_layout": "<encoder> = list of 12 condition records, each with condition, n, seed<k>.{TAP, CA, GH}"
+      },
+      "contrast": "TAP - CLIP-Adapter",
+      "encoder": "L14",
+      "mean": 0.036975345212811685,
+      "mean_points": 3.6975345212811686,
+      "n_negative": 0,
+      "n_positive": 5,
+      "n_seeds": 5,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        0.03691818322678442,
+        0.030257148209924423,
+        0.024679584782960173,
+        0.04817259170194693,
+        0.04484921814244247
+      ],
+      "per_seed_diffs_points": [
+        3.691818322678442,
+        3.0257148209924423,
+        2.4679584782960173,
+        4.817259170194693,
+        4.484921814244247
+      ],
+      "sd_ddof1": 0.009794122814996965,
+      "sd_points": 0.9794122814996965,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": 0.044592360583112646,
+        "ci_low": 0.029358329842510723,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 5,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "seeds_positive": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 0,
+        "n_positive": 5,
+        "n_used": 5,
+        "n_zero_dropped": 0,
+        "p": 0.0625,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_fields": {
+        "per_seed_arm_means": "L14.rows[*].TAP_mean, rows[*].CA_mean, rows[*].GH_mean",
+        "per_seed_difference": "L14.rows[*].TAP_minus_CA",
+        "seeds": "L14.rows[*].train_seed",
+        "stored_aggregate_cross_checked": "L14.TAP_minus_CA.{mean,sd}"
+      },
+      "source_file": "phase8_corruption_trainvar.json",
+      "t_interval": {
+        "ci_high": 0.04913635490617952,
+        "ci_low": 0.02481433551944385,
+        "df": 4,
+        "mean": 0.036975345212811685,
+        "n": 5,
+        "sd_ddof1": 0.009794122814996965,
+        "se": 0.004380064878862962,
+        "t_crit": 2.7764451051977934
+      },
+      "unit_source_file": "phase8_corruption_percond.json"
+    }
+  ],
+  "diagnostic_source_probeval": [
+    {
+      "axis": "Source probe-validation (source-domain diagnostic)",
+      "comparator": "CLIP-Adapter",
+      "comparison_id": "source_probeval_B16_CA",
+      "condition_bootstrap": {
+        "available": false,
+        "reason": "single held-out source probe-validation split per seed; no per-unit file is stored",
+        "unit_kind": "none"
+      },
+      "encoder": "B16",
+      "in_core_family": false,
+      "mean": -0.009393929459128248,
+      "mean_points": -0.9393929459128249,
+      "n_negative": 6,
+      "n_positive": 4,
+      "n_seeds": 10,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        0.021594529286195985,
+        -0.04469482268442293,
+        -0.02352993509618806,
+        -0.03629147041589209,
+        0.0069389803940344,
+        0.009672474331673397,
+        -0.022258992929888644,
+        -0.004263804729825904,
+        0.002554026101885154,
+        -0.003660278848853782
+      ],
+      "per_seed_diffs_points": [
+        2.1594529286195985,
+        -4.4694822684422935,
+        -2.352993509618806,
+        -3.629147041589209,
+        0.69389803940344,
+        0.9672474331673397,
+        -2.2258992929888644,
+        -0.4263804729825904,
+        0.2554026101885154,
+        -0.3660278848853782
+      ],
+      "sd_ddof1": 0.02141518186771315,
+      "sd_points": 2.141518186771315,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": 0.00296945739920157,
+        "ci_low": -0.02236747617294338,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 10,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "seeds_positive": [
+        5,
+        9,
+        10,
+        13
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 6,
+        "n_positive": 4,
+        "n_used": 10,
+        "n_zero_dropped": 0,
+        "p": 0.75390625,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_field": "B16.rows[*].TAP_minus_CLIPAdapter",
+      "source_file": "phase8_trainvar.json",
+      "t_interval": {
+        "ci_high": 0.005925568782558111,
+        "ci_low": -0.024713427700814607,
+        "df": 9,
+        "mean": -0.009393929459128248,
+        "n": 10,
+        "sd_ddof1": 0.02141518186771315,
+        "se": 0.006772075120871224,
+        "t_crit": 2.262157162798205
+      }
+    },
+    {
+      "axis": "Source probe-validation (source-domain diagnostic)",
+      "comparator": "parameter-matched global head (GHead)",
+      "comparison_id": "source_probeval_B16_GH",
+      "condition_bootstrap": {
+        "available": false,
+        "reason": "single held-out source probe-validation split per seed; no per-unit file is stored",
+        "unit_kind": "none"
+      },
+      "encoder": "B16",
+      "in_core_family": false,
+      "mean": -0.0017965061164435525,
+      "mean_points": -0.17965061164435525,
+      "n_negative": 5,
+      "n_positive": 5,
+      "n_seeds": 10,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        0.012094643908957758,
+        -0.051911355426572214,
+        0.022291154639931143,
+        0.002705831580871898,
+        0.0139688192830828,
+        0.04065206736472027,
+        -0.01909200968994562,
+        -0.014136403537003406,
+        -0.01275902038711263,
+        -0.011778788901365522
+      ],
+      "per_seed_diffs_points": [
+        1.2094643908957758,
+        -5.191135542657221,
+        2.2291154639931143,
+        0.2705831580871898,
+        1.39688192830828,
+        4.065206736472026,
+        -1.9092009689945622,
+        -1.4136403537003406,
+        -1.275902038711263,
+        -1.1778788901365522
+      ],
+      "sd_ddof1": 0.0258770719886295,
+      "sd_points": 2.58770719886295,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": 0.01305139053351721,
+        "ci_low": -0.017509756875808035,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 10,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "seeds_positive": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 5,
+        "n_positive": 5,
+        "n_used": 10,
+        "n_zero_dropped": 0,
+        "p": 1.0,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_field": "B16.rows[*].TAP_minus_GHead",
+      "source_file": "phase8_trainvar.json",
+      "t_interval": {
+        "ci_high": 0.0167148360369226,
+        "ci_low": -0.020307848269809706,
+        "df": 9,
+        "mean": -0.0017965061164435525,
+        "n": 10,
+        "sd_ddof1": 0.0258770719886295,
+        "se": 0.0081830486660212,
+        "t_crit": 2.262157162798205
+      }
+    },
+    {
+      "axis": "Source probe-validation (source-domain diagnostic)",
+      "comparator": "CLIP-Adapter",
+      "comparison_id": "source_probeval_L14_CA",
+      "condition_bootstrap": {
+        "available": false,
+        "reason": "single held-out source probe-validation split per seed; no per-unit file is stored",
+        "unit_kind": "none"
+      },
+      "encoder": "L14",
+      "in_core_family": false,
+      "mean": 0.0032286172171826165,
+      "mean_points": 0.32286172171826166,
+      "n_negative": 2,
+      "n_positive": 3,
+      "n_seeds": 5,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        0.009407200203013999,
+        0.004993015000693268,
+        -0.002777155126100439,
+        -0.0006169420295683015,
+        0.005136968037874556
+      ],
+      "per_seed_diffs_points": [
+        0.9407200203013999,
+        0.49930150006932683,
+        -0.2777155126100439,
+        -0.061694202956830146,
+        0.5136968037874556
+      ],
+      "sd_ddof1": 0.00489355232591093,
+      "sd_points": 0.489355232591093,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": 0.006816270296494076,
+        "ci_low": -0.0007622878739990124,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 5,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "seeds_positive": [
+        5,
+        6,
+        9
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 2,
+        "n_positive": 3,
+        "n_used": 5,
+        "n_zero_dropped": 0,
+        "p": 1.0,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_field": "L14.rows[*].TAP_minus_CLIPAdapter",
+      "source_file": "phase8_trainvar.json",
+      "t_interval": {
+        "ci_high": 0.009304764963592511,
+        "ci_low": -0.002847530529227278,
+        "df": 4,
+        "mean": 0.0032286172171826165,
+        "n": 5,
+        "sd_ddof1": 0.00489355232591093,
+        "se": 0.002188463130437809,
+        "t_crit": 2.7764451051977934
+      }
+    },
+    {
+      "axis": "Source probe-validation (source-domain diagnostic)",
+      "comparator": "parameter-matched global head (GHead)",
+      "comparison_id": "source_probeval_L14_GH",
+      "condition_bootstrap": {
+        "available": false,
+        "reason": "single held-out source probe-validation split per seed; no per-unit file is stored",
+        "unit_kind": "none"
+      },
+      "encoder": "L14",
+      "in_core_family": false,
+      "mean": 0.014754193262244674,
+      "mean_points": 1.4754193262244675,
+      "n_negative": 0,
+      "n_positive": 5,
+      "n_seeds": 5,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        0.027137455173523728,
+        0.002581659484254706,
+        0.005483565136298885,
+        0.024714495069047104,
+        0.013853791448098951
+      ],
+      "per_seed_diffs_points": [
+        2.713745517352373,
+        0.2581659484254706,
+        0.5483565136298885,
+        2.4714495069047104,
+        1.385379144809895
+      ],
+      "sd_ddof1": 0.011039459174918026,
+      "sd_points": 1.1039459174918025,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": 0.02351153838664812,
+        "ci_low": 0.005996848137841226,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 5,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "seeds_positive": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 0,
+        "n_positive": 5,
+        "n_used": 5,
+        "n_zero_dropped": 0,
+        "p": 0.0625,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_field": "L14.rows[*].TAP_minus_GHead",
+      "source_file": "phase8_trainvar.json",
+      "t_interval": {
+        "ci_high": 0.028461492279380617,
+        "ci_low": 0.0010468942451087315,
+        "df": 4,
+        "mean": 0.014754193262244674,
+        "n": 5,
+        "sd_ddof1": 0.011039459174918026,
+        "se": 0.004936996229990089,
+        "t_crit": 2.7764451051977934
+      }
+    }
+  ],
+  "meta": {
+    "alpha": 0.05,
+    "bootstrap": {
+      "percentiles": [
+        2.5,
+        97.5
+      ],
+      "rng": "numpy.random.default_rng(0), fresh per bootstrap block",
+      "seed_level_B": 10000,
+      "unit_level_B": 2000
+    },
+    "comparator_of_record": "CLIP-Adapter",
+    "inputs": [
+      {
+        "file": "phase8_trainvar.json",
+        "sha256": "2f09414b3b63ffa11f1c9bc8c2ad4b1763888abb92a410966585a5730c2d62b2"
+      },
+      {
+        "file": "phase8_setA_trainvar.json",
+        "sha256": "e3db05d17310d8266cb921f78068981ab722833aa75353016590a24b74d81ab6"
+      },
+      {
+        "file": "phase8_setB_trainvar.json",
+        "sha256": "b33bef5f70cbb04db2e97b5d99132236328ae837c6ce36b75d53d6fb2af69421"
+      },
+      {
+        "file": "phase8_corruption_trainvar.json",
+        "sha256": "e4f1deadb6458de8162f56bbee7a3e487a2e4de3448941b515248625da9473de"
+      },
+      {
+        "file": "phase8_setA_percell.json",
+        "sha256": "83aaf0a1fe439be491baa4edade44c9e4a377e0d2988bb9edd40d7c4cded66f8"
+      },
+      {
+        "file": "phase8_setB_pertarget.json",
+        "sha256": "4661a8291b1c4b2427c84bef0fac7cacfbe574b78a42fb23d744a7898237fafa"
+      },
+      {
+        "file": "phase8_corruption_percond.json",
+        "sha256": "1a1962c53b8b6ecfe385ba4be6c105981921b26093cc239c779884205842bd24"
+      }
+    ],
+    "note": "all per-seed numbers are read from the stored Phase-8 JSON records; no model was retrained or re-evaluated",
+    "numpy": "2.5.2",
+    "outputs": {
+      "json": "D:/ResearchVault/07code/rb-tta-fer-fg2027/results/token_module_tailor_20261006/phase10_stats_robustness.json",
+      "report": "D:/ResearchVault/06manuscripts/rb-tta-fer-fg2027/PAPER-TVC-TAP-2026-10-06/manuscript/STATS-ROBUSTNESS.md"
+    },
+    "python": "D:/ResearchVault/99system/envs/rb-tta-fer-fg2027/Scripts/python.exe",
+    "reproduce": "D:/ResearchVault/99system/envs/rb-tta-fer-fg2027/Scripts/python.exe D:/ResearchVault/07code/rb-tta-fer-fg2027/results/token_module_tailor_20261006/phase10_stats_robustness.py",
+    "scipy": "1.18.1",
+    "script": "D:/ResearchVault/07code/rb-tta-fer-fg2027/results/token_module_tailor_20261006/phase10_stats_robustness.py",
+    "statistical_unit": "training seed"
+  },
+  "multiplicity": {
+    "alpha": 0.05,
+    "benjamini_hochberg": {
+      "adjusted_p": [
+        0.328125,
+        0.44999999999999996,
+        0.44999999999999996,
+        0.44999999999999996,
+        0.75390625,
+        0.328125
+      ],
+      "alpha": 0.05,
+      "m": 6,
+      "method": "benjamini_hochberg_step_up",
+      "n_rejected": 0,
+      "reject": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "family": [
+      "setA_B16",
+      "setA_L14",
+      "setB_B16",
+      "setB_L14",
+      "corruption_B16",
+      "corruption_L14"
+    ],
+    "family_definition": "the six core contrasts = three confirmation axes (Set A, Set B, corruption) x two encoders (ViT-B/16, ViT-L/14), comparator CLIP-Adapter",
+    "holm_bonferroni": {
+      "adjusted_p": [
+        0.546875,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.375
+      ],
+      "alpha": 0.05,
+      "m": 6,
+      "method": "holm_bonferroni_step_down",
+      "n_rejected": 0,
+      "reject": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "p_values": [
+      0.109375,
+      0.375,
+      0.34375,
+      0.375,
+      0.75390625,
+      0.0625
+    ],
+    "rejected_by_any": [],
+    "rejected_by_bh": [],
+    "rejected_by_holm": []
+  },
+  "supplementary_comparator_ghead": [
+    {
+      "axis": "Set A (50 crossed class-prior cells)",
+      "comparator": "parameter-matched global head (GHead)",
+      "comparison_id": "setA_B16",
+      "encoder": "B16",
+      "in_core_family": false,
+      "mean": -0.03234890914890538,
+      "mean_points": -3.2348909148905385,
+      "n_negative": 8,
+      "n_positive": 2,
+      "n_seeds": 10,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        0.002890281702491615,
+        -0.08576482951016628,
+        -0.0723225920079259,
+        -0.000358641836326723,
+        0.06260603122961406,
+        -0.048656002989440394,
+        -0.06098060567465735,
+        -0.04196335197600032,
+        -0.026108975422497127,
+        -0.052830405004145375
+      ],
+      "per_seed_diffs_points": [
+        0.2890281702491615,
+        -8.57648295101663,
+        -7.2322592007925905,
+        -0.0358641836326723,
+        6.260603122961406,
+        -4.86560029894404,
+        -6.098060567465735,
+        -4.196335197600032,
+        -2.6108975422497127,
+        -5.283040500414538
+      ],
+      "sd_ddof1": 0.04393092514638325,
+      "sd_points": 4.393092514638325,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": -0.004526837312174978,
+        "ci_low": -0.05579493393943868,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 10,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "seeds_positive": [
+        5,
+        9
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 8,
+        "n_positive": 2,
+        "n_used": 10,
+        "n_zero_dropped": 0,
+        "p": 0.109375,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_field": "B16.rows[*].TAP_minus_GH",
+      "source_file": "phase8_setA_trainvar.json",
+      "t_interval": {
+        "ci_high": -0.0009226184597597928,
+        "ci_low": -0.06377519983805097,
+        "df": 9,
+        "mean": -0.03234890914890538,
+        "n": 10,
+        "sd_ddof1": 0.04393092514638325,
+        "se": 0.013892178318093702,
+        "t_crit": 2.262157162798205
+      }
+    },
+    {
+      "axis": "Set A (50 crossed class-prior cells)",
+      "comparator": "parameter-matched global head (GHead)",
+      "comparison_id": "setA_L14",
+      "encoder": "L14",
+      "in_core_family": false,
+      "mean": 0.025219516312544023,
+      "mean_points": 2.521951631254402,
+      "n_negative": 0,
+      "n_positive": 5,
+      "n_seeds": 5,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        0.01642466739573223,
+        0.01768057029101522,
+        0.017782526911601648,
+        0.009614307519838494,
+        0.06459550944453252
+      ],
+      "per_seed_diffs_points": [
+        1.6424667395732229,
+        1.7680570291015218,
+        1.7782526911601648,
+        0.9614307519838494,
+        6.459550944453252
+      ],
+      "sd_ddof1": 0.022268168214567733,
+      "sd_points": 2.226816821456773,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": 0.045578353204069,
+        "ci_low": 0.01286120395242647,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 5,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "seeds_positive": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 0,
+        "n_positive": 5,
+        "n_used": 5,
+        "n_zero_dropped": 0,
+        "p": 0.0625,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_field": "L14.rows[*].TAP_minus_GH",
+      "source_file": "phase8_setA_trainvar.json",
+      "t_interval": {
+        "ci_high": 0.052869099090518165,
+        "ci_low": -0.002430066465430123,
+        "df": 4,
+        "mean": 0.025219516312544023,
+        "n": 5,
+        "sd_ddof1": 0.022268168214567733,
+        "se": 0.009958627572434714,
+        "t_crit": 2.7764451051977934
+      }
+    },
+    {
+      "axis": "Set B (second source, 3 targets)",
+      "comparator": "parameter-matched global head (GHead)",
+      "comparison_id": "setB_B16",
+      "encoder": "B16",
+      "in_core_family": false,
+      "mean": -0.007425455512457246,
+      "mean_points": -0.7425455512457246,
+      "n_negative": 7,
+      "n_positive": 3,
+      "n_seeds": 10,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        0.03854642337277736,
+        -0.06706472394503982,
+        -0.025747026345255164,
+        0.01737948909607212,
+        0.06323914799067842,
+        -0.013590947788206353,
+        -0.037323568333866075,
+        -0.030757392982201703,
+        -0.004979632585628835,
+        -0.01395632360390242
+      ],
+      "per_seed_diffs_points": [
+        3.854642337277736,
+        -6.706472394503981,
+        -2.5747026345255164,
+        1.737948909607212,
+        6.323914799067842,
+        -1.3590947788206353,
+        -3.7323568333866075,
+        -3.0757392982201703,
+        -0.4979632585628835,
+        -1.395632360390242
+      ],
+      "sd_ddof1": 0.03820941048961407,
+      "sd_points": 3.820941048961407,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": 0.016015909910062447,
+        "ci_low": -0.02866807297643097,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 10,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "seeds_positive": [
+        5,
+        8,
+        9
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 7,
+        "n_positive": 3,
+        "n_used": 10,
+        "n_zero_dropped": 0,
+        "p": 0.34375,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_field": "B16.rows[*].TAP_minus_GH",
+      "source_file": "phase8_setB_trainvar.json",
+      "t_interval": {
+        "ci_high": 0.019907910154356133,
+        "ci_low": -0.03475882117927063,
+        "df": 9,
+        "mean": -0.007425455512457246,
+        "n": 10,
+        "sd_ddof1": 0.03820941048961407,
+        "se": 0.012082876519950991,
+        "t_crit": 2.262157162798205
+      }
+    },
+    {
+      "axis": "Set B (second source, 3 targets)",
+      "comparator": "parameter-matched global head (GHead)",
+      "comparison_id": "setB_L14",
+      "encoder": "L14",
+      "in_core_family": false,
+      "mean": 0.025804594519700696,
+      "mean_points": 2.5804594519700697,
+      "n_negative": 0,
+      "n_positive": 5,
+      "n_seeds": 5,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        0.024187455531734847,
+        0.016644306728971214,
+        0.027248186755724046,
+        0.023418571795105647,
+        0.03752445178696773
+      ],
+      "per_seed_diffs_points": [
+        2.4187455531734847,
+        1.6644306728971214,
+        2.7248186755724046,
+        2.3418571795105647,
+        3.7524451786967727
+      ],
+      "sd_ddof1": 0.00761015979245327,
+      "sd_points": 0.7610159792453269,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": 0.03203587653754873,
+        "ci_low": 0.020119935747548667,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 5,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "seeds_positive": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 0,
+        "n_positive": 5,
+        "n_used": 5,
+        "n_zero_dropped": 0,
+        "p": 0.0625,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_field": "L14.rows[*].TAP_minus_GH",
+      "source_file": "phase8_setB_trainvar.json",
+      "t_interval": {
+        "ci_high": 0.03525385595456775,
+        "ci_low": 0.01635533308483364,
+        "df": 4,
+        "mean": 0.025804594519700696,
+        "n": 5,
+        "sd_ddof1": 0.00761015979245327,
+        "se": 0.0034033669231122404,
+        "t_crit": 2.7764451051977934
+      }
+    },
+    {
+      "axis": "Corruption axis (12 pre-specified conditions)",
+      "comparator": "parameter-matched global head (GHead)",
+      "comparison_id": "corruption_B16",
+      "encoder": "B16",
+      "in_core_family": false,
+      "mean": 0.0010584522536484565,
+      "mean_points": 0.10584522536484565,
+      "n_negative": 6,
+      "n_positive": 4,
+      "n_seeds": 10,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        0.015620465230077818,
+        -0.029925546491070765,
+        0.008149135775770311,
+        -0.005591330369258352,
+        0.024745853522424255,
+        0.024997552919866106,
+        -0.011191970345753532,
+        -0.009074307085429334,
+        -0.0067148206339207595,
+        -0.00043050998622118364
+      ],
+      "per_seed_diffs_points": [
+        1.5620465230077818,
+        -2.9925546491070767,
+        0.8149135775770311,
+        -0.5591330369258352,
+        2.4745853522424257,
+        2.4997552919866104,
+        -1.1191970345753532,
+        -0.9074307085429334,
+        -0.671482063392076,
+        -0.043050998622118364
+      ],
+      "sd_ddof1": 0.017372128914124197,
+      "sd_points": 1.7372128914124196,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": 0.011063840576211407,
+        "ci_low": -0.009377283104894689,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 10,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "seeds_positive": [
+        5,
+        7,
+        9,
+        10
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 6,
+        "n_positive": 4,
+        "n_used": 10,
+        "n_zero_dropped": 0,
+        "p": 0.75390625,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_field": "B16.rows[*].TAP_minus_GH",
+      "source_file": "phase8_corruption_trainvar.json",
+      "t_interval": {
+        "ci_high": 0.013485724643779864,
+        "ci_low": -0.011368820136482952,
+        "df": 9,
+        "mean": 0.0010584522536484565,
+        "n": 10,
+        "sd_ddof1": 0.017372128914124197,
+        "se": 0.005493549517470011,
+        "t_crit": 2.262157162798205
+      }
+    },
+    {
+      "axis": "Corruption axis (12 pre-specified conditions)",
+      "comparator": "parameter-matched global head (GHead)",
+      "comparison_id": "corruption_L14",
+      "encoder": "L14",
+      "in_core_family": false,
+      "mean": 0.034328128286038505,
+      "mean_points": 3.4328128286038506,
+      "n_negative": 0,
+      "n_positive": 5,
+      "n_seeds": 5,
+      "n_zero_dropped": 0,
+      "per_seed_diffs": [
+        0.037554446067685654,
+        0.029179263068753847,
+        0.02682325753372905,
+        0.047007558774764924,
+        0.031076115985259056
+      ],
+      "per_seed_diffs_points": [
+        3.7554446067685654,
+        2.9179263068753847,
+        2.682325753372905,
+        4.700755877476492,
+        3.1076115985259056
+      ],
+      "sd_ddof1": 0.00813305855729676,
+      "sd_points": 0.813305855729676,
+      "seed_bootstrap": {
+        "B": 10000,
+        "ci_high": 0.04108007598514189,
+        "ci_low": 0.02861623143804497,
+        "method": "seed_level_percentile_bootstrap",
+        "n_seeds": 5,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "rng": "numpy.random.default_rng(0)"
+      },
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "seeds_positive": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "sign_test": {
+        "definition": "p = 2 * sum_{i=0..min(pos,neg)} C(n,i) / 2^n, capped at 1.0",
+        "n_negative": 0,
+        "n_positive": 5,
+        "n_used": 5,
+        "n_zero_dropped": 0,
+        "p": 0.0625,
+        "test": "exact_two_sided_sign_test"
+      },
+      "source_field": "L14.rows[*].TAP_minus_GH",
+      "source_file": "phase8_corruption_trainvar.json",
+      "t_interval": {
+        "ci_high": 0.04442665429191694,
+        "ci_low": 0.02422960228016007,
+        "df": 4,
+        "mean": 0.034328128286038505,
+        "n": 5,
+        "sd_ddof1": 0.00813305855729676,
+        "se": 0.003637214359820384,
+        "t_crit": 2.7764451051977934
+      }
+    }
+  ],
+  "unit_table_consistency": {
+    "all_match_to_1e-12": true,
+    "entries": [
+      {
+        "axis_key": "setA",
+        "encoder": "B16",
+        "matches_to_1e-12": true,
+        "max_abs_difference": 0.0,
+        "per_seed": [
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 5
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 6
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 7
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 8
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 9
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 10
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 11
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 12
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 13
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 14
+          }
+        ],
+        "unit_count": 50,
+        "unit_file": "phase8_setA_percell.json"
+      },
+      {
+        "axis_key": "setA",
+        "encoder": "L14",
+        "matches_to_1e-12": true,
+        "max_abs_difference": 0.0,
+        "per_seed": [
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 5
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 6
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 7
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 8
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 9
+          }
+        ],
+        "unit_count": 50,
+        "unit_file": "phase8_setA_percell.json"
+      },
+      {
+        "axis_key": "setB",
+        "encoder": "B16",
+        "matches_to_1e-12": true,
+        "max_abs_difference": 0.0,
+        "per_seed": [
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 5
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 6
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 7
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 8
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 9
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 10
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 11
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 12
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 13
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 14
+          }
+        ],
+        "unit_count": 3,
+        "unit_file": "phase8_setB_pertarget.json"
+      },
+      {
+        "axis_key": "setB",
+        "encoder": "L14",
+        "matches_to_1e-12": true,
+        "max_abs_difference": 0.0,
+        "per_seed": [
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 5
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 6
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 7
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 8
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 9
+          }
+        ],
+        "unit_count": 3,
+        "unit_file": "phase8_setB_pertarget.json"
+      },
+      {
+        "axis_key": "corruption",
+        "encoder": "B16",
+        "matches_to_1e-12": true,
+        "max_abs_difference": 0.0,
+        "per_seed": [
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 5
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 6
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 7
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 8
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 9
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 10
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 11
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 12
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 13
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 14
+          }
+        ],
+        "unit_count": 12,
+        "unit_file": "phase8_corruption_percond.json"
+      },
+      {
+        "axis_key": "corruption",
+        "encoder": "L14",
+        "matches_to_1e-12": true,
+        "max_abs_difference": 0.0,
+        "per_seed": [
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 5
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 6
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 7
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 8
+          },
+          {
+            "abs_diff_CA_mean": 0.0,
+            "abs_diff_TAP_mean": 0.0,
+            "abs_diff_TAP_minus_CA": 0.0,
+            "seed": 9
+          }
+        ],
+        "unit_count": 12,
+        "unit_file": "phase8_corruption_percond.json"
+      }
+    ],
+    "requirement": "the mean of the stored per-unit values must reproduce the per-seed TAP_mean / CA_mean / TAP_minus_CA of the trainvar records"
+  }
+}

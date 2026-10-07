@@ -1,0 +1,20 @@
+{
+  "encoder": "L14",
+  "model": "ViT-L-14",
+  "weights": "D:\\ResearchVault\\99system\\models\\open_clip\\ViT-L-14.pt",
+  "weights_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+  "n_rows": 28709,
+  "view": "horizontal mirror; spatially unflipped when the two-view mean is formed",
+  "source_meta": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\token_cache_vitl14\\fer2013_train_meta.npz",
+  "started": "2026-10-08T03:25:23",
+  "free_GB_on_D": 110.4,
+  "tokens_shape": [
+    28709,
+    256,
+    1024
+  ],
+  "npy_GB": 15.052,
+  "seconds": 390.2,
+  "peak_vram_GB": 2.57,
+  "npy_sha256": "e10bdd235d684a43e81b9e95ce6f0efcdc87cd3b2c1fce1f030a18b35e41b9a3"
+}

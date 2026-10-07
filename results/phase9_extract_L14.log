@@ -1,0 +1,42 @@
+L14 rows=28709 first=D:\ResearchVault\99system\data\rb-tta-fer-fg2027\raw\fer2013\train\angry\fer2013_000000.png
+D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\serialization.py:1493: UserWarning: 'torch.load' received a zip file that looks like a TorchScript archive dispatching to 'torch.jit.load' (call 'torch.jit.load' directly to silence this warning)
+  warnings.warn(
+ViT-L-14 loaded
+  L14 64/28709 1s
+  L14 1664/28709 21s
+  L14 3264/28709 41s
+  L14 4864/28709 61s
+  L14 6464/28709 81s
+  L14 8064/28709 102s
+  L14 9664/28709 123s
+  L14 11264/28709 144s
+  L14 12864/28709 165s
+  L14 14464/28709 188s
+  L14 16064/28709 210s
+  L14 17664/28709 232s
+  L14 19264/28709 255s
+  L14 20864/28709 277s
+  L14 22464/28709 299s
+  L14 24064/28709 321s
+  L14 25664/28709 344s
+  L14 27264/28709 366s
+{
+  "encoder": "L14",
+  "model": "ViT-L-14",
+  "weights": "D:\\ResearchVault\\99system\\models\\open_clip\\ViT-L-14.pt",
+  "weights_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+  "n_rows": 28709,
+  "view": "horizontal mirror; spatially unflipped when the two-view mean is formed",
+  "source_meta": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\token_cache_vitl14\\fer2013_train_meta.npz",
+  "started": "2026-10-08T03:25:23",
+  "free_GB_on_D": 110.4,
+  "tokens_shape": [
+    28709,
+    256,
+    1024
+  ],
+  "npy_GB": 15.052,
+  "seconds": 390.2,
+  "peak_vram_GB": 2.57,
+  "npy_sha256": "e10bdd235d684a43e81b9e95ce6f0efcdc87cd3b2c1fce1f030a18b35e41b9a3"
+}

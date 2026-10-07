@@ -1,0 +1,14 @@
+{
+  "encoder": "L14",
+  "out": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\token_cache_vitl14_aligned2v\\fer2013_train_tokens_fp16.npy",
+  "shape": [
+    28709,
+    256,
+    1024
+  ],
+  "npy_GB": 15.052,
+  "formula": "fp16( float32(original) + float32(unflip(mirror)) ) / 2",
+  "seconds": 117.3,
+  "free_GB_on_D": 80.3,
+  "npy_sha256": "6cca786fcb700da5048adfc3d87c01cec28b6c27bee6b356470e527403f80dbb"
+}

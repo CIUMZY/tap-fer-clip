@@ -1,0 +1,127 @@
+B16 train tokens (28709, 196, 768) mirror (28709, 196, 768)
+B16 aligned cache: precomputed
+  lr 0.001 probe-val 0.6216
+  lr 0.003 probe-val 0.6173
+B16 selected lr 0.001
+  aligned seed 5 probe-val 0.6192 (83s)
+  aligned seed 6 probe-val 0.6183 (101s)
+  aligned seed 7 probe-val 0.6173 (118s)
+  aligned seed 8 probe-val 0.6102 (135s)
+  aligned seed 9 probe-val 0.6414 (152s)
+  aligned seed 10 probe-val 0.6002 (169s)
+  aligned seed 11 probe-val 0.6399 (189s)
+  aligned seed 12 probe-val 0.6007 (206s)
+  aligned seed 13 probe-val 0.6178 (223s)
+  aligned seed 14 probe-val 0.6285 (241s)
+D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\serialization.py:1493: UserWarning: 'torch.load' received a zip file that looks like a TorchScript archive dispatching to 'torch.jit.load' (call 'torch.jit.load' directly to silence this warning)
+  warnings.warn(
+D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase9_aligned_corruption.py:246: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:209.)
+  o = torch.from_numpy(np.asarray(ORIG[i:i + c["rows"]])).to(DEV).float()
+  B16 blur_0p8 done 32s
+  B16 blur_1p5 done 31s
+  B16 blur_2p5 done 30s
+  B16 jpeg_15 done 31s
+  B16 jpeg_30 done 31s
+  B16 jpeg_50 done 31s
+  B16 lowlight_0p3 done 31s
+  B16 lowlight_0p5 done 31s
+  B16 lowlight_0p7 done 31s
+  B16 noise_10 done 31s
+  B16 noise_25 done 31s
+  B16 noise_40 done 31s
+{
+  "single_TAP_minus_CA": {
+    "mean": -0.0003548843457284734,
+    "sd": 0.014498367785189443,
+    "min": -0.013923355312683017,
+    "max": 0.02668404028460608,
+    "t95_ci": [
+      -0.010725671308297819,
+      0.010015902616840872
+    ],
+    "ci_excludes_zero": false,
+    "sign_test_p": 0.75390625,
+    "seeds_positive": 4,
+    "seeds_nondegenerate": 10
+  },
+  "single_TAP_minus_GH": {
+    "mean": 0.0010584522536484565,
+    "sd": 0.017372128914124197,
+    "min": -0.029925546491070765,
+    "max": 0.024997552919866106,
+    "t95_ci": [
+      -0.011367956754868708,
+      0.01348486126216562
+    ],
+    "ci_excludes_zero": false,
+    "sign_test_p": 0.75390625,
+    "seeds_positive": 4,
+    "seeds_nondegenerate": 10
+  },
+  "aligned2v_TAP_minus_CA": {
+    "mean": 0.012401434856759347,
+    "sd": 0.008392933724082136,
+    "min": 0.001645264115013867,
+    "max": 0.026165610212622592,
+    "t95_ci": [
+      0.006397908878315405,
+      0.01840496083520329
+    ],
+    "ci_excludes_zero": true,
+    "sign_test_p": 0.001953125,
+    "seeds_positive": 10,
+    "seeds_nondegenerate": 10
+  },
+  "aligned2v_TAP_minus_GH": {
+    "mean": 0.013814771456136276,
+    "sd": 0.013599780386948637,
+    "min": -0.010227139950162667,
+    "max": 0.037373452749928926,
+    "t95_ci": [
+      0.00408675053540542,
+      0.023542792376867135
+    ],
+    "ci_excludes_zero": true,
+    "sign_test_p": 0.021484375,
+    "seeds_positive": 9,
+    "seeds_nondegenerate": 10
+  },
+  "aligned2v_minus_single_TAP": {
+    "mean": 0.01275631920248782,
+    "sd": 0.010910037824861303,
+    "min": -0.009927862039105007,
+    "max": 0.02396768278832484,
+    "t95_ci": [
+      0.004952290520666684,
+      0.020560347884308956
+    ],
+    "ci_excludes_zero": true,
+    "sign_test_p": 0.109375,
+    "seeds_positive": 8,
+    "seeds_nondegenerate": 10
+  }
+}
+{
+  "aligned2v_TAP_minus_CA": {
+    "mean": 0.012535412481397137,
+    "ci95": [
+      -0.000928413529513047,
+      0.026053851830533808
+    ]
+  },
+  "aligned2v_TAP_minus_GH": {
+    "mean": 0.013915558111375865,
+    "ci95": [
+      -0.00251972906737873,
+      0.030858622487758038
+    ]
+  },
+  "single_TAP_minus_CA": {
+    "mean": -0.00034865714675873537,
+    "ci95": [
+      -0.014914991615387441,
+      0.013013956750529618
+    ]
+  }
+}
+done in 619s

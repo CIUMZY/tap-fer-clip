@@ -1,0 +1,122 @@
+L14 train tokens (28709, 256, 1024) mirror (28709, 256, 1024)
+L14 aligned cache: precomputed
+  lr 0.001 probe-val 0.6835
+  lr 0.003 probe-val 0.6810
+L14 selected lr 0.001
+  aligned seed 5 probe-val 0.6569 (628s)
+  aligned seed 6 probe-val 0.6711 (826s)
+  aligned seed 7 probe-val 0.6856 (1029s)
+  aligned seed 8 probe-val 0.6768 (1251s)
+  aligned seed 9 probe-val 0.6872 (1471s)
+D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\serialization.py:1493: UserWarning: 'torch.load' received a zip file that looks like a TorchScript archive dispatching to 'torch.jit.load' (call 'torch.jit.load' directly to silence this warning)
+  warnings.warn(
+D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase9_aligned_corruption.py:246: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:209.)
+  o = torch.from_numpy(np.asarray(ORIG[i:i + c["rows"]])).to(DEV).float()
+  L14 blur_0p8 done 93s
+  L14 blur_1p5 done 97s
+  L14 blur_2p5 done 101s
+  L14 jpeg_15 done 103s
+  L14 jpeg_30 done 103s
+  L14 jpeg_50 done 104s
+  L14 lowlight_0p3 done 104s
+  L14 lowlight_0p5 done 104s
+  L14 lowlight_0p7 done 104s
+  L14 noise_10 done 104s
+  L14 noise_25 done 104s
+  L14 noise_40 done 103s
+{
+  "single_TAP_minus_CA": {
+    "mean": 0.036975345212811685,
+    "sd": 0.009794122814996965,
+    "min": 0.024679584782960173,
+    "max": 0.04817259170194693,
+    "t95_ci": [
+      0.024816285109088104,
+      0.04913440531653526
+    ],
+    "ci_excludes_zero": true,
+    "sign_test_p": 0.0625,
+    "seeds_positive": 5,
+    "seeds_nondegenerate": 5
+  },
+  "single_TAP_minus_GH": {
+    "mean": 0.034328128286038505,
+    "sd": 0.00813305855729676,
+    "min": 0.02682325753372905,
+    "max": 0.047007558774764924,
+    "t95_ci": [
+      0.02423122122317712,
+      0.04442503534889989
+    ],
+    "ci_excludes_zero": true,
+    "sign_test_p": 0.0625,
+    "seeds_positive": 5,
+    "seeds_nondegenerate": 5
+  },
+  "aligned2v_TAP_minus_CA": {
+    "mean": 0.03574019203061637,
+    "sd": 0.01512879108202916,
+    "min": 0.017717648781584328,
+    "max": 0.05279219219645903,
+    "t95_ci": [
+      0.01695832830093157,
+      0.05452205576030117
+    ],
+    "ci_excludes_zero": true,
+    "sign_test_p": 0.0625,
+    "seeds_positive": 5,
+    "seeds_nondegenerate": 5
+  },
+  "aligned2v_TAP_minus_GH": {
+    "mean": 0.033092975103843195,
+    "sd": 0.011982345650849316,
+    "min": 0.01663976364041375,
+    "max": 0.04902171646354103,
+    "t95_ci": [
+      0.01821731306607725,
+      0.047968637141609136
+    ],
+    "ci_excludes_zero": true,
+    "sign_test_p": 0.0625,
+    "seeds_positive": 5,
+    "seeds_nondegenerate": 5
+  },
+  "aligned2v_minus_single_TAP": {
+    "mean": -0.0012351531821953143,
+    "sd": 0.008472577503226116,
+    "min": -0.012539499428340095,
+    "max": 0.00794297405401656,
+    "t95_ci": [
+      -0.011753561113269898,
+      0.00928325474887927
+    ],
+    "ci_excludes_zero": false,
+    "sign_test_p": 1.0,
+    "seeds_positive": 3,
+    "seeds_nondegenerate": 5
+  }
+}
+{
+  "aligned2v_TAP_minus_CA": {
+    "mean": 0.036003744870810477,
+    "ci95": [
+      0.017561277848228453,
+      0.05803647342946257
+    ]
+  },
+  "aligned2v_TAP_minus_GH": {
+    "mean": 0.032634069046182296,
+    "ci95": [
+      0.015387166299964472,
+      0.05313089355627802
+    ]
+  },
+  "single_TAP_minus_CA": {
+    "mean": 0.03717145164505384,
+    "ci95": [
+      0.019704186339167006,
+      0.057849517039594206
+    ]
+  }
+}
+done in 2705s

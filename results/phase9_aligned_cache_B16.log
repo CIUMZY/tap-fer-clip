@@ -1,0 +1,22 @@
+  B16 1024/28709 2s
+  B16 5120/28709 11s
+  B16 9216/28709 21s
+  B16 13312/28709 31s
+  B16 17408/28709 41s
+  B16 21504/28709 50s
+  B16 25600/28709 60s
+  B16 28709/28709 67s
+{
+  "encoder": "B16",
+  "out": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\token_cache_vitb16_aligned2v\\fer2013_train_tokens_fp16.npy",
+  "shape": [
+    28709,
+    196,
+    768
+  ],
+  "npy_GB": 8.643,
+  "formula": "fp16( float32(original) + float32(unflip(mirror)) ) / 2",
+  "seconds": 69.9,
+  "free_GB_on_D": 71.7,
+  "npy_sha256": "8f39835ac210c110626efaa75bb48bbe4e027bc6b968ef99784cf31d25a9f3cb"
+}

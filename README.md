@@ -29,6 +29,33 @@ Between-seed mean and standard deviation of the TAP minus CLIP-Adapter contrast,
 The same evaluator reproduces every single-run number to four decimals from the original
 checkpoints (`phase8_calib_seed0.json`, `phase8_calib_corruption_seed0.json`).
 
+## Feature-convention sensitivity and statistical robustness (2026-10-08)
+
+The one contrast that survives retraining (ViT-L/14, corruption axis) was re-run under a symmetric
+feature convention: the token arm was retrained on the spatially aligned two-view mean
+(original + unflip(mirror)) / 2, with the learning rate selected on the source probe split only.
+
+| corruption axis, TAP minus CLIP-Adapter | single view | two views, spatially aligned |
+|---|---|---|
+| ViT-B/16 | -0.0004 (SD 0.0145), 4/10 seeds positive | +0.0118 (SD 0.0100), 10/10 |
+| ViT-L/14 | +0.0370 (SD 0.0098), 5/5 | +0.0357 (SD 0.0151), 5/5 |
+
+The ViT-L/14 margin therefore remains positive under the convention that the global route already
+uses, while the ViT-B/16 comparison is convention-dependent and brackets zero. Holding the
+ViT-B/16 learning rate at the value the original protocol selected (3e-3) instead of re-selecting
+it gives +0.0118 rather than +0.0124, so the convention effect is not a learning-rate effect.
+Sources: results/phase9_aligned_corruption_L14.json, phase9_aligned_corruption_B16_lr3e-3.json,
+phase9_aligned_corruption_B16.json; scripts phase9_mirror_train_extract.py,
+phase9_build_aligned_cache.py, phase9_aligned_corruption.py; aligned arm checkpoints
+models/phase9_aligned_tap_*.pt.
+
+Statistical robustness of the six headline contrasts (exact two-sided sign tests, seed-level
+bootstrap, within-seed unit-level bootstrap, Holm-Bonferroni and Benjamini-Hochberg) is in
+results/STATS-ROBUSTNESS.md and results/phase10_stats_robustness.json, produced by
+code/phase10_stats_robustness.py. Headline finding: at five seeds the exact sign test cannot reach
+0.05 (its floor is 0.0625), so no contrast is significant under either correction; the surviving
+margin is reported on its interval, on the unanimity of its sign and on its effect size.
+
 ## Not included
 
 - The image corpora (FER2013/FER+, CK+, KDEF). Public research benchmarks, not redistributed here.
