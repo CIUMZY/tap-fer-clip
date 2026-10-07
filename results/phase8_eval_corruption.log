@@ -1,0 +1,29 @@
+D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase8_eval_corruption.py:70: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:209.)
+  xb = torch.from_numpy(np.asarray(TOK[i:i + 256])).to(DEV).float()
+B16 blur_0p8     done 5.0s
+B16 blur_1p5     done 9.8s
+B16 blur_2p5     done 14.6s
+B16 jpeg_15      done 19.4s
+B16 jpeg_30      done 24.2s
+B16 jpeg_50      done 28.8s
+B16 lowlight_0p3 done 33.5s
+B16 lowlight_0p5 done 38.3s
+B16 lowlight_0p7 done 43.1s
+B16 noise_10     done 47.9s
+B16 noise_25     done 52.7s
+B16 noise_40     done 57.5s
+B16 {"conditions": ["blur_0p8", "blur_1p5", "blur_2p5", "jpeg_15", "jpeg_30", "jpeg_50", "lowlight_0p3", "lowlight_0p5", "lowlight_0p7", "noise_10", "noise_25", "noise_40"], "n_seeds": 10, "TAP_minus_CA": {"mean": -0.0003548843457284734, "sd": 0.014498367785189443, "min": -0.013923355312683017, "max": 0.02668404028460608}, "TAP_minus_GH": {"mean": 0.0010584522536484565, "sd": 0.017372128914124197, "min": -0.029925546491070765, "max": 0.024997552919866106}, "seconds": 57.5}
+L14 blur_0p8     done 5.8s
+L14 blur_1p5     done 11.4s
+L14 blur_2p5     done 17.2s
+L14 jpeg_15      done 23.2s
+L14 jpeg_30      done 28.9s
+L14 jpeg_50      done 34.6s
+L14 lowlight_0p3 done 40.3s
+L14 lowlight_0p5 done 45.9s
+L14 lowlight_0p7 done 51.6s
+L14 noise_10     done 57.4s
+L14 noise_25     done 63.1s
+L14 noise_40     done 68.7s
+L14 {"conditions": ["blur_0p8", "blur_1p5", "blur_2p5", "jpeg_15", "jpeg_30", "jpeg_50", "lowlight_0p3", "lowlight_0p5", "lowlight_0p7", "noise_10", "noise_25", "noise_40"], "n_seeds": 5, "TAP_minus_CA": {"mean": 0.036975345212811685, "sd": 0.009794122814996965, "min": 0.024679584782960173, "max": 0.04817259170194693}, "TAP_minus_GH": {"mean": 0.034328128286038505, "sd": 0.00813305855729676, "min": 0.02682325753372905, "max": 0.047007558774764924}, "seconds": 68.7}
+done

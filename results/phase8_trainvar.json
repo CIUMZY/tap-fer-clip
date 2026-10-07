@@ -1,0 +1,171 @@
+{
+  "B16": {
+    "rows": [
+      {
+        "encoder": "B16",
+        "seed": 5,
+        "TAP_probeval": 0.6277627302011476,
+        "CLIPAdapter_probeval": 0.6061682009149516,
+        "GHead_probeval": 0.6156680862921898,
+        "TAP_minus_CLIPAdapter": 0.021594529286195985,
+        "TAP_minus_GHead": 0.012094643908957758
+      },
+      {
+        "encoder": "B16",
+        "seed": 6,
+        "TAP_probeval": 0.5900152840098514,
+        "CLIPAdapter_probeval": 0.6347101066942743,
+        "GHead_probeval": 0.6419266394364236,
+        "TAP_minus_CLIPAdapter": -0.04469482268442293,
+        "TAP_minus_GHead": -0.051911355426572214
+      },
+      {
+        "encoder": "B16",
+        "seed": 7,
+        "TAP_probeval": 0.615840369059119,
+        "CLIPAdapter_probeval": 0.639370304155307,
+        "GHead_probeval": 0.5935492144191878,
+        "TAP_minus_CLIPAdapter": -0.02352993509618806,
+        "TAP_minus_GHead": 0.022291154639931143
+      },
+      {
+        "encoder": "B16",
+        "seed": 8,
+        "TAP_probeval": 0.5956379549462597,
+        "CLIPAdapter_probeval": 0.6319294253621518,
+        "GHead_probeval": 0.5929321233653878,
+        "TAP_minus_CLIPAdapter": -0.03629147041589209,
+        "TAP_minus_GHead": 0.002705831580871898
+      },
+      {
+        "encoder": "B16",
+        "seed": 9,
+        "TAP_probeval": 0.6401988852934284,
+        "CLIPAdapter_probeval": 0.633259904899394,
+        "GHead_probeval": 0.6262300660103456,
+        "TAP_minus_CLIPAdapter": 0.0069389803940344,
+        "TAP_minus_GHead": 0.0139688192830828
+      },
+      {
+        "encoder": "B16",
+        "seed": 10,
+        "TAP_probeval": 0.6136079090146082,
+        "CLIPAdapter_probeval": 0.6039354346829348,
+        "GHead_probeval": 0.5729558416498879,
+        "TAP_minus_CLIPAdapter": 0.009672474331673397,
+        "TAP_minus_GHead": 0.04065206736472027
+      },
+      {
+        "encoder": "B16",
+        "seed": 11,
+        "TAP_probeval": 0.619973780112012,
+        "CLIPAdapter_probeval": 0.6422327730419006,
+        "GHead_probeval": 0.6390657898019576,
+        "TAP_minus_CLIPAdapter": -0.022258992929888644,
+        "TAP_minus_GHead": -0.01909200968994562
+      },
+      {
+        "encoder": "B16",
+        "seed": 12,
+        "TAP_probeval": 0.6045012923629762,
+        "CLIPAdapter_probeval": 0.6087650970928021,
+        "GHead_probeval": 0.6186376958999796,
+        "TAP_minus_CLIPAdapter": -0.004263804729825904,
+        "TAP_minus_GHead": -0.014136403537003406
+      },
+      {
+        "encoder": "B16",
+        "seed": 13,
+        "TAP_probeval": 0.6193758019206862,
+        "CLIPAdapter_probeval": 0.616821775818801,
+        "GHead_probeval": 0.6321348223077988,
+        "TAP_minus_CLIPAdapter": 0.002554026101885154,
+        "TAP_minus_GHead": -0.01275902038711263
+      },
+      {
+        "encoder": "B16",
+        "seed": 14,
+        "TAP_probeval": 0.6155287224988719,
+        "CLIPAdapter_probeval": 0.6191890013477257,
+        "GHead_probeval": 0.6273075114002374,
+        "TAP_minus_CLIPAdapter": -0.003660278848853782,
+        "TAP_minus_GHead": -0.011778788901365522
+      }
+    ],
+    "seconds": 863.3,
+    "n_seeds": 10,
+    "TAP_minus_CLIPAdapter": {
+      "mean": -0.009393929459128248,
+      "sd": 0.02141518186771315,
+      "n": 10
+    },
+    "TAP_minus_GHead": {
+      "mean": -0.0017965061164435525,
+      "sd": 0.0258770719886295,
+      "n": 10
+    },
+    "note": "source probe-validation paired training variance; lr fixed at the originally selected value"
+  },
+  "L14": {
+    "rows": [
+      {
+        "encoder": "L14",
+        "seed": 5,
+        "TAP_probeval": 0.6695539973528614,
+        "CLIPAdapter_probeval": 0.6601467971498474,
+        "GHead_probeval": 0.6424165421793376,
+        "TAP_minus_CLIPAdapter": 0.009407200203013999,
+        "TAP_minus_GHead": 0.027137455173523728
+      },
+      {
+        "encoder": "L14",
+        "seed": 6,
+        "TAP_probeval": 0.6750369936501089,
+        "CLIPAdapter_probeval": 0.6700439786494157,
+        "GHead_probeval": 0.6724553341658542,
+        "TAP_minus_CLIPAdapter": 0.004993015000693268,
+        "TAP_minus_GHead": 0.002581659484254706
+      },
+      {
+        "encoder": "L14",
+        "seed": 7,
+        "TAP_probeval": 0.6781015116827402,
+        "CLIPAdapter_probeval": 0.6808786668088407,
+        "GHead_probeval": 0.6726179465464414,
+        "TAP_minus_CLIPAdapter": -0.002777155126100439,
+        "TAP_minus_GHead": 0.005483565136298885
+      },
+      {
+        "encoder": "L14",
+        "seed": 8,
+        "TAP_probeval": 0.6713926439752967,
+        "CLIPAdapter_probeval": 0.672009586004865,
+        "GHead_probeval": 0.6466781489062496,
+        "TAP_minus_CLIPAdapter": -0.0006169420295683015,
+        "TAP_minus_GHead": 0.024714495069047104
+      },
+      {
+        "encoder": "L14",
+        "seed": 9,
+        "TAP_probeval": 0.6891556452361663,
+        "CLIPAdapter_probeval": 0.6840186771982918,
+        "GHead_probeval": 0.6753018537880674,
+        "TAP_minus_CLIPAdapter": 0.005136968037874556,
+        "TAP_minus_GHead": 0.013853791448098951
+      }
+    ],
+    "seconds": 1108.7,
+    "n_seeds": 5,
+    "TAP_minus_CLIPAdapter": {
+      "mean": 0.0032286172171826165,
+      "sd": 0.00489355232591093,
+      "n": 5
+    },
+    "TAP_minus_GHead": {
+      "mean": 0.014754193262244674,
+      "sd": 0.011039459174918026,
+      "n": 5
+    },
+    "note": "source probe-validation paired training variance; lr fixed at the originally selected value"
+  }
+}
