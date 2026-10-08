@@ -1,0 +1,21 @@
+models loaded 0s
+D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase14b_eval_aligned.py:71: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:209.)
+  tok = torch.from_numpy(np.asarray(TOK[i:i + 256])).to(DEV).float()
+  blur_0p8 7s
+  blur_1p5 13s
+  blur_2p5 20s
+  jpeg_15 26s
+  jpeg_30 32s
+  jpeg_50 39s
+  lowlight_0p3 45s
+  lowlight_0p5 52s
+  lowlight_0p7 58s
+  noise_10 64s
+  noise_25 71s
+  noise_40 77s
+aligned_TAP_minus_CA     mean +0.0385 sd 0.0120 ci [+0.0319,+0.0452] pos 15/15
+aligned_TAP_minus_GH     mean +0.0308 sd 0.0082 ci [+0.0263,+0.0354] pos 15/15
+single_TAP_minus_CA      mean +0.0350 sd 0.0169 ci [+0.0256,+0.0443] pos 15/15
+single_TAP_minus_GH      mean +0.0273 sd 0.0131 ci [+0.0200,+0.0345] pos 14/15
+aligned_minus_single     mean +0.0036 sd 0.0113 ci [-0.0027,+0.0098] pos 10/15
+done 77s

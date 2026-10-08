@@ -1,0 +1,31 @@
+  aligned seed 5 probe-val 0.6569 (252s)
+  aligned seed 6 probe-val 0.6711 (481s)
+  aligned seed 7 probe-val 0.6856 (704s)
+  aligned seed 8 probe-val 0.6768 (928s)
+  aligned seed 9 probe-val 0.6872 (1148s)
+  aligned seed 10 probe-val 0.6475 (1357s)
+  aligned seed 11 probe-val 0.6957 (1541s)
+  aligned seed 12 probe-val 0.6506 (1737s)
+  aligned seed 13 probe-val 0.6828 (1931s)
+  aligned seed 14 probe-val 0.6935 (2137s)
+  aligned seed 15 probe-val 0.6892 (2346s)
+  aligned seed 16 probe-val 0.6665 (2533s)
+  aligned seed 17 probe-val 0.6557 (2737s)
+  aligned seed 18 probe-val 0.6729 (2929s)
+  aligned seed 19 probe-val 0.6719 (3126s)
+Traceback (most recent call last):
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase14_aligned_l14_15seeds.py", line 153, in <module>
+    main()
+  File "D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase14_aligned_l14_15seeds.py", line 97, in main
+    m.load_state_dict(torch.load(OUT / ("phase12_clipadapter_L14_seed%d_lr0.001.pt" % seed), map_location=DEV))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\serialization.py", line 1484, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\serialization.py", line 759, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\serialization.py", line 740, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\ResearchVault\\07code\\rb-tta-fer-fg2027\\results\\token_module_tailor_20261006\\phase12_clipadapter_L14_seed5_lr0.001.pt'
