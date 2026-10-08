@@ -1,0 +1,10 @@
+# Environment used for every number in the paper (single workstation, one RTX 3080 10 GB)
+# python 3.12.14
+torch==2.8.0+cu128
+numpy==2.5.2
+pillow==12.3.0
+pandas==3.0.5
+scipy==1.18.1
+open_clip_torch==3.3.0
+matplotlib>=3.8
+pymupdf>=1.24

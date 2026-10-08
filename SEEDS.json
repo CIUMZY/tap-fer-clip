@@ -1,0 +1,137 @@
+{
+  "encoders": {
+    "B16": {
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "learning_rates": [
+        0.001,
+        0.003
+      ],
+      "published_rate": {
+        "TAP": 0.003,
+        "CA": 0.001,
+        "GH": 0.003
+      }
+    },
+    "L14": {
+      "seeds": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "learning_rates": [
+        0.001,
+        0.003
+      ],
+      "published_rate": {
+        "TAP": 0.001,
+        "CA": 0.001,
+        "GH": 0.001
+      }
+    }
+  },
+  "phases": {
+    "phase8_superseded": {
+      "B16": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "L14": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "note": "first pass; token-arm initialisation was not bound to the seed"
+    },
+    "phase12_retraining": {
+      "B16": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "L14": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "learning_rates": [
+        0.001,
+        0.003
+      ]
+    },
+    "phase14_aligned_two_view": {
+      "L14": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "learning_rate": 0.001
+    },
+    "phase13_fresh_axis": {
+      "note": "no training; the phase-12 arms are evaluated unchanged"
+    }
+  }
+}
