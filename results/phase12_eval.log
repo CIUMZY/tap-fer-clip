@@ -1,0 +1,63 @@
+B16 models loaded 0s
+D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase12_eval_seeded.py:115: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:209.)
+  tok = torch.from_numpy(np.asarray(TOK[i:i + 256])).to(DEV).float()
+  B16 corruption blur_0p8     309101s
+  B16 corruption blur_1p5     309105s
+  B16 corruption blur_2p5     309108s
+  B16 corruption jpeg_15      309112s
+  B16 corruption jpeg_30      309115s
+  B16 corruption jpeg_50      309119s
+  B16 corruption lowlight_0p3 309122s
+  B16 corruption lowlight_0p5 309126s
+  B16 corruption lowlight_0p7 309130s
+  B16 corruption noise_10     309133s
+  B16 corruption noise_25     309137s
+  B16 corruption noise_40     309140s
+  B16 setA ckplus_test 309144s
+  B16 setA kdef_test 309169s
+  B16 setB kdef_source_test 309172s
+  B16 setB fer2013_test 309178s
+  B16 setB ckplus_test 309179s
+B16 corruption published|TAP-CA mean +0.0049 sd 0.0118 ci [-0.0035,+0.0133] pos 6/10 p 0.7539
+B16 corruption published|TAP-GH mean +0.0063 sd 0.0099 ci [-0.0008,+0.0134] pos 8/10 p 0.1094
+B16 corruption nested|TAP-CA mean +0.0094 sd 0.0128 ci [+0.0003,+0.0185] pos 8/10 p 0.1094
+B16 corruption nested|TAP-GH mean +0.0074 sd 0.0112 ci [-0.0006,+0.0154] pos 8/10 p 0.1094
+B16 setA published|TAP-CA mean -0.0161 sd 0.0475 ci [-0.0500,+0.0179] pos 2/10 p 0.1094
+B16 setA published|TAP-GH mean -0.0156 sd 0.0484 ci [-0.0502,+0.0190] pos 2/10 p 0.1094
+B16 setA nested|TAP-CA mean +0.0166 sd 0.0470 ci [-0.0170,+0.0502] pos 6/10 p 0.7539
+B16 setA nested|TAP-GH mean +0.0074 sd 0.0493 ci [-0.0279,+0.0427] pos 6/10 p 0.7539
+B16 setB published|TAP-CA mean +0.0034 sd 0.0365 ci [-0.0227,+0.0295] pos 3/10 p 0.3438
+B16 setB published|TAP-GH mean +0.0037 sd 0.0340 ci [-0.0206,+0.0280] pos 4/10 p 0.7539
+B16 setB nested|TAP-CA mean +0.0244 sd 0.0360 ci [-0.0013,+0.0502] pos 8/10 p 0.1094
+B16 setB nested|TAP-GH mean +0.0183 sd 0.0357 ci [-0.0072,+0.0438] pos 7/10 p 0.3438
+L14 models loaded 83s
+  L14 corruption blur_0p8     309187s
+  L14 corruption blur_1p5     309194s
+  L14 corruption blur_2p5     309201s
+  L14 corruption jpeg_15      309208s
+  L14 corruption jpeg_30      309215s
+  L14 corruption jpeg_50      309222s
+  L14 corruption lowlight_0p3 309228s
+  L14 corruption lowlight_0p5 309235s
+  L14 corruption lowlight_0p7 309242s
+  L14 corruption noise_10     309249s
+  L14 corruption noise_25     309256s
+  L14 corruption noise_40     309263s
+  L14 setA ckplus_test 309270s
+  L14 setA kdef_test 309320s
+  L14 setB kdef_source_test 309321s
+  L14 setB fer2013_test 309340s
+  L14 setB ckplus_test 309342s
+L14 corruption published|TAP-CA mean +0.0350 sd 0.0169 ci [+0.0256,+0.0443] pos 15/15 p 0.0001
+L14 corruption published|TAP-GH mean +0.0273 sd 0.0131 ci [+0.0200,+0.0345] pos 14/15 p 0.0010
+L14 corruption nested|TAP-CA mean +0.0368 sd 0.0131 ci [+0.0296,+0.0440] pos 15/15 p 0.0001
+L14 corruption nested|TAP-GH mean +0.0283 sd 0.0137 ci [+0.0208,+0.0359] pos 14/15 p 0.0010
+L14 setA published|TAP-CA mean -0.0019 sd 0.0242 ci [-0.0153,+0.0115] pos 6/15 p 0.6072
+L14 setA published|TAP-GH mean +0.0164 sd 0.0231 ci [+0.0036,+0.0292] pos 11/15 p 0.1185
+L14 setA nested|TAP-CA mean -0.0023 sd 0.0292 ci [-0.0184,+0.0139] pos 4/15 p 0.1185
+L14 setA nested|TAP-GH mean +0.0169 sd 0.0278 ci [+0.0015,+0.0323] pos 10/15 p 0.3018
+L14 setB published|TAP-CA mean +0.0059 sd 0.0151 ci [-0.0025,+0.0142] pos 9/15 p 0.6072
+L14 setB published|TAP-GH mean +0.0228 sd 0.0135 ci [+0.0154,+0.0303] pos 15/15 p 0.0001
+L14 setB nested|TAP-CA mean +0.0065 sd 0.0189 ci [-0.0040,+0.0170] pos 8/15 p 1.0000
+L14 setB nested|TAP-GH mean +0.0210 sd 0.0175 ci [+0.0113,+0.0306] pos 13/15 p 0.0074
+done 246s

@@ -17,17 +17,44 @@ Release artifacts for the manuscript
 ## Headline numbers
 
 Between-seed mean and standard deviation of the TAP minus CLIP-Adapter contrast, over the same
-50 crossed-grid cells and the same 12 corruption conditions used in the single-run experiment:
+50 crossed-grid cells, three second-source targets and 12 corruption conditions used in the
+single-run experiment. Retrained from the seed alone (initial weights, batch order and learning
+rate all follow from the seed) with 10 seeds at ViT-B/16 and 15 at ViT-L/14:
 
-| axis | encoder | single run | multi-seed mean | SD | seeds matching the single-run sign |
-|---|---|---|---|---|---|
-| crossed grid | ViT-B/16 | +0.0388 | -0.0328 | 0.0381 | 2/10 |
-| crossed grid | ViT-L/14 | -0.0196 | -0.0014 | 0.0188 | 4/5 |
-| corruption | ViT-B/16 | +0.0181 | -0.0004 | 0.0145 | 4/10 |
-| corruption | ViT-L/14 | +0.0320 | +0.0370 | 0.0098 | 5/5 |
+| axis | encoder | single run | retrained mean | SD | seeds matching the single-run sign | verdict |
+|---|---|---|---|---|---|---|
+| crossed grid | ViT-B/16 | +0.0388 | -0.0161 | 0.0475 | 2/10 | not recovered |
+| crossed grid | ViT-L/14 | -0.0196 | -0.0019 | 0.0242 | 6/15 | not recovered |
+| second source | ViT-B/16 | +0.0347 | +0.0034 | 0.0365 | 3/10 | not recovered |
+| second source | ViT-L/14 | -0.0137 | +0.0059 | 0.0151 | 9/15 | not recovered |
+| corruption | ViT-B/16 | +0.0181 | +0.0049 | 0.0118 | 6/10 | not recovered |
+| corruption | ViT-L/14 | +0.0320 | **+0.0350** | 0.0169 | **15/15** | survives Holm and BH correction |
 
 The same evaluator reproduces every single-run number to four decimals from the original
-checkpoints (`phase8_calib_seed0.json`, `phase8_calib_corruption_seed0.json`).
+checkpoints (`phase8_calib_seed0.json`, `phase8_calib_corruption_seed0.json`, `phase8_calib_setB_seed0.json`).
+
+## Phase 12 supersedes phase 8 for the retraining distributions
+
+Phase 8 seeded the batch order but constructed each arm *before* `torch.manual_seed(seed)` was called, so the
+initial weights of an arm came from whatever global RNG state the process was in. Re-running the
+phase-8 training script therefore does not reproduce its own token-arm checkpoints; the
+CLIP-Adapter and global-head arms happen to be unaffected, because their construction follows a
+`torch.manual_seed(seed)` call left by the previous arm, which is why phase 11 reproduced those two bit for bit
+and the token arm not at all. Phase 12 fixes this by building every arm inside `torch.manual_seed(seed)` and
+re-runs everything: 10 seeds x 2 rates at ViT-B/16, 15 seeds x 2 rates at ViT-L/14, 150
+checkpoints. A rebuild of the same arm from the same seed is bit-identical (field
+determinism_rebuild_identical in phase12_train_B16.json).
+
+Two things follow from the re-run. First, the five unstable contrasts move to values
+indistinguishable from zero rather than merely differing in size. Second, with 15 seeds the exact
+sign test is no longer floored at 0.0625 and the surviving ViT-L/14 degradation margin passes both
+Holm-Bonferroni and Benjamini-Hochberg correction over the family of six (adjusted p = 0.0004).
+
+Phase 12 also adds the **nested condition**: every arm is trained at both grid points and each
+seed's own probe split chooses the rate, so the reported distribution covers rate selection as
+well as fitting. That moves the ViT-B/16 crossed-grid contrast from -1.61 to +1.66 points (a 3.27
+point swing, the size of the effect the single run reported there) while leaving the survivor
+unchanged (+3.68 versus +3.50 points).
 
 ## Feature-convention sensitivity and statistical robustness (2026-10-08)
 
