@@ -1,0 +1,253 @@
+{
+  "archive": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\downloads\\jaffe_official_v2\\jaffe.zip",
+  "archive_sha256": "6da27f5954f969c6f65d782911834dd66827ec3580e79b95073eb6cb93de5c3b",
+  "conditions": [
+    {
+      "condition": "blur_0p8",
+      "family": "blur",
+      "severity": 0.8,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_blur_0p8.csv"
+    },
+    {
+      "condition": "blur_1p5",
+      "family": "blur",
+      "severity": 1.5,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_blur_1p5.csv"
+    },
+    {
+      "condition": "blur_2p5",
+      "family": "blur",
+      "severity": 2.5,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_blur_2p5.csv"
+    },
+    {
+      "condition": "blur_4p0",
+      "family": "blur",
+      "severity": 4.0,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_blur_4p0.csv"
+    },
+    {
+      "condition": "blur_6p0",
+      "family": "blur",
+      "severity": 6.0,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_blur_6p0.csv"
+    },
+    {
+      "condition": "jpeg_15",
+      "family": "jpeg",
+      "severity": 15.0,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_jpeg_15.csv"
+    },
+    {
+      "condition": "jpeg_30",
+      "family": "jpeg",
+      "severity": 30.0,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_jpeg_30.csv"
+    },
+    {
+      "condition": "jpeg_50",
+      "family": "jpeg",
+      "severity": 50.0,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_jpeg_50.csv"
+    },
+    {
+      "condition": "jpeg_65",
+      "family": "jpeg",
+      "severity": 65.0,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_jpeg_65.csv"
+    },
+    {
+      "condition": "jpeg_80",
+      "family": "jpeg",
+      "severity": 80.0,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_jpeg_80.csv"
+    },
+    {
+      "condition": "lowlight_0p3",
+      "family": "lowlight",
+      "severity": 0.3,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_lowlight_0p3.csv"
+    },
+    {
+      "condition": "lowlight_0p5",
+      "family": "lowlight",
+      "severity": 0.5,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_lowlight_0p5.csv"
+    },
+    {
+      "condition": "lowlight_0p7",
+      "family": "lowlight",
+      "severity": 0.7,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_lowlight_0p7.csv"
+    },
+    {
+      "condition": "lowlight_0p85",
+      "family": "lowlight",
+      "severity": 0.85,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_lowlight_0p85.csv"
+    },
+    {
+      "condition": "lowlight_0p95",
+      "family": "lowlight",
+      "severity": 0.95,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_lowlight_0p95.csv"
+    },
+    {
+      "condition": "noise_10",
+      "family": "noise",
+      "severity": 10.0,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_noise_10.csv"
+    },
+    {
+      "condition": "noise_25",
+      "family": "noise",
+      "severity": 25.0,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_noise_25.csv"
+    },
+    {
+      "condition": "noise_40",
+      "family": "noise",
+      "severity": 40.0,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_noise_40.csv"
+    },
+    {
+      "condition": "noise_55",
+      "family": "noise",
+      "severity": 55.0,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_noise_55.csv"
+    },
+    {
+      "condition": "noise_70",
+      "family": "noise",
+      "severity": 70.0,
+      "n": 213,
+      "manifest": "D:\\ResearchVault\\99system\\data\\rb-tta-fer-fg2027\\raw\\jaffe_confirm\\manifests\\jaffe_noise_70.csv"
+    }
+  ],
+  "labels": {},
+  "started": "2026-10-08T12:24:12",
+  "models": {
+    "KA": {
+      "AN": 3,
+      "DI": 3,
+      "FE": 4,
+      "HA": 4,
+      "NE": 3,
+      "SA": 3,
+      "SU": 3
+    },
+    "KL": {
+      "AN": 3,
+      "DI": 4,
+      "FE": 3,
+      "HA": 3,
+      "NE": 3,
+      "SA": 3,
+      "SU": 3
+    },
+    "KM": {
+      "AN": 3,
+      "DI": 2,
+      "FE": 3,
+      "HA": 4,
+      "NE": 3,
+      "SA": 4,
+      "SU": 3
+    },
+    "KR": {
+      "AN": 3,
+      "DI": 3,
+      "FE": 3,
+      "HA": 2,
+      "NE": 3,
+      "SA": 3,
+      "SU": 3
+    },
+    "MK": {
+      "AN": 3,
+      "DI": 3,
+      "FE": 3,
+      "HA": 3,
+      "NE": 3,
+      "SA": 3,
+      "SU": 3
+    },
+    "NA": {
+      "AN": 3,
+      "DI": 3,
+      "FE": 3,
+      "HA": 3,
+      "NE": 3,
+      "SA": 3,
+      "SU": 3
+    },
+    "NM": {
+      "AN": 3,
+      "DI": 2,
+      "FE": 3,
+      "HA": 3,
+      "NE": 3,
+      "SA": 3,
+      "SU": 3
+    },
+    "TM": {
+      "AN": 3,
+      "DI": 3,
+      "FE": 3,
+      "HA": 3,
+      "NE": 3,
+      "SA": 3,
+      "SU": 3
+    },
+    "UY": {
+      "AN": 3,
+      "DI": 3,
+      "FE": 3,
+      "HA": 3,
+      "NE": 3,
+      "SA": 3,
+      "SU": 3
+    },
+    "YM": {
+      "AN": 3,
+      "DI": 3,
+      "FE": 4,
+      "HA": 3,
+      "NE": 3,
+      "SA": 3,
+      "SU": 3
+    }
+  },
+  "n_model_expression_pairs": 70,
+  "models_with_duplicate_or_missing_expression": [],
+  "n_images": 213,
+  "label_counts": {
+    "2": 32,
+    "3": 31,
+    "4": 31,
+    "0": 30,
+    "6": 30,
+    "5": 30,
+    "1": 29
+  },
+  "seconds": 4.1
+}

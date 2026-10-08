@@ -56,6 +56,34 @@ well as fitting. That moves the ViT-B/16 crossed-grid contrast from -1.61 to +1.
 point swing, the size of the effect the single run reported there) while leaving the survivor
 unchanged (+3.68 versus +3.50 points).
 
+## Phase 13: fresh-corpus confirmation (JAFFE, pre-registered)
+
+The one contrast that survived retraining was re-tested on a corpus that had not been used anywhere in
+this work: JAFFE, obtained from Zenodo record 14974867 (DOI 10.5281/zenodo.14974867), archive sha256
+6da27f5954f969c6f65d782911834dd66827ec3580e79b95073eb6cb93de5c3b, 213 images from ten models in seven
+expressions. The hypothesis, the preprocessing, the 20-condition degradation grid and the pass criterion
+were written and hashed **before** the corpus was opened (phase13_jaffe_preregistration.md, sha256
+a70aaa6255dc73a1...; amendment 1 records a factual correction of a structural claim about the corpus,
+sha256 cde86a04442917aa..., and changes nothing about the hypothesis, grid, arms or criterion).
+
+Result at ViT-L/14, source-domain arms re-used unchanged:
+
+| data | contrast | mean (pp) | SD | 95% interval | seeds positive |
+|---|---|---|---|---|---|
+| JAFFE corrupted (pre-specified) | TAP − CLIP-Adapter | +2.75 | 1.76 | [+1.78, +3.72] | 15/15 |
+| JAFFE corrupted (pre-specified) | TAP − matched head | +3.75 | 1.86 | [+2.72, +4.78] | 14/15 |
+| JAFFE corrupted, rate re-selected | TAP − CLIP-Adapter | +3.20 | 1.63 | [+2.30, +4.10] | 14/15 |
+| JAFFE clean (control) | TAP − CLIP-Adapter | +2.04 | 3.30 | [+0.22, +3.87] | 11/15 |
+| FER2013 test clean (control) | TAP − CLIP-Adapter | -0.17 | 1.16 | [-0.81, +0.47] | 7/15 |
+| FER2013 corrupted (main axis) | TAP − CLIP-Adapter | +3.50 | 1.69 | [+2.56, +4.43] | 15/15 |
+| JAFFE corrupted | ViT-B/16, TAP − CLIP-Adapter | -1.72 | 1.70 | [-2.93, -0.50] | 3/10 |
+
+**Pre-specified verdict: CONFIRMED AND STRENGTHENED.** The direction of the surviving claim replicates
+out of sample, and the ViT-B/16 encoder dependence replicates in sign too (there the token route is
+worse, and worse still on clean JAFFE at -4.61 points). The clean controls set the honest reading: in
+domain the ViT-L/14 margin is produced by the degradation (clean FER2013 test is -0.17 points), while out
+of domain it is mostly a cross-domain accuracy advantage that corruption only slightly widens.
+
 ## Feature-convention sensitivity and statistical robustness (2026-10-08)
 
 The one contrast that survives retraining (ViT-L/14, corruption axis) was re-run under a symmetric

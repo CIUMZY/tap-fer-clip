@@ -1,0 +1,59 @@
+B16 {
+ "arm_means": {
+  "TAP_lr0.001": 0.6203363445537787,
+  "TAP_lr0.003": 0.6209533045121549,
+  "CA_lr0.001": 0.6169299634428542,
+  "CA_lr0.003": 0.6213432330589614,
+  "GH_lr0.001": 0.601713938824956,
+  "GH_lr0.003": 0.6104730558570213
+ },
+ "TAP_minus_CA": {
+  "mean": 0.00402334106930069,
+  "sd": 0.013526996859513947,
+  "ci": [
+   -0.005652617269724896,
+   0.013699299408326275
+  ],
+  "seeds_positive": 6
+ },
+ "TAP_minus_GH": {
+  "mean": 0.01048024865513375,
+  "sd": 0.02085269278581214,
+  "ci": [
+   -0.004435832774286176,
+   0.025396330084553678
+  ],
+  "seeds_positive": 6
+ }
+}
+D:\ResearchVault\07code\rb-tta-fer-fg2027\results\token_module_tailor_20261006\phase13_clean_fer_control.py:72: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:209.)
+  tok = torch.from_numpy(np.asarray(TOK[i:i + 256])).to(DEV).float()
+L14 {
+ "arm_means": {
+  "TAP_lr0.001": 0.6827573624862601,
+  "TAP_lr0.003": 0.6809951172582536,
+  "CA_lr0.001": 0.6844923828896375,
+  "CA_lr0.003": 0.6883157888000553,
+  "GH_lr0.001": 0.6727645072771898,
+  "GH_lr0.003": 0.6742250350085299
+ },
+ "TAP_minus_CA": {
+  "mean": -0.0017350204033772965,
+  "sd": 0.011571175012880762,
+  "ci": [
+   -0.008143560844671514,
+   0.004673520037916921
+  ],
+  "seeds_positive": 7
+ },
+ "TAP_minus_GH": {
+  "mean": 0.009992855209070265,
+  "sd": 0.013551868719570521,
+  "ci": [
+   0.0024873340629635874,
+   0.017498376355176943
+  ],
+  "seeds_positive": 11
+ }
+}
+done 11s

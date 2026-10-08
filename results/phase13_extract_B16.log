@@ -1,0 +1,25 @@
+D:\ResearchVault\99system\envs\rb-tta-fer-fg2027\Lib\site-packages\torch\serialization.py:1493: UserWarning: 'torch.load' received a zip file that looks like a TorchScript archive dispatching to 'torch.jit.load' (call 'torch.jit.load' directly to silence this warning)
+  warnings.warn(
+B16 loaded
+  B16 original       n=213  2s
+  B16 blur_0p8       n=213  3s
+  B16 blur_1p5       n=213  5s
+  B16 blur_2p5       n=213  6s
+  B16 blur_4p0       n=213  8s
+  B16 blur_6p0       n=213  10s
+  B16 jpeg_15        n=213  11s
+  B16 jpeg_30        n=213  13s
+  B16 jpeg_50        n=213  14s
+  B16 jpeg_65        n=213  16s
+  B16 jpeg_80        n=213  18s
+  B16 lowlight_0p3   n=213  19s
+  B16 lowlight_0p5   n=213  21s
+  B16 lowlight_0p7   n=213  22s
+  B16 lowlight_0p85  n=213  24s
+  B16 lowlight_0p95  n=213  26s
+  B16 noise_10       n=213  27s
+  B16 noise_25       n=213  29s
+  B16 noise_40       n=213  31s
+  B16 noise_55       n=213  32s
+  B16 noise_70       n=213  34s
+done 34s

@@ -1,0 +1,19 @@
+{
+  "file": "D:\\ResearchVault\\07code\\rb-tta-fer-fg2027\\results\\token_module_tailor_20261006\\phase13_jaffe_preregistration.md",
+  "bytes": 5114,
+  "sha256": "a70aaa6255dc73a1e7a05b954b54c21471c93e5e615706b3a69da24d5ded9d81",
+  "frozen_at": "2026-10-08T12:23:35",
+  "jaffe_archive": "downloads/jaffe_official_v2/jaffe.zip",
+  "jaffe_archive_sha256_expected": "6da27f5954f969c6f65d782911834dd66827ec3580e79b95073eb6cb93de5c3b",
+  "statement": "written and hashed before any JAFFE image was opened, decoded or evaluated",
+  "copy_in_manuscript_dir": "D:\\ResearchVault\\06manuscripts\\rb-tta-fer-fg2027\\PAPER-TVC-TAP-2026-10-06\\manuscript\\JAFFE-PREREGISTRATION-2026-10-08.md",
+  "amendment1": {
+    "file": "D:\\ResearchVault\\07code\\rb-tta-fer-fg2027\\results\\token_module_tailor_20261006\\phase13_jaffe_preregistration_amendment1.md",
+    "bytes": 2318,
+    "sha256": "cde86a04442917aa5516d214523801850c1434966291014120a74b4c1f36f1fa",
+    "frozen_at": "2026-10-08T12:24:12",
+    "reason": "factual correction of the corpus structure check; hypothesis, grid, arms and decision rule unchanged",
+    "state_at_freezing": "archive hash verified and file listing inspected only; no model run and no feature extracted"
+  },
+  "copy_in_manuscript_dir_amendment1": "D:\\ResearchVault\\06manuscripts\\rb-tta-fer-fg2027\\PAPER-TVC-TAP-2026-10-06\\manuscript\\JAFFE-PREREGISTRATION-AMENDMENT1-2026-10-08.md"
+}
