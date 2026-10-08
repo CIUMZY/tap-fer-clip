@@ -1,0 +1,85 @@
+{
+  "rows": [
+    {
+      "contrast": "setA|B16",
+      "n": 10,
+      "full_mean": -0.016076451051727537,
+      "loo_mean_min": -0.025722547456496086,
+      "loo_mean_max": -0.010325462057001751,
+      "loo_sign_stable": true,
+      "loo_ci_excludes_zero_count": 0,
+      "full_ci_excludes_zero": false
+    },
+    {
+      "contrast": "setA|L14",
+      "n": 15,
+      "full_mean": -0.0018695203957099708,
+      "loo_mean_min": -0.005082182309893728,
+      "loo_mean_max": 0.0007786719649339428,
+      "loo_sign_stable": false,
+      "loo_ci_excludes_zero_count": 0,
+      "full_ci_excludes_zero": false
+    },
+    {
+      "contrast": "setB|B16",
+      "n": 10,
+      "full_mean": 0.0033779612231780052,
+      "loo_mean_min": -0.004413502349779774,
+      "loo_mean_max": 0.008323070305630016,
+      "loo_sign_stable": false,
+      "loo_ci_excludes_zero_count": 0,
+      "full_ci_excludes_zero": false
+    },
+    {
+      "contrast": "setB|L14",
+      "n": 15,
+      "full_mean": 0.00587961157123198,
+      "loo_mean_min": 0.003870927320927927,
+      "loo_mean_max": 0.007393919550242918,
+      "loo_sign_stable": true,
+      "loo_ci_excludes_zero_count": 0,
+      "full_ci_excludes_zero": false
+    },
+    {
+      "contrast": "corruption|B16",
+      "n": 10,
+      "full_mean": 0.004914774093863134,
+      "loo_mean_min": 0.0018144285949782926,
+      "loo_mean_max": 0.006129290663188501,
+      "loo_sign_stable": true,
+      "loo_ci_excludes_zero_count": 0,
+      "full_ci_excludes_zero": false
+    },
+    {
+      "contrast": "corruption|L14",
+      "n": 15,
+      "full_mean": 0.034975652675801445,
+      "loo_mean_min": 0.0330819863064347,
+      "loo_mean_max": 0.03747110943901087,
+      "loo_sign_stable": true,
+      "loo_ci_excludes_zero_count": 15,
+      "full_ci_excludes_zero": true
+    },
+    {
+      "contrast": "jaffe|B16",
+      "n": 10,
+      "full_mean": -0.017183284006038475,
+      "loo_mean_min": -0.02008738950097405,
+      "loo_mean_max": -0.014249774514304567,
+      "loo_sign_stable": true,
+      "loo_ci_excludes_zero_count": 10,
+      "full_ci_excludes_zero": true
+    },
+    {
+      "contrast": "jaffe|L14",
+      "n": 15,
+      "full_mean": 0.027492936375514244,
+      "loo_mean_min": 0.025706006957844318,
+      "loo_mean_max": 0.02939876743244573,
+      "loo_sign_stable": true,
+      "loo_ci_excludes_zero_count": 15,
+      "full_ci_excludes_zero": true
+    }
+  ],
+  "note": "leave-one-seed-out recomputation of the per-seed mean and t interval; the verdict of a contrast is reported as unstable if any leave-one-out interval changes whether zero is excluded"
+}
