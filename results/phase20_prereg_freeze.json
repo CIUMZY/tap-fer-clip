@@ -1,0 +1,21 @@
+{
+  "frozen_at_utc": "2026-10-09T03:19:45.961Z",
+  "files": {
+    "PHASE20-PREREGISTRATION-2026-10-09.md": {
+      "sha256": "1f0554921efe8c3da880476229794af48484fde3bd738f8f7757913b867a2e09",
+      "bytes": 3731
+    },
+    "phase20_train_prospective.py": {
+      "sha256": "afd679807c5e67696714eb1fe554b9e919301d9828ce94504307200ed79458c3",
+      "bytes": 6532
+    },
+    "phase20_eval_prospective.py": {
+      "sha256": "18ae1548b0f55689702d0587dd75fcdf3a5ddbced9d5ae898c04cabac9af83d9",
+      "bytes": 13105
+    },
+    "phase20_prep.py": {
+      "sha256": "d17717c36e5df79809d17e3b7e732cbeb9251632ec44cdbbcfd572e1219f6577",
+      "bytes": 1709
+    }
+  }
+}
